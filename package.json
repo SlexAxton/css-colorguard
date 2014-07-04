@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/SlexAxton/css-colorguard",
   "dependencies": {
+    "css-color-names": "SlexAxton/css-color-names#df0efc",
     "rework": "^1.0.0"
   }
 }

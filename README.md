@@ -33,7 +33,7 @@ var output = colorguard.inspect(css, {
 ## The Output
 
 You'll get an oject back (json if you're doing the command line) that has warnings, as well as some
-additional color stats that we have so pass you for convenience.
+additional color stats. Those are just for fun or whatever.
 
 ```json
 {
