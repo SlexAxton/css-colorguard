@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SlexAxton/css-colorguard.svg?branch=master)](https://travis-ci.org/SlexAxton/css-colorguard)
+
 # CSS Colorguard
 
 Every CSS project starts out with good intentions, but inevitably, one too many people eye-dropper
