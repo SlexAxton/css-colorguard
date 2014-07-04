@@ -1,0 +1,29 @@
+{
+  "name": "colorguard",
+  "version": "0.1.0",
+  "description": "Keep a watchful eye on your css colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SlexAxton/css-colorguard.git"
+  },
+  "keywords": [
+    "css",
+    "colors",
+    "lint",
+    "csslint",
+    "rework"
+  ],
+  "author": "Alex Sexton <alexsexton@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/SlexAxton/css-colorguard/issues"
+  },
+  "homepage": "https://github.com/SlexAxton/css-colorguard",
+  "dependencies": {
+    "rework": "^1.0.0"
+  }
+}

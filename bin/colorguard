@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+var colorguard = require('../index');
+
+process.title = 'colorguard';
+
+var stdin = '';
+
+var output = colorguard.inspect(stdin, {options: true});
+process.stdout.write(JSON.stringify(output));
