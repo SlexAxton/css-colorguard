@@ -48,7 +48,7 @@ additional color stats that we have so pass you for convenience.
           "rgb": "#020202",
           "lines": [29]
         }
-      }],
+      ],
       "score": 0.123,
       "message": "#010101 (lines: 23, 45, 234) is only a 0.123 difference from #020202 (line: 29)."
     }
