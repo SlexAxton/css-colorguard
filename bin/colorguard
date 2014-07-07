@@ -1,9 +1,58 @@
 #!/usr/bin/env node
-var colorguard = require('../index');
+var argv = require('yargs').argv;
+var fs = require('fs');
+var path = require('path');
+var stdin = process.stdin;
+var stdout = process.stdout;
+var stderr = process.stderr;
 
 process.title = 'colorguard';
 
-var stdin = '';
+var colorguard = require('..');
+var css = [];
+var options;
 
-var output = colorguard.inspect(stdin, {options: true});
-process.stdout.write(JSON.stringify(output));
+if (argv.file) {
+  css = fs.readFileSync(path.join(process.cwd(), argv.file), 'utf8');
+  run(css);
+}
+else {
+  stdin.setEncoding('utf8');
+
+  stdin.on('data', function(chunk) {
+    css.push(chunk);
+  });
+
+  stdin.on('end', function() {
+    css = css.join();
+    run(css);
+  });
+}
+
+function run(css) {
+  if (argv.options) {
+    options = JSON.parse(fs.readFileSync(path.join(process.cwd(), argv.options), 'utf8'));
+  }
+  else {
+    options = {
+      threshold: argv.threshold,
+    };
+  }
+
+  var output = colorguard.inspect(css, options);
+
+  if (argv.format && argv.format.toLowerCase() === 'json') {
+    stdout.write(JSON.stringify(output) + '\n');
+  }
+  else {
+    if (!output.collisions.length) {
+      stdout.write('There are no collisions.\n');
+    }
+    else {
+      output.collisions.forEach(function(collision) {
+        var pair = collision.colors.map(function(color){ return color.rgb; });
+        stderr.write('Collision: ' + pair.join(', ') + '\n  - ' + collision.message + '\n');
+      });
+    }
+  }
+}

@@ -14,19 +14,48 @@ and other preprocessor specific things are out of the way.
 
 ### Command Line
 
+`npm install -g colorguard`
+
+
 ```bash
 # Just regular
-colorguard file.css
+colorguard --file style.css
+
+# pipe a file
+cat file.css | colorguard
 
 # Threshold is available via command line
-colorguard file.css --threshold 5
+colorguard --file style.css --threshold 5
 
 # The other options are too hard to type, so just pass it a json object
 # with `ignore` or `whitelist` properties (overrides `--threshold option`)
-colorguard file.css --options colorguardoptions.json
+colorguard --file style.css --options colorguard.json
+
+# Change the output type to full json (includes stats)
+colorguard --file style.css --format json
 ```
 
+Example output
+
+```bash
+$ colorguard --file test/fixtures/simple.css
+Collision: #020202, #000000
+  - #020202 [line: 2] is too close (0.3146196209793196) to #000000 [line: 2, 3, 7, 12, 13, 16, 17]
+Collision: #020202, #010101
+  - #020202 [line: 2] is too close (0.1574963682909058) to #010101 [line: 20]
+Collision: #000000, #010101
+  - #000000 [line: 2, 3, 7, 12, 13, 16, 17] is too close (0.15712369811016996) to #010101 [line: 20]
+```
+
+```bash
+$ cat test/fixtures/simple.css | colorguard --format json
+{"collisions":[{"colors":[{"rgb":"#020202","lines":[2]},{"rgb":"#000000","lines":[2,3,7,12,13,16,17]}],"distance":0.3146196209793196,"message":"#020202 [line: 2] is too close (0.3146196209793196) to #000000 [line: 2, 3, 7, 12, 13, 16, 17]"},{"colors":[{"rgb":"#020202","lines":[2]},{"rgb":"#010101","lines":[20]}],"distance":0.1574963682909058,"message":"#020202 [line: 2] is too close (0.1574963682909058) to #010101 [line: 20]"},{"colors":[{"rgb":"#000000","lines":[2,3,7,12,13,16,17]},{"rgb":"#010101","lines":[20]}],"distance":0.15712369811016996,"message":"#000000 [line: 2, 3, 7, 12, 13, 16, 17] is too close (0.15712369811016996) to #010101 [line: 20]"}],"info":[{"colors":[{"rgb":"#020202","lines":[2]},{"rgb":"#000000","lines":[2,3,7,12,13,16,17]}],"distance":0.3146196209793196,"message":"#020202 [line: 2] is too close (0.3146196209793196) to #000000 [line: 2, 3, 7, 12, 13, 16, 17]"},{"colors":[{"rgb":"#020202","lines":[2]},{"rgb":"#663399","lines":[9]}],"distance":34.12252478659537},{"colors":[{"rgb":"#020202","lines":[2]},{"rgb":"#010101","lines":[20]}],"distance":0.1574963682909058,"message":"#020202 [line: 2] is too close (0.1574963682909058) to #010101 [line: 20]"},{"colors":[{"rgb":"#020202","lines":[2]},{"rgb":"#FFFFFF","lines":[21]}],"distance":99.42663222854084},{"colors":[{"rgb":"#000000","lines":[2,3,7,12,13,16,17]},{"rgb":"#663399","lines":[9]}],"distance":34.321183445222175},{"colors":[{"rgb":"#000000","lines":[2,3,7,12,13,16,17]},{"rgb":"#010101","lines":[20]}],"distance":0.15712369811016996,"message":"#000000 [line: 2, 3, 7, 12, 13, 16, 17] is too close (0.15712369811016996) to #010101 [line: 20]"},{"colors":[{"rgb":"#000000","lines":[2,3,7,12,13,16,17]},{"rgb":"#FFFFFF","lines":[21]}],"distance":100},{"colors":[{"rgb":"#663399","lines":[9]},{"rgb":"#010101","lines":[20]}],"distance":34.22102591917981},{"colors":[{"rgb":"#663399","lines":[9]},{"rgb":"#FFFFFF","lines":[21]}],"distance":60.25283160954553},{"colors":[{"rgb":"#010101","lines":[20]},{"rgb":"#FFFFFF","lines":[21]}],"distance":99.7195446868893}],"stats":{"counts":{"#020202":1,"#000000":7,"#663399":1,"#010101":1,"#FFFFFF":1},"total":5}}
+```
+
+
 ### Programmatic
+
+`npm install --save-dev colorguard`
 
 ```javascript
 var colorguard = require('colorguard');
@@ -48,7 +77,7 @@ var output = colorguard.inspect(css, {
 
 ## The Output
 
-You'll get an object back (json if you're doing the command line) that has warnings, as well as some
+You'll get warnings back (as an object via js or if the format is set to `json`), as well as some
 additional color stats. Those are just for fun or whatever.
 
 ```json
@@ -66,7 +95,7 @@ additional color stats. Those are just for fun or whatever.
         }
       ],
       "distance": 0.1574963682909058,
-      "message": "#010101 (lines: 23, 45, 234) is only a 0.123 difference from #020202 (line: 29)."
+      "message": "#010101 [line: 23, 45, 234] is too close (0.1574963682909058) to #020202 [line: 29]."
     }
   ],
   "stats": {

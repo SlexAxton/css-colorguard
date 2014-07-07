@@ -27,7 +27,8 @@
     "color-diff": "^0.1.3",
     "css-color-names": "0.0.1",
     "rework": "^1.0.0",
-    "rework-visit": "^1.0.0"
+    "rework-visit": "^1.0.0",
+    "yargs": "^1.2.6"
   },
   "devDependencies": {
     "mocha": "^1.20.1",
