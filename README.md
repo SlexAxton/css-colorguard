@@ -27,7 +27,7 @@ colorguard --file style.css
 cat file.css | colorguard
 
 # Threshold is available via command line
-colorguard --file style.css --threshold 5
+colorguard --file style.css --threshold 3
 
 # The other options are too hard to type, so just pass it a json object
 # with `ignore` or `whitelist` properties (overrides `--threshold option`)
@@ -68,8 +68,9 @@ var fs = require('fs');
 var css = fs.readFileSync('./file.css', 'utf8');
 
 var output = colorguard.inspect(css, {
-  // 0 through 100. Lower is more similar. Anything below 5 warns you.
-  threshold: 5,
+  // 0 through 100. Lower is more similar. Anything below 3 warns you.
+  // 3 is the default threshold, but that's mostly personal opinion
+  threshold: 3,
 
   // This color is just ignored entirely (use with caution)
   ignore: ["#030303"],
