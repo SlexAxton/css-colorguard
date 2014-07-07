@@ -14,7 +14,9 @@ and other preprocessor specific things are out of the way.
 
 ### Command Line
 
-`npm install -g colorguard`
+```bash
+$ npm install -g colorguard
+```
 
 
 ```bash
@@ -55,7 +57,9 @@ $ cat test/fixtures/simple.css | colorguard --format json
 
 ### Programmatic
 
-`npm install --save-dev colorguard`
+```bash
+$ npm install --save-dev colorguard
+```
 
 ```javascript
 var colorguard = require('colorguard');
