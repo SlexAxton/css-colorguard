@@ -1,12 +1,13 @@
 {
   "name": "colorguard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Keep a watchful eye on your css colors",
   "main": "index.js",
   "preferGlobal": true,
   "scripts": {
     "test": "mocha --require should --reporter spec"
   },
+  "bin": "./bin/colorguard",
   "repository": {
     "type": "git",
     "url": "git@github.com:SlexAxton/css-colorguard.git"
