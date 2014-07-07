@@ -104,6 +104,7 @@ thing though.
 
 * [Stripe](https://stripe.com/) - They let me build this at work
 * [reworkcss](https://github.com/reworkcss) - Makes this work
+* [@markusn](https://github.com/markusn) - Best CIEDE2000 implementation ever
 
 ## License
 
