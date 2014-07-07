@@ -15,7 +15,15 @@ and other preprocessor specific things are out of the way.
 ### Command Line
 
 ```bash
-colorguard file.css --options guard.json
+# Just regular
+colorguard file.css
+
+# Threshold is available via command line
+colorguard file.css --threshold 5
+
+# The other options are too hard to type, so just pass it a json object
+# with `ignore` or `whitelist` properties (overrides `--threshold option`)
+colorguard file.css --options colorguardoptions.json
 ```
 
 ### Programmatic
