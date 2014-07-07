@@ -26,3 +26,7 @@
 .glyphicon {
   -moz-osx-font-smoothing: grayscale;
 }
+
+.weird-behavior {
+  behavior: url(#default#VML);
+}
