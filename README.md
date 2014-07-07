@@ -107,7 +107,8 @@ additional color stats. Those are just for fun or whatever.
       "#010101": 3,
       "#020202": 1,
       "#030303": 0
-    }
+    },
+    "total": 3
   }
 }
 ```
