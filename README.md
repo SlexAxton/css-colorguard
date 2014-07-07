@@ -80,6 +80,12 @@ var output = colorguard.inspect(css, {
 });
 ```
 
+### Build Time
+
+CSS Colorguard can also be used in conjunction with other javascript build systems, such as [Gulp](https://github.com/gulpjs/gulp)!
+
+- [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
+
 ## The Output
 
 You'll get warnings back (as an object via js or if the format is set to `json`), as well as some
