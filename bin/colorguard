@@ -39,7 +39,15 @@ function run(css) {
     };
   }
 
-  var output = colorguard.inspect(css, options);
+  var output;
+
+  try {
+    output = colorguard.inspect(css, options);
+  }
+  catch (e) {
+    stderr.write('There was an error processing the CSS.\n' + e.toString());
+    return;
+  }
 
   if (argv.format && argv.format.toLowerCase() === 'json') {
     stdout.write(JSON.stringify(output) + '\n');
@@ -51,7 +59,7 @@ function run(css) {
     else {
       output.collisions.forEach(function(collision) {
         var pair = collision.colors.map(function(color){ return color.rgb; });
-        stderr.write('Collision: ' + pair.join(', ') + '\n  - ' + collision.message + '\n');
+        stdout.write('Collision: ' + pair.join(', ') + '\n  - ' + collision.message + '\n');
       });
     }
   }
