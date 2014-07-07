@@ -20,3 +20,9 @@
   background-color: #010101;
   color: #FFF;
 }
+
+/* Things that have broken in the past */
+
+.glyphicon {
+  -moz-osx-font-smoothing: grayscale;
+}
