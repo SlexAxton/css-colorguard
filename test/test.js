@@ -5,7 +5,7 @@ var css = fs.readFileSync(__dirname + '/fixtures/simple.css', 'utf8');
 describe('inspect', function() {
   it('should normalize all types of color inputs', function() {
     // It should ignore comments too
-    colorguard.inspect(css).stats.counts['#000000'].should.equal(7);
+    colorguard.inspect(css).stats.counts['#000000'].should.equal(8);
   });
 
   it('should collide on all closer than 5 by default', function() {
