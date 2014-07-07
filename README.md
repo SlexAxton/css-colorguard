@@ -27,8 +27,14 @@ var fs = require('fs');
 var css = fs.readFileSync('./file.css', 'utf8');
 
 var output = colorguard.inspect(css, {
-  threshold: 0.5,
-  ignore: ["#030303"]
+  // 0 through 100. Lower is more similar. Anything below 5 warns you.
+  threshold: 5,
+
+  // This color is just ignored entirely (use with caution)
+  ignore: ["#030303"],
+
+  // These color combinations are ignored (usually use this)
+  whitelist: [["#000000", "#010101"]]
 });
 ```
 
@@ -51,7 +57,7 @@ additional color stats. Those are just for fun or whatever.
           "lines": [29]
         }
       ],
-      "score": 0.123,
+      "distance": 0.1574963682909058,
       "message": "#010101 (lines: 23, 45, 234) is only a 0.123 difference from #020202 (line: 29)."
     }
   ],
@@ -77,6 +83,14 @@ Luckily, [someone else already implemented CIEDE2000](https://github.com/markusn
 didn't have to. Tight. Cause this thing is mathy as hell.
 
 ![http://f.cl.ly/items/061h1y0x0G2X2e2t1q1f/Screen%20Shot%202014-07-03%20at%205.55.17%20PM.png](http://f.cl.ly/items/061h1y0x0G2X2e2t1q1f/Screen%20Shot%202014-07-03%20at%205.55.17%20PM.png)
+
+### Alpha Transparency
+
+Currently, alpha transparency is just stripped from the colors. So `rgb(0, 0, 0)` exactly matches
+`rgba(0,0,0,0.5)`. This is usually fine unless someone is alphatransparency-happy and uses it for
+darkening and lightening colors too often. It could probably be it's own check in the future that
+there aren't too many different alpha transparencies of the same color. This is not currently a
+thing though.
 
 ## Thanks
 
