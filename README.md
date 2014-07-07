@@ -82,9 +82,11 @@ var output = colorguard.inspect(css, {
 
 ### Build Time
 
-CSS Colorguard can also be used in conjunction with other javascript build systems, such as [Gulp](https://github.com/gulpjs/gulp)!
+CSS Colorguard can also be used in conjunction with other javascript build systems, such as:
 
-- [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
+* [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
+* [broccoli-colorguard](https://github.com/SlexAxton/broccoli-colorguard)
+
 
 ## The Output
 
