@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Keep a watchful eye on your css colors",
   "main": "index.js",
+  "preferGlobal": true,
   "scripts": {
     "test": "mocha --require should --reporter spec"
   },
