@@ -124,7 +124,7 @@ additional color stats. Those are just for fun or whatever.
 
 ## How it works
 
-Colorguard uses the [CIEDE2000](http://en.wikipedia.org/wiki/Color_difference) algorithm to determine
+Colorguard uses the [CIEDE2000](http://en.wikipedia.org/wiki/Color_difference#CIEDE2000) algorithm to determine
 the similarity of each of the colors in your CSS file. This algorithm is quite complex, but is used
 in the broadcasting community as the best approximation of human ability to discern differences in
 color. RGB on the other hand, is pretty bad at representing differences in color purely based on the

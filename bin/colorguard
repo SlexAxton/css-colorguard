@@ -13,7 +13,7 @@ var css = [];
 var options;
 
 if (argv.file) {
-  css = fs.readFileSync(path.join(process.cwd(), argv.file), 'utf8');
+  css = fs.readFileSync(path.resolve(process.cwd(), argv.file), 'utf8');
   run(css);
 }
 else {
@@ -31,7 +31,7 @@ else {
 
 function run(css) {
   if (argv.options) {
-    options = JSON.parse(fs.readFileSync(path.join(process.cwd(), argv.options), 'utf8'));
+    options = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), argv.options), 'utf8'));
   }
   else {
     options = {
@@ -45,7 +45,7 @@ function run(css) {
     output = colorguard.inspect(css, options);
   }
   catch (e) {
-    stderr.write('There was an error processing the CSS.\n' + e.toString());
+    stderr.write('There was an error processing the CSS.\n' + e.toString() + '\n');
     return;
   }
 
