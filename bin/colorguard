@@ -45,7 +45,7 @@ function run(css) {
     output = colorguard.inspect(css, options);
   }
   catch (e) {
-    stderr.write('There was an error processing the CSS.\n' + e.toString());
+    stderr.write('There was an error processing the CSS.\n' + e.toString() + '\n');
     return;
   }
 
