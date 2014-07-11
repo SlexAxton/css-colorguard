@@ -10,10 +10,20 @@ process.title = 'colorguard';
 
 var colorguard = require('..');
 var css = [];
-var options;
+var options,
+    dirFiles;
 
-if (argv.file) {
-  css = fs.readFileSync(path.resolve(process.cwd(), argv.file), 'utf8');
+if (argv.folder) {
+  dirFiles = getCssFiles(argv.folder);
+  dirFiles.forEach(function(fileName) {
+    var filePath = argv.folder + fileName;
+    css = css.concat(getFileContents(argv.folder + fileName));
+  });
+
+  run(css.join());
+}
+else if (argv.file) {
+  css = getFileContents(argv.file);
   run(css);
 }
 else {
@@ -27,6 +37,17 @@ else {
     css = css.join();
     run(css);
   });
+}
+
+function getCssFiles(dirpath) {
+  var files = fs.readdirSync(path.resolve(process.cwd(), dirpath), 'utf8');
+  return files.filter(function(fileName) {
+    return fileName.split('.')[1] === 'css';
+  });
+}
+
+function getFileContents(dirpath) {
+  return fs.readFileSync(path.resolve(process.cwd(), dirpath), 'utf8');
 }
 
 function run(css) {
