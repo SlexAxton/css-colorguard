@@ -7,11 +7,11 @@
   "scripts": {
     "test": "mocha --require should --reporter spec"
   },
-  "files": {
+  "files": [
     "bin",
     "lib",
     "index.js"
-  },
+  ],
   "bin": "./bin/colorguard",
   "repository": {
     "type": "git",
