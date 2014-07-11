@@ -86,6 +86,7 @@ CSS Colorguard can also be used in conjunction with other javascript build syste
 
 * [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
 * [broccoli-colorguard](https://github.com/SlexAxton/broccoli-colorguard)
+* [grunt-colorguard](https://github.com/elliottwilliams/grunt-colorguard)
 
 
 ## The Output
