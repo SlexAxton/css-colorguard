@@ -32,7 +32,7 @@
   "homepage": "https://github.com/SlexAxton/css-colorguard",
   "dependencies": {
     "color-diff": "^0.1.3",
-    "pipetteur": "^1.0.0",
+    "pipetteur": "^1.0.1",
     "rework": "^1.0.0",
     "rework-walk": "^1.0.0",
     "yargs": "^1.2.6"
