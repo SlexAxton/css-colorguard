@@ -32,7 +32,6 @@
   "homepage": "https://github.com/SlexAxton/css-colorguard",
   "dependencies": {
     "color-diff": "^0.1.3",
-    "css-color-names": "0.0.1",
     "pipetteur": "^1.0.0",
     "rework": "^1.0.0",
     "rework-walk": "^1.0.0",
