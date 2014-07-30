@@ -31,6 +31,16 @@
   behavior: url(#default#VML);
 }
 
+/* weird combo of hex color and className containing a color */
+.classnameWithoutColorName .widget.button-widget {
+    margin: auto 2px;
+    border-color: #b1afb0;
+}
+.grey .widget.button-widget a:link,
+.grey .widget.button-widget a:hover{
+    color: #b1afb0;
+}
+
 @-webkit-keyframes spin {
   /* This comment used to break things */
   0% {

@@ -32,6 +32,6 @@ describe('inspect', function() {
   });
 
   it('should have a normalized total count', function() {
-    colorguard.inspect(css).stats.total.should.equal(5);
+    colorguard.inspect(css).stats.total.should.equal(6);
   });
 });
