@@ -13,8 +13,8 @@
   color: rgba(0,0,0,1);
 }
 #insane {
-  background-color: hsl(0,0,0);
-  color: hsla(0,0,0,1);
+  background-color: hsl(0,0%,0%);
+  color: hsla(0,0%,0%,1);
 }
 #remarkable {
   background-color: #010101;
