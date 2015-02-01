@@ -74,7 +74,7 @@ function run(css, map) {
     }
     else {
       output.collisions.forEach(function(collision) {
-        var pair = collision.colors.map(function(color){ return color.rgb; });
+        var pair = collision.colors.map(function(color) { return color.rgb; });
         stdout.write('Collision: ' + pair.join(', ') + '\n  - ' + collision.message + '\n\n');
       });
     }
