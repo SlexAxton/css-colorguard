@@ -6,6 +6,7 @@ var stdin = process.stdin;
 var stdout = process.stdout;
 var stderr = process.stderr;
 var argv = yargs.argv;
+var sourceMapResolve = require('source-map-resolve');
 
 yargs
 .describe('file', 'A CSS file')
@@ -22,7 +23,9 @@ var options;
 
 if (argv.file) {
   css = fs.readFileSync(path.resolve(process.cwd(), argv.file), 'utf8');
-  run(css);
+  sourceMapResolve.resolve(css, argv.file, fs.readFile, function (error, result) {
+    run(css, result && result.map);
+  });
 }
 else {
   stdin.setEncoding('utf8');
@@ -42,7 +45,7 @@ else {
   }
 }
 
-function run(css) {
+function run(css, map) {
   if (argv.options) {
     options = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), argv.options), 'utf8'));
   }
@@ -55,7 +58,7 @@ function run(css) {
   var output;
 
   try {
-    output = colorguard.inspect(css, options);
+    output = colorguard.inspect(css, options, map);
   }
   catch (e) {
     stderr.write('There was an error processing the CSS.\n' + e.toString() + '\n');
@@ -71,8 +74,8 @@ function run(css) {
     }
     else {
       output.collisions.forEach(function(collision) {
-        var pair = collision.colors.map(function(color){ return color.rgb; });
-        stdout.write('Collision: ' + pair.join(', ') + '\n  - ' + collision.message + '\n');
+        var pair = collision.colors.map(function(color) { return color.rgb; });
+        stdout.write('Collision: ' + pair.join(', ') + '\n  - ' + collision.message + '\n\n');
       });
     }
   }
