@@ -1,3 +1,5 @@
+/* global describe, it */
+
 var colorguard = require('..');
 var fs = require('fs');
 var css = fs.readFileSync(__dirname + '/fixtures/simple.css', 'utf8');
