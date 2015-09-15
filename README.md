@@ -61,13 +61,13 @@ Pass an array of color pairs to ignore:
 
 ### `postcss([ colorguard(opts) ])`
 
-colorguard can be consumed as a PostCSS plugin. See the
+CSS Colorguard can be consumed as a PostCSS plugin. See the
 [documentation](https://github.com/postcss/postcss#usage) for examples for
 your environment.
 
 ### Build Time
 
-CSS Colorguard can also be used in conjunction with other javascript build systems, such as:
+CSS Colorguard can be used in conjunction with other javascript build systems, such as:
 
 * [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
 * [broccoli-colorguard](https://github.com/SlexAxton/broccoli-colorguard)
@@ -75,7 +75,7 @@ CSS Colorguard can also be used in conjunction with other javascript build syste
 
 ### CLI
 
-colorguard also ships with a CLI app. To see the available options, just run:
+CSS Colorguard also ships with a CLI app. To see the available options, just run:
 
 ```bash
 $ colorguard --help
