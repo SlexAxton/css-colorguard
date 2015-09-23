@@ -1,6 +1,6 @@
 {
   "name": "colorguard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Keep a watchful eye on your css colors",
   "main": "index.js",
   "preferGlobal": true,
@@ -26,7 +26,7 @@
     "postcss-plugin"
   ],
   "author": "Alex Sexton <alexsexton@gmail.com>",
-  "license": "Apache 2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SlexAxton/css-colorguard/issues"
   },
