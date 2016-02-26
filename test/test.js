@@ -1,14 +1,14 @@
-var postcss = require('postcss');
-var colorguard = require('..');
-var tape = require('tape');
+import postcss    from 'postcss';
+import tape       from 'tape';
+import colorguard from '..';
 
-var check = function (css, options, callback) {
-  postcss(colorguard(options)).process(css).then(function (result) {
+const check = function (css, options, callback) {
+  postcss(colorguard(options)).process(css).then((result) => {
     callback(result.css, result.warnings());
   });
 };
 
-var tests = [{
+const tests = [{
   message: 'weird behavior (1)',
   fixture: '.weird-behavior {\n  behavior: url(#default#VML);\n}',
   warnings: 0
@@ -69,11 +69,11 @@ var tests = [{
   warnings: 3
 }];
 
-tests.forEach(function (test) {
-  tape(test.message, function (t) {
+tests.forEach((test) => {
+  tape(test.message, (t) => {
     t.plan(2);
 
-    check(test.fixture, test.options, function (css, warnings) {
+    check(test.fixture, test.options, (css, warnings) => {
       t.equal(String(css), test.fixture, 'should not modify the css');
       t.equal(warnings.length, test.warnings, 'should send the correct number of warnings');
     });

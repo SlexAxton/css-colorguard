@@ -1,3 +1,3 @@
-var colorguard = require('./lib/colorguard');
+require('babel-core/register')
 
-module.exports = colorguard;
+module.exports = require('./lib/colorguard');
