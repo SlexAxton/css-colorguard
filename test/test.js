@@ -11,7 +11,7 @@ var check = function (css, options, callback) {
 var tests = [{
   message: 'weird behavior (1)',
   fixture: '.weird-behavior {\n  behavior: url(#default#VML);\n}',
-  warnings: 0
+  warnings: 0,
 }, {
   message: 'weird behavior (2)',
   fixture: '.glyphicon {\n  -moz-osx-font-smoothing: grayscale;\n}',
@@ -27,7 +27,8 @@ var tests = [{
   message: 'whitelist',
   fixture: '.classname {\n  background-image: -webkit-linear-gradient(rgba(0,0,0,1), #020202);\n  color: #000000;\n}',
   warnings: 1,
-  options: {whitelist: [['#000000', '#020202']]}
+  options: {whitelist: [['#000000', '#020202']]},
+  warningsColors: [{ secondColor: '#000000', firstColor: 'rgba(0,0,0,1)' }]
 }, {
   message: 'no warnings, using the ignore option',
   fixture: 'h1 {\n  color: black;\n  color: #010101;\n}',
@@ -48,7 +49,8 @@ var tests = [{
 }, {
   message: 'one warning (1)',
   fixture: 'h1 {\n  color: black;\n  color: #010101;\n}',
-  warnings: 1
+  warnings: 1,
+  warningsColors: [{ secondColor: '#010101', firstColor: 'black' }]
 }, {
   message: 'one warning (2)',
   fixture: [
@@ -58,24 +60,38 @@ var tests = [{
     '  100% {\n    -webkit-transform: rotate(360deg);\n    /* It should still pick this one up */\n    color: #000000;\n',
     '  }\n}'
   ].join(''),
-  warnings: 1
+  warnings: 1,
+  warningsColors: [{ secondColor: '#000000', firstColor: '#010101' }]
 }, {
   message: 'two warnings',
   fixture: 'h1 {\n  color: #20dfb3;\n  color: #22ddb1;\n}\nh2 {\n  color: #20dfb3;\n}',
-  warnings: 2
+  warnings: 2,
+  warningsColors: [
+    { secondColor: '#22ddb1', firstColor: '#20dfb3' },
+    { secondColor: '#20dfb3', firstColor: '#22ddb1' }
+  ]
 }, {
   message: 'three warnings',
   fixture: '.classname {\n  background-image: -webkit-linear-gradient(rgba(0,0,0,1), #020202);\n  color: #000000;\n}',
-  warnings: 3
+  warnings: 3,
+  warningsColors: [
+    { secondColor: '#020202', firstColor: 'rgba(0,0,0,1)' },
+    { secondColor: '#000000', firstColor: 'rgba(0,0,0,1)' },
+    { secondColor: '#000000', firstColor: '#020202' }
+  ]
 }];
 
 tests.forEach(function (test) {
   tape(test.message, function (t) {
-    t.plan(2);
+    t.plan(3);
 
     check(test.fixture, test.options, function (css, warnings) {
       t.equal(String(css), test.fixture, 'should not modify the css');
       t.equal(warnings.length, test.warnings, 'should send the correct number of warnings');
+      var warningsColors = warnings.map(function(warning) {
+        return { secondColor: warning.secondColor, firstColor: warning.firstColor };
+      });
+      t.deepEqual(warningsColors, test.warningsColors || [], 'should identify the correct colors');
     });
   });
 });
