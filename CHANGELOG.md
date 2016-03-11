@@ -1,5 +1,10 @@
 # CSS COLORGUARD CHANGELOG
 
+## 2016-03-11 - 1.1.0
+
+- Added `firstColor` & `secondColor` to generated warnings, enabling easier
+  warning consumption (thanks to @davidtheclark)
+
 ## 2015-09-23 - 1.0.1
 
 - Added a CHANGELOG per PostCSS guidelines for plugins
