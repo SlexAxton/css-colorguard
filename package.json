@@ -5,7 +5,8 @@
   "main": "index.js",
   "preferGlobal": true,
   "scripts": {
-    "test": "tape test/*.js | tap-spec"
+    "lint": "jshint .",
+    "test": "npm run lint && tape test/*.js | tap-spec"
   },
   "files": [
     "bin",
@@ -44,6 +45,7 @@
     "yargs": "^1.2.6"
   },
   "devDependencies": {
+    "jshint": "^2.9.1",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.0"
   }
