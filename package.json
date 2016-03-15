@@ -1,6 +1,6 @@
 {
   "name": "colorguard",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Keep a watchful eye on your css colors",
   "main": "index.js",
   "preferGlobal": true,
