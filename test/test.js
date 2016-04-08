@@ -90,6 +90,10 @@ var tests = [{
   warningsColors: [
     { secondColor: '#fff', firstColor: 'white' }
   ]
+}, {
+  message: 'identical but different length hexes',
+  fixture: '.foo { color: #888; } .bar { color: #888888; }',
+  warnings: 0,
 }];
 
 tests.forEach(function (test) {
