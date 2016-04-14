@@ -79,6 +79,17 @@ var tests = [{
     { secondColor: '#000000', firstColor: 'rgba(0,0,0,1)' },
     { secondColor: '#000000', firstColor: '#020202' }
   ]
+}, {
+  message: 'don\'t fail in urls',
+  fixture: '.classname {\n  background-image: url("image-white.png");\n  color: #fff;\n}',
+  warnings: 0
+}, {
+  message: 'don\'t break backgrounds with urls',
+  fixture: '.classname {\n  background: url(image.png) white;\n  color: #fff;\n}',
+  warnings: 1,
+  warningsColors: [
+    { secondColor: '#fff', firstColor: 'white' }
+  ]
 }];
 
 tests.forEach(function (test) {
