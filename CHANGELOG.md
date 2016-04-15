@@ -1,5 +1,9 @@
 # CSS COLORGUARD CHANGELOG
 
+## Head
+
+- Added `allowEquivalentNotation` option
+
 ## 2016-03-15 - 1.1.1
 
 - Upgraded pipetteur to `2.0.0` (thanks to @davidtheclark)
