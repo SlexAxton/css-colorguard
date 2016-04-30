@@ -9,6 +9,7 @@ var assign = require('object-assign');
 yargs
 .describe('file', 'A CSS file')
 .describe('threshold', 'Threshold of allowable color difference')
+.describe('allow-equivalent-notation', 'Allow equivalent notation of the same color, e.g. #000 and #000000')
 .describe('options', 'An optional JSON file containing all options (Overrides `--threshold`)')
 .usage('Usage: colorguard --file [style.css] ');
 
@@ -47,6 +48,7 @@ function run (css) {
     if (argv.threshold) {
       options.threshold = argv.threshold;
     }
+    options.allowEquivalentNotation = argv.allowEquivalentNotation;
   }
   if (argv.file) {
     options = assign({

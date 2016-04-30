@@ -90,6 +90,18 @@ var tests = [{
   warningsColors: [
     { secondColor: '#fff', firstColor: 'white' }
   ]
+}, {
+  message: 'identical but different length hexes with default setting',
+  fixture: '.foo { color: #888; } .bar { color: #888888; }',
+  warnings: 1,
+  warningsColors: [
+    { secondColor: '#888888', firstColor: '#888' }
+  ]
+}, {
+  message: 'identical but different length hexes with `allowEquivalentNotation`',
+  fixture: '.foo { color: #888; } .bar { color: #888888; }',
+  warnings: 0,
+  options: { allowEquivalentNotation: true }
 }];
 
 tests.forEach(function (test) {
