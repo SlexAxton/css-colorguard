@@ -1,6 +1,6 @@
 # CSS COLORGUARD CHANGELOG
 
-## Head
+## 2016-04-30 - 1.2.0
 
 - Added `allowEquivalentNotation` option
 
