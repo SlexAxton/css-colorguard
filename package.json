@@ -3,7 +3,6 @@
   "version": "1.2.0",
   "description": "Keep a watchful eye on your css colors",
   "main": "index.js",
-  "preferGlobal": true,
   "scripts": {
     "lint": "jshint .",
     "test": "npm run lint && tape test/*.js | tap-spec"
