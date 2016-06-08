@@ -65,7 +65,7 @@ Type: `boolean`
 Default: `false`
 
 By default, colorguard will complain if identical colors are represented with different notations.
-For example, `#000`, `#000000`, `rgba(0, 0, 0, 0), and `black`. If you want to permit these
+For example, `#000`, `#000000`, `rgba(0, 0, 0, 0)`, and `black`. If you want to permit these
 equivalent notations, set this option to `true`.
 
 ### `postcss([ colorguard(opts) ])`
