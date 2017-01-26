@@ -2,7 +2,7 @@
 
 # CSS Colorguard
 
-Every CSS project starts out with good intentions, but inevitably, one too many people eye-dropper
+Every CSS project starts out with good intentions, but inevitably, one too many people eye-dropped
 colors into nooks and crannies that you never knew existed. CSS Colorguard helps you maintain the
 color set that you want, and warns you when colors you've added are too similar to ones that already
 exist. Naturally, it's all configurable to your tastes.
