@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/SlexAxton/css-colorguard",
   "dependencies": {
-    "turbocolor": "^2.2.0",
     "color-diff": "^0.1.3",
+    "colorette": "1.0.1",
     "log-symbols": "^1.0.2",
     "object-assign": "^4.0.1",
     "pipetteur": "^2.0.0",
