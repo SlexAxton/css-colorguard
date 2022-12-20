@@ -26,7 +26,6 @@ jobs:
           cache: 'yarn'
       - name: yarn install, build, and test
         run: |
-          corepack prepare yarn@stable --activate
           yarn install --immutable
           yarn workspace postcss-colorguard build  
           yarn workspace colorguard-processor build
