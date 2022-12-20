@@ -89,5 +89,7 @@
         "define",
         "__dirname",
         "__filename"
-    ]
+    ],
+
+    "esversion" : 11
 }

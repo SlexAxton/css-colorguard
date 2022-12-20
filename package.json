@@ -1,18 +1,27 @@
 {
-  "name": "colorguard",
-  "version": "1.2.1",
+  "name": "colorguard-upgraded",
+  "version": "0.0.0",
   "description": "Keep a watchful eye on your css colors",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "jshint .",
-    "test": "npm run lint && tape test/*.js | tap-spec"
+    "test": "npm run lint && tape test/*.ts | tap-spec"
   },
   "files": [
-    "bin",
-    "lib",
-    "index.js"
+    "dist"
   ],
-  "bin": "./bin/colorguard",
+  "bin": {
+    "colorguard": "./dist/cli"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:SlexAxton/css-colorguard.git"
@@ -31,21 +40,32 @@
     "url": "https://github.com/SlexAxton/css-colorguard/issues"
   },
   "homepage": "https://github.com/SlexAxton/css-colorguard",
-  "dependencies": {
-    "color-diff": "^0.1.3",
-    "colorette": "1.0.1",
-    "log-symbols": "^1.0.2",
-    "object-assign": "^4.0.1",
-    "pipetteur": "^2.0.0",
-    "plur": "^2.0.0",
-    "postcss": "^5.0.4",
-    "postcss-reporter": "^1.2.1",
-    "text-table": "^0.2.0",
-    "yargs": "^1.2.6"
+  "peerDependencies": {
+    "postcss": ">8.0.0"
   },
   "devDependencies": {
-    "jshint": "^2.9.1",
-    "tap-spec": "^4.1.0",
-    "tape": "^4.2.0"
-  }
+    "@types/color-diff": "^1.2.1",
+    "@types/color-rgba": "^2.1.0",
+    "@types/node": "^18.11.17",
+    "@types/postcss-reporter": "^7.0.1",
+    "@types/tape": "^4.13.2",
+    "@types/text-table": "^0.2.2",
+    "@types/yargs": "^17.0.17",
+    "color-diff": "^1.2.0",
+    "color-rgba": "^2.4.0",
+    "colorette": "2.0.19",
+    "jshint": "^2.13.6",
+    "log-symbols": "^5.1.0",
+    "plur": "^5.1.0",
+    "postcss": "^8.4.20",
+    "postcss-reporter": "^7.0.5",
+    "synesthesia": "^1.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.6.1",
+    "text-table": "^0.2.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4",
+    "yargs": "^15.4.0"
+  },
+  "packageManager": "yarn@3.3.0"
 }

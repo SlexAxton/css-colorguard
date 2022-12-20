@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "strict": true,
+    "incremental": false,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "rootDir": "./lib",
+    "skipLibCheck": true,
+    "target": "es2020",
+    "moduleResolution": "node",
+  },
+  "include": ["lib/**/*.ts", "global.d.ts"],
+}

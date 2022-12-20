@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/SlexAxton/css-colorguard.svg?branch=master)](https://travis-ci.org/SlexAxton/css-colorguard)
-
 # CSS Colorguard
 
 Every CSS project starts out with good intentions, but inevitably, one too many people eye-dropper
@@ -38,16 +36,12 @@ thing though.
 
 Type: `array`
 
-Specify hex codes of colors that you would like to ignore completely.
+Specify colors that you would like to ignore completely.
 Use with caution.
 
-##### threshold
-
-Type: `number`
-Default: `3`
-
-`0` through `100`. Lower values are more precise; the default is `3` but that's
-mostly personal opinion.
+```js
+[['black', '#010101', 'rgba(0,0,0,1)']]
+```
 
 ##### whitelist
 
@@ -58,6 +52,14 @@ Pass an array of color pairs to ignore:
 ```js
 [['#000000', '#010101']]
 ```
+
+##### threshold
+
+Type: `number`
+Default: `3`
+
+`0` through `100`. Lower values are more precise; the default is `3` but that's
+mostly personal opinion.
 
 ##### allowEquivalentNotation
 
@@ -87,7 +89,7 @@ CSS Colorguard can be used in conjunction with other javascript build systems, s
 CSS Colorguard also ships with a CLI app. To see the available options, just run:
 
 ```bash
-$ colorguard --help
+ colorguard --help
 ```
 
 ## Install
@@ -106,19 +108,4 @@ npm install colorguard
 
 ## Thanks
 
-* [Stripe](https://stripe.com/) - They let me build this at work
-* [@markusn](https://github.com/markusn) - Best CIEDE2000 implementation ever
-
-## License
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+* [@SlexAxton](https://github.com/SlexAxton) - Created `css-colorguard`
