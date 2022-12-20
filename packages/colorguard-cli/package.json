@@ -34,13 +34,13 @@
   },
   "homepage": "https://github.com/bryanjtc/css-colorguard/tree/master/packages/colorguard-cli/README.md",
   "devDependencies": {
-    "@types/node": "^18.11.17",
-    "@types/yargs": "^17.0.17",
-    "colorguard-processor": "workspace:^",
-    "postcss": "^8.4.20",
-    "tsup": "^6.5.0",
-    "typescript": "^4.9.4",
-    "yargs": "^15.4.0"
+    "@types/node": "18.11.17",
+    "@types/yargs": "17.0.17",
+    "colorguard-processor": "workspace:*",
+    "postcss": "8.4.20",
+    "tsup": "6.5.0",
+    "typescript": "4.9.4",
+    "yargs": "15.4.0"
   },
   "engines": {
     "node": ">=12.0.0"

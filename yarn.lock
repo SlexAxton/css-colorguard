@@ -5,6 +5,16 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@babel/runtime-corejs3@npm:^7.12.1":
+  version: 7.20.6
+  resolution: "@babel/runtime-corejs3@npm:7.20.6"
+  dependencies:
+    core-js-pure: ^3.25.1
+    regenerator-runtime: ^0.13.11
+  checksum: d533d432216509426c4f9dad56db2fe453112b7d738433111944372fba4abd0b07bee3261f19a218530b435de46592121b2a6a57b98c0c7c3452d552ba009c3e
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm@npm:0.15.18":
   version: 0.15.18
   resolution: "@esbuild/android-arm@npm:0.15.18"
@@ -80,28 +90,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/color-diff@npm:^1.2.1":
+"@types/color-diff@npm:1.2.1":
   version: 1.2.1
   resolution: "@types/color-diff@npm:1.2.1"
   checksum: 355479ccd4e9eb1e5f43c263c0462921a83646f3eda637525f67e9932c6604edca8ee7c9180c7f2174b05f2f7abadc0ba78ce57d1ce52ca115251c8acd1f53ec
   languageName: node
   linkType: hard
 
-"@types/color-rgba@npm:^2.1.0":
+"@types/color-rgba@npm:2.1.0":
   version: 2.1.0
   resolution: "@types/color-rgba@npm:2.1.0"
   checksum: aa3e399bf7043cba3858e195ea00692957874e665f01effdc46c95134cadca4e8bfc7c4022c628e217a90246d098686645a7f517ba554b50ccfae9f2a9f51d63
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.11.17":
+"@types/node@npm:*, @types/node@npm:18.11.17":
   version: 18.11.17
   resolution: "@types/node@npm:18.11.17"
   checksum: 1933afd068d5c75c068c6c4df6d10edb3b0b2bb6503d544e2f0496ac007c90596e6a5e284a8ef032451bc16f871b7e46719d7d2bea60e9b25d13a77d52161cac
   languageName: node
   linkType: hard
 
-"@types/postcss-reporter@npm:^7.0.1":
+"@types/postcss-reporter@npm:7.0.1":
   version: 7.0.1
   resolution: "@types/postcss-reporter@npm:7.0.1"
   dependencies:
@@ -110,7 +120,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:^4.13.2":
+"@types/tape@npm:4.13.2":
   version: 4.13.2
   resolution: "@types/tape@npm:4.13.2"
   dependencies:
@@ -119,7 +129,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/text-table@npm:^0.2.2":
+"@types/text-table@npm:0.2.2":
   version: 0.2.2
   resolution: "@types/text-table@npm:0.2.2"
   checksum: f72ee49b50f2e912876cf7366ca1b218a58826e9af8b3171204f1cb73be80e722e094db3523dd7ddd31708c006b0b3d67ce5a2da6e9620ce99f5c4558109863b
@@ -133,7 +143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:^17.0.17":
+"@types/yargs@npm:17.0.17":
   version: 17.0.17
   resolution: "@types/yargs@npm:17.0.17"
   dependencies:
@@ -462,7 +472,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color-diff@npm:^1.2.0":
+"color-diff@npm:1.2.0":
   version: 1.2.0
   resolution: "color-diff@npm:1.2.0"
   checksum: 9663b72e35276eb1b4d0f31bbb72d6aad59c28ec2ea40a4c0e384c5f8b4f577b2e21cdbd2fa4a5507ae7783c84a55447c117542a00d5e471213109b11d61e17c
@@ -485,7 +495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color-rgba@npm:^2.4.0":
+"color-rgba@npm:2.4.0":
   version: 2.4.0
   resolution: "color-rgba@npm:2.4.0"
   dependencies:
@@ -522,38 +532,38 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "colorguard-cli@workspace:packages/colorguard-cli"
   dependencies:
-    "@types/node": ^18.11.17
-    "@types/yargs": ^17.0.17
-    colorguard-processor: "workspace:^"
-    postcss: ^8.4.20
-    tsup: ^6.5.0
-    typescript: ^4.9.4
-    yargs: ^15.4.0
+    "@types/node": 18.11.17
+    "@types/yargs": 17.0.17
+    colorguard-processor: "workspace:*"
+    postcss: 8.4.20
+    tsup: 6.5.0
+    typescript: 4.9.4
+    yargs: 15.4.0
   bin:
     colorguard: ./dist/cli
   languageName: unknown
   linkType: soft
 
-"colorguard-processor@workspace:^, colorguard-processor@workspace:packages/colorguard-processor":
+"colorguard-processor@workspace:*, colorguard-processor@workspace:packages/colorguard-processor":
   version: 0.0.0-use.local
   resolution: "colorguard-processor@workspace:packages/colorguard-processor"
   dependencies:
-    "@types/node": ^18.11.17
-    "@types/postcss-reporter": ^7.0.1
-    "@types/tape": ^4.13.2
-    "@types/text-table": ^0.2.2
-    "@types/yargs": ^17.0.17
+    "@types/node": 18.11.17
+    "@types/postcss-reporter": 7.0.1
+    "@types/tape": 4.13.2
+    "@types/text-table": 0.2.2
+    "@types/yargs": 17.0.17
     colorette: 2.0.19
-    log-symbols: ^5.1.0
-    plur: ^5.1.0
-    postcss: ^8.4.20
-    postcss-colorguard: "workspace:^"
-    postcss-reporter: ^7.0.5
-    tap-spec: ^5.0.0
-    tape: ^5.6.1
-    text-table: ^0.2.0
-    tsup: ^6.5.0
-    typescript: ^4.9.4
+    log-symbols: 5.1.0
+    plur: 5.1.0
+    postcss: 8.4.20
+    postcss-colorguard: "workspace:*"
+    postcss-reporter: 7.0.5
+    tap-spec: 5.0.0
+    tape: 5.6.1
+    text-table: 0.2.0
+    tsup: 6.5.0
+    typescript: 4.9.4
   bin:
     colorguard: ./dist/cli
   languageName: unknown
@@ -586,6 +596,13 @@ __metadata:
   version: 1.1.0
   resolution: "console-control-strings@npm:1.1.0"
   checksum: 8755d76787f94e6cf79ce4666f0c5519906d7f5b02d4b884cf41e11dcd759ed69c57da0670afd9236d229a46e0f9cf519db0cd829c6dca820bb5a5c3def584ed
+  languageName: node
+  linkType: hard
+
+"core-js-pure@npm:^3.25.1":
+  version: 3.26.1
+  resolution: "core-js-pure@npm:3.26.1"
+  checksum: d88c40e5e29e413c11d1ef991a8d5b6a63f00bd94707af0f649d3fc18b3524108b202f4ae75ce77620a1557d1ba340bc3362b4f25d590eccc37cf80fc75f7cd4
   languageName: node
   linkType: hard
 
@@ -637,6 +654,15 @@ __metadata:
   version: 1.2.0
   resolution: "decamelize@npm:1.2.0"
   checksum: ad8c51a7e7e0720c70ec2eeb1163b66da03e7616d7b98c9ef43cce2416395e84c1e9548dd94f5f6ffecfee9f8b94251fc57121a8b021f2ff2469b2bae247b8aa
+  languageName: node
+  linkType: hard
+
+"decamelize@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "decamelize@npm:3.2.0"
+  dependencies:
+    xregexp: ^4.2.4
+  checksum: 3596ed323149c4ae1261af46c1afeede29b08629432be728f4e6f73436ab6774de6c99beb0a356f1428b56f27ee4bd89169a1ef5e4f9ec89fccc21ff181994c4
   languageName: node
   linkType: hard
 
@@ -1840,7 +1866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jshint@npm:^2.13.6":
+"jshint@npm:2.13.6":
   version: 2.13.6
   resolution: "jshint@npm:2.13.6"
   dependencies:
@@ -1901,7 +1927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"log-symbols@npm:^5.1.0":
+"log-symbols@npm:5.1.0":
   version: 5.1.0
   resolution: "log-symbols@npm:5.1.0"
   dependencies:
@@ -2362,14 +2388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"plur@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "plur@npm:1.0.0"
-  checksum: bd8725178b2db5a708293c072631c84a33299dece6e5041835f874064e51c515d201905408c780e48df54d960d32bc0ac2e9e4cfe6d756ec4fff29ba5adfbf6c
-  languageName: node
-  linkType: hard
-
-"plur@npm:^5.1.0":
+"plur@npm:5.1.0":
   version: 5.1.0
   resolution: "plur@npm:5.1.0"
   dependencies:
@@ -2378,18 +2397,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-colorguard@workspace:^, postcss-colorguard@workspace:packages/postcss-colorguard":
+"plur@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "plur@npm:1.0.0"
+  checksum: bd8725178b2db5a708293c072631c84a33299dece6e5041835f874064e51c515d201905408c780e48df54d960d32bc0ac2e9e4cfe6d756ec4fff29ba5adfbf6c
+  languageName: node
+  linkType: hard
+
+"postcss-colorguard@workspace:*, postcss-colorguard@workspace:packages/postcss-colorguard":
   version: 0.0.0-use.local
   resolution: "postcss-colorguard@workspace:packages/postcss-colorguard"
   dependencies:
-    "@types/color-diff": ^1.2.1
-    "@types/color-rgba": ^2.1.0
-    color-diff: ^1.2.0
-    color-rgba: ^2.4.0
-    postcss: ^8.4.20
-    synesthesia: ^1.0.1
-    tsup: ^6.5.0
-    typescript: ^4.9.4
+    "@types/color-diff": 1.2.1
+    "@types/color-rgba": 2.1.0
+    color-diff: 1.2.0
+    color-rgba: 2.4.0
+    postcss: 8.4.20
+    synesthesia: 1.0.1
+    tsup: 6.5.0
+    typescript: 4.9.4
   peerDependencies:
     postcss: ">8.0.0"
   languageName: unknown
@@ -2413,7 +2439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-reporter@npm:^7.0.5":
+"postcss-reporter@npm:7.0.5":
   version: 7.0.5
   resolution: "postcss-reporter@npm:7.0.5"
   dependencies:
@@ -2425,7 +2451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.10, postcss@npm:^8.4.20":
+"postcss@npm:8.4.20, postcss@npm:^8.2.10":
   version: 8.4.20
   resolution: "postcss@npm:8.4.20"
   dependencies:
@@ -2561,6 +2587,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
+  languageName: node
+  linkType: hard
+
 "regexp.prototype.flags@npm:^1.4.3":
   version: 1.4.3
   resolution: "regexp.prototype.flags@npm:1.4.3"
@@ -2678,7 +2711,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    jshint: ^2.13.6
+    jshint: 2.13.6
   languageName: unknown
   linkType: soft
 
@@ -2987,7 +3020,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synesthesia@npm:^1.0.1":
+"synesthesia@npm:1.0.1":
   version: 1.0.1
   resolution: "synesthesia@npm:1.0.1"
   dependencies:
@@ -3010,7 +3043,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tap-spec@npm:^5.0.0":
+"tap-spec@npm:5.0.0":
   version: 5.0.0
   resolution: "tap-spec@npm:5.0.0"
   dependencies:
@@ -3029,7 +3062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:^5.6.1":
+"tape@npm:5.6.1":
   version: 5.6.1
   resolution: "tape@npm:5.6.1"
   dependencies:
@@ -3074,7 +3107,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"text-table@npm:^0.2.0":
+"text-table@npm:0.2.0":
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
   checksum: b6937a38c80c7f84d9c11dd75e49d5c44f71d95e810a3250bd1f1797fc7117c57698204adf676b71497acc205d769d65c16ae8fa10afad832ae1322630aef10a
@@ -3164,7 +3197,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:^6.5.0":
+"tsup@npm:6.5.0":
   version: 6.5.0
   resolution: "tsup@npm:6.5.0"
   dependencies:
@@ -3200,7 +3233,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.9.4":
+"typescript@npm:4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -3210,7 +3243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"
   bin:
@@ -3359,6 +3392,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"xregexp@npm:^4.2.4":
+  version: 4.4.1
+  resolution: "xregexp@npm:4.4.1"
+  dependencies:
+    "@babel/runtime-corejs3": ^7.12.1
+  checksum: 134d70116655f0de90725a0d2aaf73b2a69f8b4cd7f1908e394c7ff4de53819a0a2d9595e1722d71334a33d9392071b1f983f5954c57d83ab3e451116d9f8499
+  languageName: node
+  linkType: hard
+
 "xtend@npm:~4.0.1":
   version: 4.0.2
   resolution: "xtend@npm:4.0.2"
@@ -3397,12 +3439,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^15.4.0":
-  version: 15.4.1
-  resolution: "yargs@npm:15.4.1"
+"yargs@npm:15.4.0":
+  version: 15.4.0
+  resolution: "yargs@npm:15.4.0"
   dependencies:
     cliui: ^6.0.0
-    decamelize: ^1.2.0
+    decamelize: ^3.2.0
     find-up: ^4.1.0
     get-caller-file: ^2.0.1
     require-directory: ^2.1.1
@@ -3412,6 +3454,6 @@ __metadata:
     which-module: ^2.0.0
     y18n: ^4.0.0
     yargs-parser: ^18.1.2
-  checksum: 40b974f508d8aed28598087720e086ecd32a5fd3e945e95ea4457da04ee9bdb8bdd17fd91acff36dc5b7f0595a735929c514c40c402416bbb87c03f6fb782373
+  checksum: 0bf6380678fbc5ad0027679384452aa2846cfb344951a9c61dfc1cda933cde7f3909993aef19a53bac4b1a5e504d36027d19b5f7fff055ec5173880894c244a7
   languageName: node
   linkType: hard
