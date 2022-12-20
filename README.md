@@ -19,7 +19,7 @@ numerical difference of the hex values.
 - PostCSS 8 support
 - ESM and CJS support
 - TypeScript support
-- Node >= `12`
+- Node >= `14`
 
 ## API
 
