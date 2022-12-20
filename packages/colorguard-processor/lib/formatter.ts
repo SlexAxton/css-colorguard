@@ -1,16 +1,4 @@
-import {
-  gray,
-  red,
-  white,
-  underline,
-  yellow,
-  bold,
-  whiteBright,
-  bgWhiteBright,
-  bgYellowBright,
-  italic,
-  bgYellow,
-} from 'colorette';
+import { gray, red, white, underline, bold } from 'colorette';
 import { relative } from 'path';
 import table from 'text-table';
 import plur from 'plur';

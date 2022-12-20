@@ -2,8 +2,9 @@
 import { argv as _argv, describe, showHelp } from 'yargs';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
-import { processor } from '../lib';
+import { processor } from 'colorguard-processor';
 import type { Root } from 'postcss';
+import type { Options } from "../../../types/global";
 const stdin = process.stdin;
 const argv = _argv;
 

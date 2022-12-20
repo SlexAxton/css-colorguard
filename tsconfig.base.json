@@ -10,10 +10,8 @@
     "declaration": true,
     "module": "commonjs",
     "noImplicitAny": true,
-    "rootDir": "./lib",
     "skipLibCheck": true,
     "target": "es2020",
-    "moduleResolution": "node",
-  },
-  "include": ["lib/**/*.ts", "global.d.ts"],
+    "moduleResolution": "node"
+  }
 }

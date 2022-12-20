@@ -1,4 +1,4 @@
-# ⬆️ CSS Colorguard Upgraded
+# PostCSS Colorguard
 
 Every CSS project starts out with good intentions, but inevitably, one too many people eye-dropper
 colors into nooks and crannies that you never knew existed. CSS Colorguard Upgraded helps you maintain the
@@ -13,28 +13,24 @@ in the broadcasting community as the best approximation of human ability to disc
 color. RGB on the other hand, is pretty bad at representing differences in color purely based on the
 numerical difference of the hex values.
 
-## Why CSS Colorguard Upgraded?
+## Plugin
 
-- Bundled and minified
-- PostCSS 8 support
-- ESM and CJS support
-- TypeScript support
-- Node >= `10`
-
-## API
+See the
+[documentation](https://github.com/postcss/postcss#usage) for examples for
+your environment.
 
 ### CJS
 
 ```js
-const { processor } = require('colorguard-processor');
-processor.process(css, [options]).then((result) => {});
+const colorguard = require('postcss-colorguard');
+postcss([colorguard(opts)]);
 ```
 
 ### ESM
 
 ```js
-import { processor } from 'colorguard-processor';
-processor.process(css, [options]).then((result) => {});
+import colorguard from 'postcss-colorguard';
+postcss([colorguard(opts)]);
 ```
 
 ## options
@@ -77,59 +73,7 @@ By default, colorguard will complain if identical colors are represented with di
 For example, `#000`, `#000000`, `rgba(0, 0, 0, 0)`, and `black`. If you want to permit these
 equivalent notations, set this option to `true`.
 
-## PostCSS Plugin
-
-### CJS
-
-```js
-const colorguard = require('postcss-colorguard');
-postcss([colorguard(opts)]);
-```
-
-### ESM
-
-```js
-import colorguard from 'postcss-colorguard';
-postcss([colorguard(opts)]);
-```
-
-CSS Colorguard Upgraded can be consumed as a PostCSS plugin. See the
-[documentation](https://github.com/postcss/postcss#usage) for examples for
-your environment.
-
-### Build Time
-
-CSS Colorguard Upgraded can be used in conjunction with other javascript build systems, such as:
-
-- [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
-- [broccoli-colorguard](https://github.com/SlexAxton/broccoli-colorguard)
-- [grunt-colorguard](https://github.com/elliottwilliams/grunt-colorguard)
-
-## CLI
-
-CSS Colorguard Upgraded also ships with a CLI app. To see the available options, just run:
-
-```bash
- colorguard --help
-```
-
 ## Install
-
-To get the command do:
-
-```bash
-npx colorguard-cli
-yarn dlx colorguard-cli
-```
-
-To get the library do:
-
-```bash
-npm install colorguard-processor
-yarn add colorguard-processor
-```
-
-To get the PostCSS plugin do:
 
 ```bash
 npm install postcss-colorguard postcss
