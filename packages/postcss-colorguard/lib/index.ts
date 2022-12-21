@@ -55,7 +55,7 @@ const getColumnPositionRelativeToLine = (position: Matches) => {
   );
 };
 
-function getWhitelistHashKey(pair: string[]) {
+const getWhitelistHashKey = (pair: string[]) => {
   pair = pair.sort();
   return pair[0] + '-' + pair[1];
 }
