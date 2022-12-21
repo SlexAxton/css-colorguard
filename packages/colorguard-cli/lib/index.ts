@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-import { argv as _argv, describe, showHelp } from 'yargs';
+import yargs from 'yargs';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { processor } from 'colorguard-processor';
 import type { Root } from 'postcss';
 import type { Options } from "../../../types/global";
+const { argv: _argv, describe, showHelp } = yargs;
 const stdin = process.stdin;
 const argv = _argv;
 
