@@ -1,0 +1,46 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "labels": [
+        "dependencies"
+    ],
+    "dependencyDashboard": true,
+    "baseBranches": [
+        "master"
+    ],
+    "includeForks": true,
+    "prHourlyLimit": 0,
+    "automerge": true,
+    "rebaseWhen": "behind-base-branch",
+    "platformAutomerge": true,
+    "semanticCommits": "enabled",
+    "semanticCommitType": ":hammer: build",
+    "packageRules": [
+        {
+            "matchPackageNames": [
+                "yargs",
+                "postcss",
+                "@types/node",
+                "typescript",
+                "log-symbols",
+                "plur",
+                "postcss-reporter",
+                "tap-spec",
+                "tape",
+                "text-table",
+                "@types/tape",
+                "@types/text-table",
+                "@types/postcss-reporter",
+                "colorette",
+                "@types/color-diff",
+                "color-diff",
+                "@types/color-rgba",
+                "color-rgba",
+                "synesthesia"
+              ],
+            "semanticCommitType": ":arrow_up: build"
+        }
+    ]
+}

@@ -26,8 +26,10 @@ jobs:
           cache: 'yarn'
       - name: yarn install, build, and test
         run: |
-          yarn install --immutable
+          yarn install --immutable --immutable-cache
           yarn workspace postcss-colorguard build  
           yarn workspace colorguard-processor build
           yarn workspace colorguard-processor test
           yarn workspace colorguard-cli build
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}

@@ -6,13 +6,14 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepublishOnly": "yarn run build",
     "build": "tsup"
   },
   "files": [
     "dist"
   ],
   "bin": {
-    "colorguard": "./dist/cli"
+    "colorguard": "./dist/index"
   },
   "repository": {
     "type": "git",
@@ -34,16 +35,25 @@
   },
   "homepage": "https://github.com/bryanjtc/css-colorguard/tree/master/packages/colorguard-cli/README.md",
   "devDependencies": {
+    "@semantic-release/changelog": "6.0.2",
+    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "8.0.7",
+    "@semantic-release/npm": "9.0.1",
     "@types/node": "18.11.17",
     "@types/yargs": "17.0.17",
     "colorguard-processor": "workspace:*",
+    "gitmojis": "3.13.0",
     "postcss": "8.4.20",
+    "semantic-release": "19.0.5",
+    "semantic-release-gitmoji": "1.5.0",
+    "semantic-release-monorepo": "7.0.5",
     "tsup": "6.5.0",
     "typescript": "4.9.4",
     "yargs": "15.4.0"
   },
   "engines": {
-    "node": ">=.0.0"
+    "node": ">=14.0.0"
   },
   "packageManager": "yarn@3.3.0"
 }

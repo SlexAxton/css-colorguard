@@ -1,0 +1,30 @@
+name: Deploy to Firebase Hosting on merge
+"on":
+  push:
+    branches:
+      - master
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "yarn"
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache
+      - name: Set yarn config
+        run: yarn config set npmAuthToken $NPM_AUTH_TOKEN
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+      - name: Build
+        run: |
+          yarn workspace postcss-colorguard build  
+          yarn workspace colorguard-processor build
+          yarn workspace colorguard-cli build
+      - name: Publish package
+        run: yarn workspaces foreach --no-private --topological-dev run semantic-release
+        env:
+          NPM_TOKEN: ${{ secrets.YARN_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
