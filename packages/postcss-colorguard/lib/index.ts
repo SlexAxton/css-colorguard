@@ -43,9 +43,9 @@ const convertToLab = (clr: Color) => {
   });
 };
 
-// returns correct column number of the color declaration
-// pipetteur finds the position from the beginning of value declaration,
-// we need line position instead
+// Returns correct column number of the color declaration.
+// findColors() finds the position from the beginning of value declaration,
+// We need line position instead.
 const getColumnPositionRelativeToLine = (position: Matches) => {
   const decl = position.declaration;
   return (
