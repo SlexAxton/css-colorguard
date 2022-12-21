@@ -68,7 +68,7 @@ module.exports = {
     ],
     ["@semantic-release/github", {
       "assets": [
-        {"path": "packages/component/dist/**", "label": "JS distribution"},
+        {"path": "packages/**/dist/**", "label": "JS distribution"},
       ]
     }],
   ],
