@@ -1,3 +1,9 @@
+# [postcss-colorguard-v1.0.2](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.1...postcss-colorguard-v1.0.2) (2022-12-21)
+
+### Others
+
+- 🐛 [`25423e3`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/25423e3) fix: Fixed github tag and release
+
 # [postcss-colorguard-v1.0.1](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.0...postcss-colorguard-v1.0.1) (2022-12-21)
 
 ### Others
