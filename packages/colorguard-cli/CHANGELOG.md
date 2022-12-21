@@ -1,4 +1,4 @@
-# vcolorguard-cli-v1.0.0 (2022-12-21)
+# colorguard-cli-v1.0.0 (2022-12-21)
 
 ### Others
 
