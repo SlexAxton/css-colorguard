@@ -32,16 +32,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime-corejs3@npm:^7.12.1":
-  version: 7.20.6
-  resolution: "@babel/runtime-corejs3@npm:7.20.6"
-  dependencies:
-    core-js-pure: ^3.25.1
-    regenerator-runtime: ^0.13.11
-  checksum: d533d432216509426c4f9dad56db2fe453112b7d738433111944372fba4abd0b07bee3261f19a218530b435de46592121b2a6a57b98c0c7c3452d552ba009c3e
-  languageName: node
-  linkType: hard
-
 "@colors/colors@npm:1.5.0":
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
@@ -1311,7 +1301,7 @@ __metadata:
     semantic-release-monorepo: 7.0.5
     tsup: 6.5.0
     typescript: 4.9.4
-    yargs: 15.4.0
+    yargs: 15.4.1
   bin:
     colorguard: ./dist/index
   languageName: unknown
@@ -1460,13 +1450,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:^3.25.1":
-  version: 3.26.1
-  resolution: "core-js-pure@npm:3.26.1"
-  checksum: d88c40e5e29e413c11d1ef991a8d5b6a63f00bd94707af0f649d3fc18b3524108b202f4ae75ce77620a1557d1ba340bc3362b4f25d590eccc37cf80fc75f7cd4
-  languageName: node
-  linkType: hard
-
 "core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -1588,15 +1571,6 @@ __metadata:
   version: 1.2.0
   resolution: "decamelize@npm:1.2.0"
   checksum: ad8c51a7e7e0720c70ec2eeb1163b66da03e7616d7b98c9ef43cce2416395e84c1e9548dd94f5f6ffecfee9f8b94251fc57121a8b021f2ff2469b2bae247b8aa
-  languageName: node
-  linkType: hard
-
-"decamelize@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "decamelize@npm:3.2.0"
-  dependencies:
-    xregexp: ^4.2.4
-  checksum: 3596ed323149c4ae1261af46c1afeede29b08629432be728f4e6f73436ab6774de6c99beb0a356f1428b56f27ee4bd89169a1ef5e4f9ec89fccc21ff181994c4
   languageName: node
   linkType: hard
 
@@ -5175,13 +5149,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.11":
-  version: 0.13.11
-  resolution: "regenerator-runtime@npm:0.13.11"
-  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
-  languageName: node
-  linkType: hard
-
 "regexp.prototype.flags@npm:^1.4.3":
   version: 1.4.3
   resolution: "regexp.prototype.flags@npm:1.4.3"
@@ -6563,15 +6530,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xregexp@npm:^4.2.4":
-  version: 4.4.1
-  resolution: "xregexp@npm:4.4.1"
-  dependencies:
-    "@babel/runtime-corejs3": ^7.12.1
-  checksum: 134d70116655f0de90725a0d2aaf73b2a69f8b4cd7f1908e394c7ff4de53819a0a2d9595e1722d71334a33d9392071b1f983f5954c57d83ab3e451116d9f8499
-  languageName: node
-  linkType: hard
-
 "xtend@npm:~4.0.1":
   version: 4.0.2
   resolution: "xtend@npm:4.0.2"
@@ -6631,12 +6589,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:15.4.0":
-  version: 15.4.0
-  resolution: "yargs@npm:15.4.0"
+"yargs@npm:15.4.1":
+  version: 15.4.1
+  resolution: "yargs@npm:15.4.1"
   dependencies:
     cliui: ^6.0.0
-    decamelize: ^3.2.0
+    decamelize: ^1.2.0
     find-up: ^4.1.0
     get-caller-file: ^2.0.1
     require-directory: ^2.1.1
@@ -6646,7 +6604,7 @@ __metadata:
     which-module: ^2.0.0
     y18n: ^4.0.0
     yargs-parser: ^18.1.2
-  checksum: 0bf6380678fbc5ad0027679384452aa2846cfb344951a9c61dfc1cda933cde7f3909993aef19a53bac4b1a5e504d36027d19b5f7fff055ec5173880894c244a7
+  checksum: 40b974f508d8aed28598087720e086ecd32a5fd3e945e95ea4457da04ee9bdb8bdd17fd91acff36dc5b7f0595a735929c514c40c402416bbb87c03f6fb782373
   languageName: node
   linkType: hard
 
