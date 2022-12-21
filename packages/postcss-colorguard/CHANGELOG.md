@@ -1,3 +1,9 @@
+# [v1.0.3](https://github.com/bryanjtc/css-colorguard-upgraded/compare/v1.0.2...v1.0.3) (2022-12-21)
+
+### Others
+
+- 🐛 [`9259dc9`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/9259dc9) fix: Fixed npm broken links
+
 # [v1.0.2](https://github.com/bryanjtc/css-colorguard-upgraded/compare/v1.0.1...v1.0.2) (2022-12-21)
 
 ### Others
