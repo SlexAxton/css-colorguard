@@ -75,7 +75,7 @@ const plugin: PluginCreator<Options> = (opts): Plugin => {
     opts
   );
 
-  var whitelistHash: WhitelistHash = {};
+  let whitelistHash: WhitelistHash = {};
   if (opts.whitelist) {
     opts.whitelist.forEach(function (pair: string[]) {
       if (!Array.isArray(pair)) {
