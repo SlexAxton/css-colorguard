@@ -120,7 +120,7 @@ const plugin: PluginCreator<Options> = (opts): Plugin => {
             const diffAmount = getDiff(cached[0].color, match.color);
 
             // If colors are the same (no diff) but have a different representation
-            // (e.g. #000 and #000000 and black), do not complain
+            // (e.g. #000 and #000000 and black), don't complain.
             if (opts?.allowEquivalentNotation && diffAmount === 0) {
               return;
             }
