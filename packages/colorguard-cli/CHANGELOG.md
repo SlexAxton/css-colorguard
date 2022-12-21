@@ -1,3 +1,9 @@
+# [colorguard-cli-v1.0.1](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v1.0.0...colorguard-cli-v1.0.1) (2022-12-21)
+
+### Others
+
+- 🐛 [`7903edb`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/7903edb) fix: Fixed github tag and release
+
 # colorguard-cli-v1.0.0 (2022-12-21)
 
 ### Others
