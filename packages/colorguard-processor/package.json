@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bryanjtc/css-colorguard.git"
+    "url": "git@github.com:bryanjtc/css-colorguard-upgraded.git"
   },
   "keywords": [
     "css",
@@ -36,9 +36,9 @@
   "author": "Bryan Thomas <49354825+bryanjtc@users.noreply.github.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bryanjtc/css-colorguard/issues"
+    "url": "https://github.com/bryanjtc/css-colorguard-upgraded/issues"
   },
-  "homepage": "https://github.com/bryanjtc/css-colorguard/tree/master/packages/colorguard-processor/README.md",
+  "homepage": "https://github.com/bryanjtc/css-colorguard-upgraded/tree/master/packages/colorguard-processor/README.md",
   "devDependencies": {
     "@semantic-release/changelog": "6.0.2",
     "@semantic-release/exec": "6.0.3",
