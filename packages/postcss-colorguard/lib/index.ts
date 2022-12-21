@@ -3,7 +3,12 @@ import synesthesia from 'synesthesia';
 import rgba from 'color-rgba';
 import type { Plugin, WarningOptions, PluginCreator } from 'postcss';
 import type { Options } from '../../../types/global';
-import type { Matches, Color, WhitelistHash, Colors } from '../../../types/processor';
+import type {
+  Matches,
+  Color,
+  WhitelistHash,
+  Colors,
+} from '../../../types/processor';
 const { rgba_to_lab, diff } = colorDiff;
 
 const findColors = (str: string) => {

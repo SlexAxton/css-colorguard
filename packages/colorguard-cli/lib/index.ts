@@ -4,7 +4,7 @@ import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { processor } from 'colorguard-processor';
 import type { Root } from 'postcss';
-import type { Options } from "../../../types/global";
+import type { Options } from '../../../types/global';
 const { argv: _argv, describe, showHelp } = yargs;
 const stdin = process.stdin;
 const argv = _argv;
