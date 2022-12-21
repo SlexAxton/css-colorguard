@@ -1,6 +1,6 @@
 {
   "name": "postcss-colorguard",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "PostCSS plugin to keep a watchful eye on your css colors",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
