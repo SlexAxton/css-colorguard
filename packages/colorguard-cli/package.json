@@ -43,7 +43,7 @@
     "@types/node": "18.11.18",
     "@types/yargs": "17.0.17",
     "colorguard-processor": "workspace:^",
-    "gitmojis": "3.13.0",
+    "gitmojis": "3.13.2",
     "postcss": "8.4.20",
     "semantic-release": "19.0.5",
     "semantic-release-gitmoji": "1.5.0",

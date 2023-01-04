@@ -50,7 +50,7 @@
     "@types/tape": "4.13.2",
     "@types/text-table": "0.2.2",
     "colorette": "2.0.19",
-    "gitmojis": "3.13.0",
+    "gitmojis": "3.13.2",
     "log-symbols": "5.1.0",
     "plur": "5.1.0",
     "postcss": "8.4.20",
