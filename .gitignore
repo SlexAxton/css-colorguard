@@ -11,3 +11,4 @@
 !.yarn/versions
 
 dist/
+.bashrc
