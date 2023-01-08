@@ -17,6 +17,9 @@
     "platformAutomerge": true,
     "semanticCommits": "enabled",
     "semanticCommitType": ":hammer: build",
+    "encrypted": {
+        "npmToken": "wcFMA/xDdHCJBTolAQ//U7gAsPGAc/ZJkrwP2d/Idz0LNRzlHXRtT8FD/TqZXCSPdlwRg5UkttETnCLGCgDmbdtsSc0khfZxo7ECM2KFmCRWJkUyzcGdWiGx/ccA7PpHu+0N/fR/nAcx7+8rpUbTwLDhgJPLP8kvoZhS/xoqEXfPDUEHH8oLqHO1vFKVnPZbBnE+hHXburirRasGFMOlXe98q2s8eKTn/AFWvbXkKok8UsGjzwxIkDw5CTtLXbQs9u0WXfLEb1pxIq/duPWSZjyMHYOknYfGTTPX2WRdjmMF3d1owxpBP9wGc8lS8WcXqh1CcktrTjx/cdYJjoN0gAQjSgPAxSJvyFZrPFF9DGU5M1tUWp2MRAF6sTqfgH3mSs1sjiGlOiaTE8363lTO6DMzrNJ0ei5XGDnbX1/AO9zBu+N71QeyxxhoWbyuw0U9RQeFCd3kN2QFruu8F6mPb0jhu42ZRqcJsLE1v8ZZqKzKBKhfbj84FLiwnbG1tdkoxAlZsPOUmatXnP0MRHPOAe5Mk+/z2divyVchbRBtMImWzPa+Sj6s61QNmY5iq74VNt25dctsgxM3D3i4UI/iORiuASazzGGkuHv0C0DCAxpyadki7E2cQJ1baCnLM8NdurC6xTLMxS4jCeyoQG4vziJiLOMiWjjrs+2QYIYSfSNGS2mbzIVa71sW1/NElRTSdwG/QA8rWmta3fFs0aE5Yg/2QtGxeSuPrWaLFQSkYx3xLzeFKPoLH8LLK8hRcOvHsoVePU+ppfk2rLCumlq85bpJwhwOp1cU2qmnm4Jkfp2Lyw/JXbLa1Ya23apIYU8DwcKWF36wQpp1RCd1cty281HgOUfd74le"
+    },
     "packageRules": [
         {
             "matchPackageNames": [
