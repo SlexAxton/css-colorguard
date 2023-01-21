@@ -1300,7 +1300,7 @@ __metadata:
     "@semantic-release/npm": 9.0.1
     "@types/node": 18.11.18
     "@types/yargs": 17.0.17
-    colorguard-processor: "workspace:^"
+    colorguard-processor: "workspace:*"
     gitmojis: 3.13.2
     postcss: 8.4.20
     semantic-release: 19.0.5
@@ -1314,7 +1314,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"colorguard-processor@workspace:^, colorguard-processor@workspace:packages/colorguard-processor":
+"colorguard-processor@workspace:*, colorguard-processor@workspace:packages/colorguard-processor":
   version: 0.0.0-use.local
   resolution: "colorguard-processor@workspace:packages/colorguard-processor"
   dependencies:
@@ -1332,7 +1332,7 @@ __metadata:
     log-symbols: 5.1.0
     plur: 5.1.0
     postcss: 8.4.20
-    postcss-colorguard: "workspace:^"
+    postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
     semantic-release: 19.0.5
     semantic-release-gitmoji: 1.5.0
@@ -4774,7 +4774,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-colorguard@workspace:^, postcss-colorguard@workspace:packages/postcss-colorguard":
+"postcss-colorguard@workspace:*, postcss-colorguard@workspace:packages/postcss-colorguard":
   version: 0.0.0-use.local
   resolution: "postcss-colorguard@workspace:packages/postcss-colorguard"
   dependencies:
