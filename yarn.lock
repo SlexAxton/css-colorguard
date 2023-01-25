@@ -1346,7 +1346,7 @@ __metadata:
     gitmojis: 3.13.4
     postcss: 8.4.20
     semantic-release: 19.0.5
-    semantic-release-gitmoji: 1.5.0
+    semantic-release-gitmoji: 1.6.2
     semantic-release-monorepo: 7.0.5
     tsup: 6.5.0
     typescript: 4.9.4
@@ -1377,7 +1377,7 @@ __metadata:
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
     semantic-release: 19.0.5
-    semantic-release-gitmoji: 1.5.0
+    semantic-release-gitmoji: 1.6.2
     semantic-release-monorepo: 7.0.5
     tap-spec: 5.0.0
     tape: 5.6.3
@@ -2545,7 +2545,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gitmojis@npm:3.13.4":
+"gitmojis@npm:3.13.4, gitmojis@npm:^3.13.4":
   version: 3.13.4
   resolution: "gitmojis@npm:3.13.4"
   checksum: f9d8ec955eb63e4a5c5ba7303a110d55c12b8bfb77f08e991f392d3d002c2c818f13b0ce2a087768affbd30add37155587bb12387051035206ff8e30e198e7f5
@@ -4862,7 +4862,7 @@ __metadata:
     gitmojis: 3.13.4
     postcss: 8.4.20
     semantic-release: 19.0.5
-    semantic-release-gitmoji: 1.5.0
+    semantic-release-gitmoji: 1.6.2
     semantic-release-monorepo: 7.0.5
     synesthesia: 1.0.1
     tsup: 6.5.0
@@ -5411,7 +5411,7 @@ __metadata:
     gitmojis: 3.13.4
     jshint: 2.13.6
     semantic-release: 19.0.5
-    semantic-release-gitmoji: 1.5.0
+    semantic-release-gitmoji: 1.6.2
     semantic-release-monorepo: 7.0.5
     typescript: 4.9.4
   languageName: unknown
@@ -5458,14 +5458,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release-gitmoji@npm:1.5.0":
-  version: 1.5.0
-  resolution: "semantic-release-gitmoji@npm:1.5.0"
+"semantic-release-gitmoji@npm:1.6.2":
+  version: 1.6.2
+  resolution: "semantic-release-gitmoji@npm:1.6.2"
   dependencies:
     dateformat: ^3.0.3
     debug: ^4.3.2
     emoji-regex: ^9.2.2
     git-url-parse: ^13.0.0
+    gitmojis: ^3.13.4
     handlebars: ^4.7.6
     issue-regex: ^3.1.0
     lodash.clonedeep: ^4.5.0
@@ -5474,7 +5475,7 @@ __metadata:
     node-emoji: ^1.11.0
   peerDependencies:
     semantic-release: <20
-  checksum: a5856c27d4ecfb1ba36d8a69855561ca8100df10314062fc0f5f1449c4f917b7927b6f2f5a046b9b172076332a1b061c27861457dcd45c295334bec485642ace
+  checksum: ef9d6622648183934f11318f614ff0a387b8dc1cecfc501899114de8adfc518e92b90c4c233ada4426c2ef7f59412388ea6529eb239c96eee93ff6911ab0adbb
   languageName: node
   linkType: hard
 
