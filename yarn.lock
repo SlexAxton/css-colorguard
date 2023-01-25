@@ -844,7 +844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.every@npm:^1.1.3":
+"array.prototype.every@npm:^1.1.4":
   version: 1.1.4
   resolution: "array.prototype.every@npm:1.1.4"
   dependencies:
@@ -1338,7 +1338,7 @@ __metadata:
     semantic-release-gitmoji: 1.5.0
     semantic-release-monorepo: 7.0.5
     tap-spec: 5.0.0
-    tape: 5.6.1
+    tape: 5.6.3
     text-table: 0.2.0
     tsup: 6.5.0
     typescript: 4.9.4
@@ -1581,16 +1581,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-equal@npm:^2.0.5":
-  version: 2.1.0
-  resolution: "deep-equal@npm:2.1.0"
+"deep-equal@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "deep-equal@npm:2.2.0"
   dependencies:
     call-bind: ^1.0.2
     es-get-iterator: ^1.1.2
     get-intrinsic: ^1.1.3
     is-arguments: ^1.1.1
+    is-array-buffer: ^3.0.1
     is-date-object: ^1.0.5
     is-regex: ^1.1.4
+    is-shared-array-buffer: ^1.0.2
     isarray: ^2.0.5
     object-is: ^1.1.5
     object-keys: ^1.1.1
@@ -1599,8 +1601,8 @@ __metadata:
     side-channel: ^1.0.4
     which-boxed-primitive: ^1.0.2
     which-collection: ^1.0.1
-    which-typed-array: ^1.1.8
-  checksum: a3efc772f14372d2a88bb1e414ab2218cf23cc77673521bbccbb2fc128dd8b6cccfad05eb35b9a8a4669bd7f3ecebaa137beebdf549b7be56c617bd5488ca987
+    which-typed-array: ^1.1.9
+  checksum: 46a34509d2766d6c6dc5aec4756089cf0cc137e46787e91f08f1ee0bb570d874f19f0493146907df0cf18aed4a7b4b50f6f62c899240a76c323f057528b122e3
   languageName: node
   linkType: hard
 
@@ -1630,7 +1632,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"defined@npm:^1.0.0":
+"defined@npm:^1.0.1":
   version: 1.0.1
   resolution: "defined@npm:1.0.1"
   checksum: b1a852300bdb57f297289b55eafdd0c517afaa3ec8190e78fce91b9d8d0c0369d4505ecbdacfd3d98372e664f4a267d9bd793938d4a8c76209c9d9516fbe2101
@@ -2934,6 +2936,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-array-buffer@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "is-array-buffer@npm:3.0.1"
+  dependencies:
+    call-bind: ^1.0.2
+    get-intrinsic: ^1.1.3
+    is-typed-array: ^1.1.10
+  checksum: f26ab87448e698285daf707e52a533920449f7abf63714140ffab9d5571aa5a71ac2fa2677e8b793ad0d5d3e40078d4d2c8a0ab39c957e3cfc6513bb6c9dfdc9
+  languageName: node
+  linkType: hard
+
 "is-arrayish@npm:^0.2.1":
   version: 0.2.1
   resolution: "is-arrayish@npm:0.2.1"
@@ -3858,7 +3871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.6":
+"minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.7":
   version: 1.2.7
   resolution: "minimist@npm:1.2.7"
   checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
@@ -4392,6 +4405,13 @@ __metadata:
   version: 1.12.2
   resolution: "object-inspect@npm:1.12.2"
   checksum: a534fc1b8534284ed71f25ce3a496013b7ea030f3d1b77118f6b7b1713829262be9e6243acbcb3ef8c626e2b64186112cb7f6db74e37b2789b9c789ca23048b2
+  languageName: node
+  linkType: hard
+
+"object-inspect@npm:^1.12.3":
+  version: 1.12.3
+  resolution: "object-inspect@npm:1.12.3"
+  checksum: dabfd824d97a5f407e6d5d24810d888859f6be394d8b733a77442b277e0808860555176719c5905e765e3743a7cada6b8b0a3b85e5331c530fd418cc8ae991db
   languageName: node
   linkType: hard
 
@@ -5217,7 +5237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^2.0.0-next.3":
+"resolve@npm:^2.0.0-next.4":
   version: 2.0.0-next.4
   resolution: "resolve@npm:2.0.0-next.4"
   dependencies:
@@ -5243,7 +5263,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^2.0.0-next.3#~builtin<compat/resolve>":
+"resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
   resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
   dependencies:
@@ -5732,7 +5752,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string.prototype.trim@npm:^1.2.6":
+"string.prototype.trim@npm:^1.2.7":
   version: 1.2.7
   resolution: "string.prototype.trim@npm:1.2.7"
   dependencies:
@@ -5964,14 +5984,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.6.1":
-  version: 5.6.1
-  resolution: "tape@npm:5.6.1"
+"tape@npm:5.6.3":
+  version: 5.6.3
+  resolution: "tape@npm:5.6.3"
   dependencies:
-    array.prototype.every: ^1.1.3
+    array.prototype.every: ^1.1.4
     call-bind: ^1.0.2
-    deep-equal: ^2.0.5
-    defined: ^1.0.0
+    deep-equal: ^2.2.0
+    defined: ^1.0.1
     dotignore: ^0.1.2
     for-each: ^0.3.3
     get-package-type: ^0.1.0
@@ -5980,18 +6000,18 @@ __metadata:
     has-dynamic-import: ^2.0.1
     inherits: ^2.0.4
     is-regex: ^1.1.4
-    minimist: ^1.2.6
-    object-inspect: ^1.12.2
+    minimist: ^1.2.7
+    object-inspect: ^1.12.3
     object-is: ^1.1.5
     object-keys: ^1.1.1
     object.assign: ^4.1.4
-    resolve: ^2.0.0-next.3
+    resolve: ^2.0.0-next.4
     resumer: ^0.0.0
-    string.prototype.trim: ^1.2.6
+    string.prototype.trim: ^1.2.7
     through: ^2.3.8
   bin:
     tape: bin/tape
-  checksum: 0f0836479787bdd812fc50bcc28ae7a7cfd03abc1af8b79da2c40da96e02540635222346b5c3da04da060b18e80d83c2febeacb1dd195a68e737c38bdbef20e7
+  checksum: f6ce2bc25a9198e040249441554b5e0b7ffa120eea480945f4e8b9ddf1fceb8ed91a3f9df5e998ab48566ae6c6a1aed30a176a1c57d4bf6ef2f3b2c8e200a989
   languageName: node
   linkType: hard
 
@@ -6432,7 +6452,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-typed-array@npm:^1.1.8":
+"which-typed-array@npm:^1.1.9":
   version: 1.1.9
   resolution: "which-typed-array@npm:1.1.9"
   dependencies:
