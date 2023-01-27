@@ -1,4 +1,4 @@
-import postcss from 'postcss';
+import postcss, { type AcceptedPlugin } from 'postcss';
 import plugin from 'postcss-colorguard';
 import formatter from './formatter';
 import reporter from 'postcss-reporter';
@@ -13,6 +13,6 @@ export const processor = (opts: Options) =>
         return true;
       },
     }),
-  ]);
+  ] as AcceptedPlugin[]);
 
 export default plugin;

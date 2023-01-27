@@ -53,7 +53,7 @@
     "gitmojis": "3.13.4",
     "log-symbols": "5.1.0",
     "plur": "5.1.0",
-    "postcss": "8.4.20",
+    "postcss": "8.4.21",
     "postcss-colorguard": "workspace:*",
     "postcss-reporter": "7.0.5",
     "semantic-release": "20.1.0",
