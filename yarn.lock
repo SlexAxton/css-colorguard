@@ -1354,7 +1354,7 @@ __metadata:
     gitmojis: 3.13.4
     postcss: 8.4.21
     semantic-release: 20.1.0
-    semantic-release-gitmoji: 1.6.2
+    semantic-release-gitmoji: 1.6.3
     semantic-release-monorepo: 7.0.5
     tsup: 6.5.0
     typescript: 4.9.4
@@ -1385,7 +1385,7 @@ __metadata:
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
     semantic-release: 20.1.0
-    semantic-release-gitmoji: 1.6.2
+    semantic-release-gitmoji: 1.6.3
     semantic-release-monorepo: 7.0.5
     tap-spec: 5.0.0
     tape: 5.6.3
@@ -5017,7 +5017,7 @@ __metadata:
     gitmojis: 3.13.4
     postcss: 8.4.21
     semantic-release: 20.1.0
-    semantic-release-gitmoji: 1.6.2
+    semantic-release-gitmoji: 1.6.3
     semantic-release-monorepo: 7.0.5
     synesthesia: 1.0.1
     tsup: 6.5.0
@@ -5600,7 +5600,7 @@ __metadata:
     gitmojis: 3.13.4
     jshint: 2.13.6
     semantic-release: 20.1.0
-    semantic-release-gitmoji: 1.6.2
+    semantic-release-gitmoji: 1.6.3
     semantic-release-monorepo: 7.0.5
     typescript: 4.9.4
   languageName: unknown
@@ -5647,9 +5647,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release-gitmoji@npm:1.6.2":
-  version: 1.6.2
-  resolution: "semantic-release-gitmoji@npm:1.6.2"
+"semantic-release-gitmoji@npm:1.6.3":
+  version: 1.6.3
+  resolution: "semantic-release-gitmoji@npm:1.6.3"
   dependencies:
     dateformat: ^3.0.3
     debug: ^4.3.2
@@ -5663,8 +5663,8 @@ __metadata:
     lodash.uniq: ^4.5.0
     node-emoji: ^1.11.0
   peerDependencies:
-    semantic-release: <20
-  checksum: ef9d6622648183934f11318f614ff0a387b8dc1cecfc501899114de8adfc518e92b90c4c233ada4426c2ef7f59412388ea6529eb239c96eee93ff6911ab0adbb
+    semantic-release: <21
+  checksum: bbc444bb7e6120c3787cae6616cc28f0771d86f5e2508e4f79484ff0a49dfbc4722a55592f81de50d908446e2cc1b25de7bf303f99d4f502032991f0a5700989
   languageName: node
   linkType: hard
 
