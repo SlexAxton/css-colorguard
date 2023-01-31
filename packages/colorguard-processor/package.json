@@ -1,6 +1,6 @@
 {
   "name": "colorguard-processor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "PostCSS processor to keep a watchful eye on your css colors",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
