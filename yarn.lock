@@ -1496,7 +1496,7 @@ __metadata:
     semantic-release: 20.1.0
     semantic-release-gitmoji: 1.6.3
     semantic-release-monorepo: 7.0.5
-    tsup: 6.6.0
+    tsup: 6.6.2
     typescript: 4.9.5
     yargs: 17.6.2
   bin:
@@ -1530,7 +1530,7 @@ __metadata:
     tap-spec: 5.0.0
     tape: 5.6.3
     text-table: 0.2.0
-    tsup: 6.6.0
+    tsup: 6.6.2
     typescript: 4.9.5
   languageName: unknown
   linkType: soft
@@ -5020,7 +5020,7 @@ __metadata:
     semantic-release-gitmoji: 1.6.3
     semantic-release-monorepo: 7.0.5
     synesthesia: 1.0.1
-    tsup: 6.6.0
+    tsup: 6.6.2
     typescript: 4.9.5
   peerDependencies:
     postcss: ">8.0.0"
@@ -6455,9 +6455,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:6.6.0":
-  version: 6.6.0
-  resolution: "tsup@npm:6.6.0"
+"tsup@npm:6.6.2":
+  version: 6.6.2
+  resolution: "tsup@npm:6.6.2"
   dependencies:
     bundle-require: ^4.0.0
     cac: ^6.7.12
@@ -6487,7 +6487,7 @@ __metadata:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: 202ed7a6b607190f47dd7503994e8e62ce672a35ff3ecaf4c1dc4c8a9590b99f91ce8c1303e28781b5a089450140492729a41d93874e87936aed94e205155551
+  checksum: 80d52608f187d0cda8b8029acca52ed9da5f1152915f8e8b2c23efe1fb309a90229098005740596a6e30a91b3f270b39b3d81437d5a9b7b3d3e9ff8fc0aa98e6
   languageName: node
   linkType: hard
 
