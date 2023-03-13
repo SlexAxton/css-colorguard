@@ -791,10 +791,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.15.0":
-  version: 18.15.0
-  resolution: "@types/node@npm:18.15.0"
-  checksum: d81372276dd5053b1743338b61a2178ff9722dc609189d01fc7d1c2acd539414039e0e4780678730514390dad3f29c366a28c29e8dbd5b0025651181f6dd6669
+"@types/node@npm:18.15.2":
+  version: 18.15.2
+  resolution: "@types/node@npm:18.15.2"
+  checksum: 6db83062d295f9da63e7b24477f734b497170a577b21e0c13637d6f355d53713f875536e52ff02938221330d919700b5ed787dc493e32624a3ecb6c86105cfc8
   languageName: node
   linkType: hard
 
@@ -1488,7 +1488,7 @@ __metadata:
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 8.0.7
     "@semantic-release/npm": 9.0.2
-    "@types/node": 18.15.0
+    "@types/node": 18.15.2
     "@types/yargs": 17.0.17
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.4
@@ -1513,7 +1513,7 @@ __metadata:
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 8.0.7
     "@semantic-release/npm": 9.0.2
-    "@types/node": 18.15.0
+    "@types/node": 18.15.2
     "@types/postcss-reporter": 7.0.1
     "@types/tape": 4.13.2
     "@types/text-table": 0.2.2
