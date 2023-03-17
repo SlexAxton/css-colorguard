@@ -49,7 +49,7 @@
     "semantic-release-gitmoji": "1.6.3",
     "semantic-release-monorepo": "7.0.5",
     "tsup": "6.6.3",
-    "typescript": "4.9.5",
+    "typescript": "5.0.2",
     "yargs": "17.6.2"
   },
   "engines": {
