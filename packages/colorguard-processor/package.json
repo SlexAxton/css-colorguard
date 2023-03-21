@@ -47,7 +47,7 @@
     "@semantic-release/npm": "9.0.2",
     "@types/node": "18.15.5",
     "@types/postcss-reporter": "7.0.1",
-    "@types/tape": "4.13.2",
+    "@types/tape": "4.13.3",
     "@types/text-table": "0.2.2",
     "colorette": "2.0.19",
     "gitmojis": "3.13.4",

@@ -821,12 +821,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:4.13.2":
-  version: 4.13.2
-  resolution: "@types/tape@npm:4.13.2"
+"@types/tape@npm:4.13.3":
+  version: 4.13.3
+  resolution: "@types/tape@npm:4.13.3"
   dependencies:
     "@types/node": "*"
-  checksum: 055a896c10289e2f3ce023f66c1845941179590b3d6c342db3df117b682fb36d825822ed02238208cc00aa2360b223b64cd1bcb605f5edeac32893dbf3a2d96a
+    "@types/through": "*"
+  checksum: 28d4eb4392db6cc50ef6d7eb0d9a2a4314132a9c3a5c5e58a4edb01f18311315742b526a76b989bb20e77a01802da03b21ee3bd7ee135ccb9a4811832e5e60a9
   languageName: node
   linkType: hard
 
@@ -834,6 +835,15 @@ __metadata:
   version: 0.2.2
   resolution: "@types/text-table@npm:0.2.2"
   checksum: f72ee49b50f2e912876cf7366ca1b218a58826e9af8b3171204f1cb73be80e722e094db3523dd7ddd31708c006b0b3d67ce5a2da6e9620ce99f5c4558109863b
+  languageName: node
+  linkType: hard
+
+"@types/through@npm:*":
+  version: 0.0.30
+  resolution: "@types/through@npm:0.0.30"
+  dependencies:
+    "@types/node": "*"
+  checksum: 9578470db0b527c26e246a1220ae9bffc6bf47f20f89c54aac467c083ab1f7e16c00d9a7b4bb6cb4e2dfae465027270827e5908a6236063f6214625e50585d78
   languageName: node
   linkType: hard
 
@@ -1515,7 +1525,7 @@ __metadata:
     "@semantic-release/npm": 9.0.2
     "@types/node": 18.15.5
     "@types/postcss-reporter": 7.0.1
-    "@types/tape": 4.13.2
+    "@types/tape": 4.13.3
     "@types/text-table": 0.2.2
     colorette: 2.0.19
     gitmojis: 3.13.4
