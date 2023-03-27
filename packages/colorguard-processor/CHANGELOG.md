@@ -1,3 +1,9 @@
+# [colorguard-processor-v1.0.23](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.22...colorguard-processor-v1.0.23) (2023-03-27)
+
+### Others
+
+- ⬆️ [`fe037a6`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/fe037a6) build(deps): Update dependency @types/tape to v4.13.4
+
 # [colorguard-processor-v1.0.22](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.21...colorguard-processor-v1.0.22) (2023-03-26)
 
 ### Others
