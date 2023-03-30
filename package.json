@@ -17,7 +17,7 @@
     "semantic-release": "21.0.0",
     "semantic-release-gitmoji": "1.6.3",
     "semantic-release-monorepo": "7.0.5",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   },
   "engines": {
     "node": ">=14.0.0"
