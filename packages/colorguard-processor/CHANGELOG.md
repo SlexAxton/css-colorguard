@@ -1,3 +1,9 @@
+# [colorguard-processor-v1.0.28](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.27...colorguard-processor-v1.0.28) (2023-04-16)
+
+### Others
+
+- ⬆️ [`66c1fc9`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/66c1fc9) build(deps): Update dependency colorette to v2.0.20
+
 # [colorguard-processor-v1.0.27](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.26...colorguard-processor-v1.0.27) (2023-04-16)
 
 ### Others
