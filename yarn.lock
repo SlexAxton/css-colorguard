@@ -1561,10 +1561,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorette@npm:2.0.19":
-  version: 2.0.19
-  resolution: "colorette@npm:2.0.19"
-  checksum: 888cf5493f781e5fcf54ce4d49e9d7d698f96ea2b2ef67906834bb319a392c667f9ec69f4a10e268d2946d13a9503d2d19b3abaaaf174e3451bfe91fb9d82427
+"colorette@npm:2.0.20":
+  version: 2.0.20
+  resolution: "colorette@npm:2.0.20"
+  checksum: 0c016fea2b91b733eb9f4bcdb580018f52c0bc0979443dad930e5037a968237ac53d9beb98e218d2e9235834f8eebce7f8e080422d6194e957454255bde71d3d
   languageName: node
   linkType: hard
 
@@ -1606,7 +1606,7 @@ __metadata:
     "@types/postcss-reporter": 7.0.1
     "@types/tape": 4.13.4
     "@types/text-table": 0.2.2
-    colorette: 2.0.19
+    colorette: 2.0.20
     gitmojis: 3.13.4
     log-symbols: 5.1.0
     plur: 5.1.0
