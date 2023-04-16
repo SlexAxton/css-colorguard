@@ -1581,7 +1581,7 @@ __metadata:
     "@types/yargs": 17.0.17
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.4
-    postcss: 8.4.21
+    postcss: 8.4.22
     semantic-release: 21.0.1
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
@@ -1610,7 +1610,7 @@ __metadata:
     gitmojis: 3.13.4
     log-symbols: 5.1.0
     plur: 5.1.0
-    postcss: 8.4.21
+    postcss: 8.4.22
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
     semantic-release: 21.0.1
@@ -4352,6 +4352,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.6":
+  version: 3.3.6
+  resolution: "nanoid@npm:3.3.6"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 7d0eda657002738aa5206107bd0580aead6c95c460ef1bdd0b1a87a9c7ae6277ac2e9b945306aaa5b32c6dcb7feaf462d0f552e7f8b5718abfc6ead5c94a71b3
+  languageName: node
+  linkType: hard
+
 "negotiator@npm:^0.6.3":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -5188,7 +5197,7 @@ __metadata:
     color-diff: 1.2.0
     color-rgba: 2.4.0
     gitmojis: 3.13.4
-    postcss: 8.4.21
+    postcss: 8.4.22
     semantic-release: 21.0.1
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
@@ -5240,14 +5249,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.21":
-  version: 8.4.21
-  resolution: "postcss@npm:8.4.21"
+"postcss@npm:8.4.22":
+  version: 8.4.22
+  resolution: "postcss@npm:8.4.22"
   dependencies:
-    nanoid: ^3.3.4
+    nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: e39ac60ccd1542d4f9d93d894048aac0d686b3bb38e927d8386005718e6793dbbb46930f0a523fe382f1bbd843c6d980aaea791252bf5e176180e5a4336d9679
+  checksum: 7473dfb7ac5b4cb03576c39d687d7fc02c826ab08af97df15b5d3970662532d44a18a0994f392a9c3658ee17c292e7a55990e586b90ca0afcc9f36df13e07029
   languageName: node
   linkType: hard
 
