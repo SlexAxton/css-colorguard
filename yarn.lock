@@ -1505,10 +1505,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color-diff@npm:1.2.0":
-  version: 1.2.0
-  resolution: "color-diff@npm:1.2.0"
-  checksum: 9663b72e35276eb1b4d0f31bbb72d6aad59c28ec2ea40a4c0e384c5f8b4f577b2e21cdbd2fa4a5507ae7783c84a55447c117542a00d5e471213109b11d61e17c
+"color-diff@npm:1.3.0":
+  version: 1.3.0
+  resolution: "color-diff@npm:1.3.0"
+  checksum: 56ec7305fc8a855e60db130140599cf4b887672243f6232e2cdb0c78908f84f420e1dfe39ca3afc91af8a8830444d3f9328460217bde296f2e647b3778423686
   languageName: node
   linkType: hard
 
@@ -5194,7 +5194,7 @@ __metadata:
     "@semantic-release/npm": 10.0.3
     "@types/color-diff": 1.2.1
     "@types/color-rgba": 2.1.0
-    color-diff: 1.2.0
+    color-diff: 1.3.0
     color-rgba: 2.4.0
     gitmojis: 3.13.4
     postcss: 8.4.23
