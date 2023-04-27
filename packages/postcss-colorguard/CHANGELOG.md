@@ -1,3 +1,9 @@
+# [postcss-colorguard-v1.0.12](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.11...postcss-colorguard-v1.0.12) (2023-04-27)
+
+### Others
+
+- ⬆️ [`633bdbf`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/633bdbf) build(deps): Update dependency color-diff to v1.3.0
+
 # [postcss-colorguard-v1.0.11](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.10...postcss-colorguard-v1.0.11) (2023-04-20)
 
 ### Others
