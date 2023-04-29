@@ -739,9 +739,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^10.0.0":
-  version: 10.0.3
-  resolution: "@semantic-release/release-notes-generator@npm:10.0.3"
+"@semantic-release/release-notes-generator@npm:^11.0.0":
+  version: 11.0.1
+  resolution: "@semantic-release/release-notes-generator@npm:11.0.1"
   dependencies:
     conventional-changelog-angular: ^5.0.0
     conventional-changelog-writer: ^5.0.0
@@ -750,12 +750,12 @@ __metadata:
     debug: ^4.0.0
     get-stream: ^6.0.0
     import-from: ^4.0.0
-    into-stream: ^6.0.0
-    lodash: ^4.17.4
-    read-pkg-up: ^7.0.0
+    into-stream: ^7.0.0
+    lodash-es: ^4.17.21
+    read-pkg-up: ^9.0.0
   peerDependencies:
-    semantic-release: ">=18.0.0-beta.1"
-  checksum: 0237e7e6ebf41b7c6a72eea704b007442cfd05910ded7059235a5684a0e4a233b2ca3c3e39923901131e7f0a4dcb5e95737af469081529acc393223c04715505
+    semantic-release: ">=20.1.0"
+  checksum: 19bb468c96be0e642646d192d16cdcbf1aee5e60203c53c7e0148da09f47d581939cc20e7aaccd26f0198d93932254b7ab496ef3d73d59d129d38ea9e3f25c04
   languageName: node
   linkType: hard
 
@@ -1582,7 +1582,7 @@ __metadata:
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.4
     postcss: 8.4.23
-    semantic-release: 21.0.1
+    semantic-release: 21.0.2
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     tsup: 6.7.0
@@ -1613,7 +1613,7 @@ __metadata:
     postcss: 8.4.23
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
-    semantic-release: 21.0.1
+    semantic-release: 21.0.2
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     tap-spec: 5.0.0
@@ -3120,13 +3120,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"into-stream@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "into-stream@npm:6.0.0"
+"into-stream@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "into-stream@npm:7.0.0"
   dependencies:
     from2: ^2.3.0
     p-is-promise: ^3.0.0
-  checksum: 8df24c9eadd7cdd1cbc160bc20914b961dfd0ca29767785b69e698f799e85466b6f7c637d237dca1472d09d333399f70cc05a2fb8d08cb449dc9a80d92193980
+  checksum: 10c259101237622b2f90a3a30388f2e997f7c4cb16d7236da0380f2e5691b8f9ce32ea2614ae5d1d3b5ad4eba89e2adac0e3d3d24f8494bff69de145432c2d94
   languageName: node
   linkType: hard
 
@@ -5198,7 +5198,7 @@ __metadata:
     color-rgba: 2.4.0
     gitmojis: 3.13.4
     postcss: 8.4.23
-    semantic-release: 21.0.1
+    semantic-release: 21.0.2
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     synesthesia: 1.0.1
@@ -5465,7 +5465,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg-up@npm:^7.0.0, read-pkg-up@npm:^7.0.1":
+"read-pkg-up@npm:^7.0.1":
   version: 7.0.1
   resolution: "read-pkg-up@npm:7.0.1"
   dependencies:
@@ -5476,7 +5476,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg-up@npm:^9.1.0":
+"read-pkg-up@npm:^9.0.0, read-pkg-up@npm:^9.1.0":
   version: 9.1.0
   resolution: "read-pkg-up@npm:9.1.0"
   dependencies:
@@ -5791,7 +5791,7 @@ __metadata:
     "@semantic-release/npm": 10.0.3
     gitmojis: 3.13.4
     jshint: 2.13.6
-    semantic-release: 21.0.1
+    semantic-release: 21.0.2
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     typescript: 5.0.4
@@ -5886,15 +5886,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.0.1":
-  version: 21.0.1
-  resolution: "semantic-release@npm:21.0.1"
+"semantic-release@npm:21.0.2":
+  version: 21.0.2
+  resolution: "semantic-release@npm:21.0.2"
   dependencies:
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/error": ^3.0.0
     "@semantic-release/github": ^8.0.0
     "@semantic-release/npm": ^10.0.2
-    "@semantic-release/release-notes-generator": ^10.0.0
+    "@semantic-release/release-notes-generator": ^11.0.0
     aggregate-error: ^4.0.1
     cosmiconfig: ^8.0.0
     debug: ^4.0.0
@@ -5920,7 +5920,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: a83cede26ac79a3fa3a55586531ea8077ea18b04a0c3bbeb6d415cf31148c6c510189cb2e9863796db8b842fc1afc5d02921325f8880db83d34be40806c0d93d
+  checksum: 362f8b2b396a7b98414e9fa49c3ab0d8030c2b400718e50b1b46edd9707e8187dfcbc87b15acd0a25359fb38e5f0832337795132ea1280835c23e2403a98838d
   languageName: node
   linkType: hard
 
