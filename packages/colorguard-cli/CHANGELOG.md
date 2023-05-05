@@ -1,3 +1,9 @@
+# [colorguard-cli-v1.0.32](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v1.0.31...colorguard-cli-v1.0.32) (2023-05-05)
+
+### Others
+
+- ⬆️ [`d05c976`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/d05c976) build(deps): Update dependency @types/node to v18.16.4
+
 # [colorguard-cli-v1.0.31](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v1.0.30...colorguard-cli-v1.0.31) (2023-04-29)
 
 ### Others
