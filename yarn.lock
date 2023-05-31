@@ -1690,7 +1690,7 @@ __metadata:
     "@types/node": 18.16.16
     "@types/yargs": 17.0.17
     colorguard-processor: "workspace:*"
-    gitmojis: 3.13.4
+    gitmojis: 3.13.5
     postcss: 8.4.24
     semantic-release: 21.0.2
     semantic-release-gitmoji: 1.6.4
@@ -1717,7 +1717,7 @@ __metadata:
     "@types/tape": 5.6.0
     "@types/text-table": 0.2.2
     colorette: 2.0.20
-    gitmojis: 3.13.4
+    gitmojis: 3.13.5
     log-symbols: 5.1.0
     plur: 5.1.0
     postcss: 8.4.24
@@ -2775,7 +2775,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gitmojis@npm:3.13.4, gitmojis@npm:^3.13.4":
+"gitmojis@npm:3.13.5":
+  version: 3.13.5
+  resolution: "gitmojis@npm:3.13.5"
+  checksum: 715c529fc2b1fe380ada32e971d359398b4bde8f969c221c4e8b0ae4fa75ae55069e2bce8a7285868dec7a5f65c12bc1c72e4f8413f294301af7a263201f04bc
+  languageName: node
+  linkType: hard
+
+"gitmojis@npm:^3.13.4":
   version: 3.13.4
   resolution: "gitmojis@npm:3.13.4"
   checksum: f9d8ec955eb63e4a5c5ba7303a110d55c12b8bfb77f08e991f392d3d002c2c818f13b0ce2a087768affbd30add37155587bb12387051035206ff8e30e198e7f5
@@ -5326,7 +5333,7 @@ __metadata:
     "@types/color-rgba": 2.1.0
     color-diff: 1.3.0
     color-rgba: 2.4.0
-    gitmojis: 3.13.4
+    gitmojis: 3.13.5
     postcss: 8.4.24
     semantic-release: 21.0.2
     semantic-release-gitmoji: 1.6.4
@@ -5919,7 +5926,7 @@ __metadata:
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 8.1.0
     "@semantic-release/npm": 10.0.3
-    gitmojis: 3.13.4
+    gitmojis: 3.13.5
     jshint: 2.13.6
     semantic-release: 21.0.2
     semantic-release-gitmoji: 1.6.4
