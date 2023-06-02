@@ -45,7 +45,7 @@
     "colorguard-processor": "workspace:*",
     "gitmojis": "3.13.5",
     "postcss": "8.4.24",
-    "semantic-release": "21.0.2",
+    "semantic-release": "21.0.3",
     "semantic-release-gitmoji": "1.6.4",
     "semantic-release-monorepo": "7.0.5",
     "tsup": "6.7.0",
