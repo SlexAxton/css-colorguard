@@ -58,7 +58,7 @@
     "semantic-release-monorepo": "7.0.5",
     "synesthesia": "1.0.1",
     "tsup": "6.7.0",
-    "typescript": "5.0.4"
+    "typescript": "5.1.3"
   },
   "engines": {
     "node": ">=14.0.0"
