@@ -1,4 +1,4 @@
-import colorDiff from 'color-diff';
+import { rgba_to_lab, diff } from 'color-diff';
 import synesthesia from 'synesthesia';
 import rgba from 'color-rgba';
 import type { Plugin, WarningOptions, PluginCreator } from 'postcss';
@@ -9,7 +9,6 @@ import type {
   WhitelistHash,
   Colors,
 } from '../../../types/processor';
-const { rgba_to_lab, diff } = colorDiff;
 
 const findColors = (str: string) => {
   const matches: Matches[] = [];
