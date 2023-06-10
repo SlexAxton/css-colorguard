@@ -40,7 +40,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.0.3",
     "@semantic-release/npm": "10.0.4",
-    "@types/node": "18.16.16",
+    "@types/node": "18.16.17",
     "@types/yargs": "17.0.17",
     "colorguard-processor": "workspace:*",
     "gitmojis": "3.13.5",
