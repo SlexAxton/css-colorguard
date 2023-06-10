@@ -797,7 +797,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:10.0.3, @semantic-release/npm@npm:^10.0.2":
+"@semantic-release/npm@npm:10.0.4":
+  version: 10.0.4
+  resolution: "@semantic-release/npm@npm:10.0.4"
+  dependencies:
+    "@semantic-release/error": ^4.0.0
+    aggregate-error: ^4.0.1
+    execa: ^7.0.0
+    fs-extra: ^11.0.0
+    lodash-es: ^4.17.21
+    nerf-dart: ^1.0.0
+    normalize-url: ^8.0.0
+    npm: ^9.5.0
+    rc: ^1.2.8
+    read-pkg: ^8.0.0
+    registry-auth-token: ^5.0.0
+    semver: ^7.1.2
+    tempy: ^3.0.0
+  peerDependencies:
+    semantic-release: ">=20.1.0"
+  checksum: 44f7e07a11c6d89777ae5bfce1c6304a52b00ac4b2f6a69809fd8d45e614007fa7a1ee38ad65780b7f498240ba3315158c9c0820a972a9a0892a2343088f95d4
+  languageName: node
+  linkType: hard
+
+"@semantic-release/npm@npm:^10.0.2":
   version: 10.0.3
   resolution: "@semantic-release/npm@npm:10.0.3"
   dependencies:
@@ -1690,13 +1713,13 @@ __metadata:
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 9.0.3
-    "@semantic-release/npm": 10.0.3
+    "@semantic-release/npm": 10.0.4
     "@types/node": 18.16.16
     "@types/yargs": 17.0.17
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.5
     postcss: 8.4.24
-    semantic-release: 21.0.3
+    semantic-release: 21.0.5
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     tsup: 6.7.0
@@ -1715,7 +1738,7 @@ __metadata:
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 9.0.3
-    "@semantic-release/npm": 10.0.3
+    "@semantic-release/npm": 10.0.4
     "@types/node": 18.16.16
     "@types/postcss-reporter": 7.0.1
     "@types/tape": 5.6.0
@@ -1727,7 +1750,7 @@ __metadata:
     postcss: 8.4.24
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
-    semantic-release: 21.0.3
+    semantic-release: 21.0.5
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     tap-spec: 5.0.0
@@ -4252,12 +4275,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^4.1.0":
-  version: 4.3.0
-  resolution: "marked@npm:4.3.0"
+"marked@npm:^5.0.0":
+  version: 5.0.5
+  resolution: "marked@npm:5.0.5"
   bin:
     marked: bin/marked.js
-  checksum: 0db6817893952c3ec710eb9ceafb8468bf5ae38cb0f92b7b083baa13d70b19774674be04db5b817681fa7c5c6a088f61300815e4dd75a59696f4716ad69f6260
+  checksum: 0148b62895e93dff7f209469ec1d0d5cbb52e4d974c6ed02d35f9feaf75580c2daf16610486b0c36780c75d893b14103e74c8737f9921e54b3bd2b4d1dc51039
   languageName: node
   linkType: hard
 
@@ -5369,14 +5392,14 @@ __metadata:
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 9.0.3
-    "@semantic-release/npm": 10.0.3
+    "@semantic-release/npm": 10.0.4
     "@types/color-diff": 1.2.1
     "@types/color-rgba": 2.1.0
     color-diff: 1.4.0
     color-rgba: 2.4.0
     gitmojis: 3.13.5
     postcss: 8.4.24
-    semantic-release: 21.0.3
+    semantic-release: 21.0.5
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     synesthesia: 1.0.1
@@ -5948,10 +5971,10 @@ __metadata:
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 9.0.3
-    "@semantic-release/npm": 10.0.3
+    "@semantic-release/npm": 10.0.4
     gitmojis: 3.13.5
     jshint: 2.13.6
-    semantic-release: 21.0.3
+    semantic-release: 21.0.5
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: 7.0.5
     typescript: 5.1.3
@@ -6046,12 +6069,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.0.3":
-  version: 21.0.3
-  resolution: "semantic-release@npm:21.0.3"
+"semantic-release@npm:21.0.5":
+  version: 21.0.5
+  resolution: "semantic-release@npm:21.0.5"
   dependencies:
     "@semantic-release/commit-analyzer": ^10.0.0
-    "@semantic-release/error": ^3.0.0
+    "@semantic-release/error": ^4.0.0
     "@semantic-release/github": ^9.0.0
     "@semantic-release/npm": ^10.0.2
     "@semantic-release/release-notes-generator": ^11.0.0
@@ -6067,7 +6090,7 @@ __metadata:
     hook-std: ^3.0.0
     hosted-git-info: ^6.0.0
     lodash-es: ^4.17.21
-    marked: ^4.1.0
+    marked: ^5.0.0
     marked-terminal: ^5.1.1
     micromatch: ^4.0.2
     p-each-series: ^3.0.0
@@ -6080,7 +6103,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: bbfed3497df4e4066374eca3c0162fbe4f38aa30a26fa402b5044b2d0b4dd17ec9656dd54236ba44835a6456b2d28bd196c8feca95b62cb0fcada2979526110c
+  checksum: 9b45d24392c24a7f147e4560d36a0f70447b719b0e7371c400834b9a1a98f4b6a3e23420480505f03b0b690c2eaaea2db53c870435a28f8946721ad96f63d3e1
   languageName: node
   linkType: hard
 
