@@ -42,6 +42,7 @@
     "postcss": ">8.0.0"
   },
   "devDependencies": {
+    "@achingbrain/semantic-release-monorepo": "8.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
@@ -55,7 +56,6 @@
     "postcss": "8.4.24",
     "semantic-release": "21.0.5",
     "semantic-release-gitmoji": "1.6.4",
-    "semantic-release-monorepo": "7.0.5",
     "synesthesia": "1.0.1",
     "tsup": "6.7.0",
     "typescript": "5.1.3"
