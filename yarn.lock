@@ -6049,6 +6049,7 @@ __metadata:
     jshint: 2.13.6
     semantic-release: 21.0.5
     semantic-release-gitmoji: 1.6.4
+    semantic-release-monorepo: ^7.0.5
     typescript: 5.1.3
   languageName: unknown
   linkType: soft
@@ -6115,12 +6116,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semantic-release-monorepo@npm:^7.0.5":
+  version: 7.0.5
+  resolution: "semantic-release-monorepo@npm:7.0.5"
+  dependencies:
+    debug: ^3.1.0
+    execa: ^0.8.0
+    p-limit: ^1.2.0
+    pkg-up: ^2.0.0
+    ramda: ^0.25.0
+    read-pkg: ^5.0.0
+    semantic-release-plugin-decorators: ^3.0.0
+  peerDependencies:
+    semantic-release: ">=15.11.x"
+  checksum: 318d996e09ba148dcce8311f89c368c46d6a03fb49826af98eb92dc81c1abae80087316c9a8af66af73135a25c804dca94dd134e22f8446281b06dd26c61d966
+  languageName: node
+  linkType: hard
+
 "semantic-release-plugin-decorators@https://registry.npmjs.org/@achingbrain/semantic-release-plugin-decorators/-/semantic-release-plugin-decorators-4.0.0.tgz":
   version: 4.0.0
   resolution: "semantic-release-plugin-decorators@https://registry.npmjs.org/@achingbrain/semantic-release-plugin-decorators/-/semantic-release-plugin-decorators-4.0.0.tgz"
   peerDependencies:
     semantic-release: ">=11"
   checksum: 7881db3850b3b6314187f4eb7f43db11b262949b45570294e67f4c2ebdb165e994ceebc5725d5705c2c8983c6d9716c845717cffdb8123ab6f91aeaef8af5ff2
+  languageName: node
+  linkType: hard
+
+"semantic-release-plugin-decorators@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "semantic-release-plugin-decorators@npm:3.0.1"
+  peerDependencies:
+    semantic-release: ">=11"
+  checksum: ddb94f90d123f04bc635de44904a7414cd2f9d2b013f71f7063b20de21c7b0dd9214269616cd13f252fd3568a57e922d103cc5e4bf3c4400374ae23387d3a2e0
   languageName: node
   linkType: hard
 

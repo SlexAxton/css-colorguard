@@ -9,7 +9,7 @@ const template = readFileAsync(join(__dirname, 'default-template.hbs'));
 const commitTemplate = readFileAsync(join(__dirname, 'commit-template.hbs'));
 
 module.exports = {
-  extends: '@achingbrain/semantic-release-monorepo',
+  extends: 'semantic-release-monorepo',
   branches: ['master'],
   plugins: [
     [
