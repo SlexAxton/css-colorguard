@@ -42,7 +42,6 @@
     "postcss": ">8.0.0"
   },
   "devDependencies": {
-    "@achingbrain/semantic-release-monorepo": "8.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
@@ -50,6 +49,7 @@
     "@semantic-release/npm": "10.0.4",
     "@types/color-diff": "1.2.1",
     "@types/color-rgba": "2.1.0",
+    "@w4rlock/semantic-release-monorepo": "1.0.3",
     "color-diff": "1.4.0",
     "color-rgba": "2.4.0",
     "gitmojis": "3.13.5",

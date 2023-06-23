@@ -35,7 +35,6 @@
   },
   "homepage": "https://github.com/bryanjtc/css-colorguard-upgraded/tree/master/packages/colorguard-cli/README.md",
   "devDependencies": {
-    "@achingbrain/semantic-release-monorepo": "8.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
@@ -43,6 +42,7 @@
     "@semantic-release/npm": "10.0.4",
     "@types/node": "18.16.18",
     "@types/yargs": "17.0.17",
+    "@w4rlock/semantic-release-monorepo": "1.0.3",
     "colorguard-processor": "workspace:*",
     "gitmojis": "3.13.5",
     "postcss": "8.4.24",

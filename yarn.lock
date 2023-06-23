@@ -5,30 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@achingbrain/semantic-release-monorepo@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@achingbrain/semantic-release-monorepo@npm:8.0.0"
-  dependencies:
-    debug: ^3.1.0
-    execa: ^0.8.0
-    file-url: ^3.0.0
-    fs-extra: ^10.0.1
-    get-stream: ^6.0.1
-    git-log-parser: ^1.2.0
-    minipass: ^3.3.6
-    p-each-series: ^2.1.0
-    p-limit: ^1.2.0
-    pkg-up: ^2.0.0
-    ramda: ^0.25.0
-    read-pkg: ^5.0.0
-    semantic-release-plugin-decorators: "https://registry.npmjs.org/@achingbrain/semantic-release-plugin-decorators/-/semantic-release-plugin-decorators-4.0.0.tgz"
-    tempy: 1.0.1
-  peerDependencies:
-    semantic-release: ">=15.11.x"
-  checksum: adda644a811c57c404b54a3dce79f8732413ce115b6f8118d49fdc1b3d9b0313bf76178a241d7969892c54ef7fd161a65dafbecbc9ae26cddb0a8d411a1cb0f3
-  languageName: node
-  linkType: hard
-
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.21.4":
   version: 7.21.4
   resolution: "@babel/code-frame@npm:7.21.4"
@@ -997,6 +973,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@w4rlock/semantic-release-monorepo@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@w4rlock/semantic-release-monorepo@npm:1.0.3"
+  dependencies:
+    "@w4rlock/semantic-release-plugin-decorators": ^1.0.3
+    debug: ^3.1.0
+    execa: ^0.8.0
+    file-url: ^3.0.0
+    fs-extra: ^10.0.1
+    get-stream: ^6.0.1
+    git-log-parser: ^1.2.0
+    minipass: ^3.3.6
+    p-each-series: ^2.1.0
+    p-limit: ^1.2.0
+    pkg-up: ^2.0.0
+    ramda: ^0.25.0
+    read-pkg: ^5.0.0
+    tempy: 1.0.1
+  peerDependencies:
+    semantic-release: ">=15.11.x"
+  checksum: 23227fac15d130558520a9bf991164e14547cd7a4f546c70cc90fe6475a518d7100a2cfd8c257199eb124931446602fa2bc4eaf708c13f2b46c904a06228657d
+  languageName: node
+  linkType: hard
+
+"@w4rlock/semantic-release-plugin-decorators@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@w4rlock/semantic-release-plugin-decorators@npm:1.0.3"
+  peerDependencies:
+    semantic-release: ">=11"
+  checksum: ec3df67604482b7b1a4d999ca1866d64e84014cae47588a899c96cb278ab0dd669643229047ed994dc3f7c68ecfdb86e55d6beae9e4a27ace9a850d6a1f33023
+  languageName: node
+  linkType: hard
+
 "JSONStream@npm:^1.0.4":
   version: 1.3.5
   resolution: "JSONStream@npm:1.3.5"
@@ -1719,7 +1728,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "colorguard-cli@workspace:packages/colorguard-cli"
   dependencies:
-    "@achingbrain/semantic-release-monorepo": 8.0.0
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
@@ -1727,6 +1735,7 @@ __metadata:
     "@semantic-release/npm": 10.0.4
     "@types/node": 18.16.18
     "@types/yargs": 17.0.17
+    "@w4rlock/semantic-release-monorepo": 1.0.3
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.5
     postcss: 8.4.24
@@ -1744,7 +1753,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "colorguard-processor@workspace:packages/colorguard-processor"
   dependencies:
-    "@achingbrain/semantic-release-monorepo": 8.0.0
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
@@ -1754,6 +1762,7 @@ __metadata:
     "@types/postcss-reporter": 7.0.1
     "@types/tape": 5.6.0
     "@types/text-table": 0.2.2
+    "@w4rlock/semantic-release-monorepo": 1.0.3
     colorette: 2.0.20
     gitmojis: 3.13.5
     log-symbols: 5.1.0
@@ -5460,7 +5469,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "postcss-colorguard@workspace:packages/postcss-colorguard"
   dependencies:
-    "@achingbrain/semantic-release-monorepo": 8.0.0
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
@@ -5468,6 +5476,7 @@ __metadata:
     "@semantic-release/npm": 10.0.4
     "@types/color-diff": 1.2.1
     "@types/color-rgba": 2.1.0
+    "@w4rlock/semantic-release-monorepo": 1.0.3
     color-diff: 1.4.0
     color-rgba: 2.4.0
     gitmojis: 3.13.5
@@ -6039,18 +6048,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@achingbrain/semantic-release-monorepo": 8.0.0
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 9.0.3
     "@semantic-release/npm": 10.0.4
+    "@w4rlock/semantic-release-monorepo": 1.0.3
     gitmojis: 3.13.5
     jshint: 2.13.6
     semantic-release: 21.0.5
-    semantic-release-github-cjs: "workspace:^"
     semantic-release-gitmoji: 1.6.4
-    semantic-release-monorepo: ^7.0.5
     typescript: 5.1.3
   languageName: unknown
   linkType: soft
@@ -6096,18 +6103,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release-github-cjs@workspace:^, semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs":
-  version: 0.0.0-use.local
-  resolution: "semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs"
-  dependencies:
-    "@semantic-release/github": 9.0.3
-    semantic-release: 21.0.5
-    tsup: 7.0.0
-  peerDependencies:
-    semantic-release: ">= 19"
-  languageName: unknown
-  linkType: soft
-
 "semantic-release-gitmoji@npm:1.6.4":
   version: 1.6.4
   resolution: "semantic-release-gitmoji@npm:1.6.4"
@@ -6126,41 +6121,6 @@ __metadata:
   peerDependencies:
     semantic-release: <22
   checksum: d64e988b2dbb90fc9cb1cfe5d6174b7a4e5b9a59747140edf02dca0016f52f0c3f43178e9d14ed5c5c7b5e04036ef8ce159ab4274a1a513fb049e4a1693dedc9
-  languageName: node
-  linkType: hard
-
-"semantic-release-monorepo@npm:^7.0.5":
-  version: 7.0.5
-  resolution: "semantic-release-monorepo@npm:7.0.5"
-  dependencies:
-    debug: ^3.1.0
-    execa: ^0.8.0
-    p-limit: ^1.2.0
-    pkg-up: ^2.0.0
-    ramda: ^0.25.0
-    read-pkg: ^5.0.0
-    semantic-release-plugin-decorators: ^3.0.0
-  peerDependencies:
-    semantic-release: ">=15.11.x"
-  checksum: 318d996e09ba148dcce8311f89c368c46d6a03fb49826af98eb92dc81c1abae80087316c9a8af66af73135a25c804dca94dd134e22f8446281b06dd26c61d966
-  languageName: node
-  linkType: hard
-
-"semantic-release-plugin-decorators@https://registry.npmjs.org/@achingbrain/semantic-release-plugin-decorators/-/semantic-release-plugin-decorators-4.0.0.tgz":
-  version: 4.0.0
-  resolution: "semantic-release-plugin-decorators@https://registry.npmjs.org/@achingbrain/semantic-release-plugin-decorators/-/semantic-release-plugin-decorators-4.0.0.tgz"
-  peerDependencies:
-    semantic-release: ">=11"
-  checksum: 7881db3850b3b6314187f4eb7f43db11b262949b45570294e67f4c2ebdb165e994ceebc5725d5705c2c8983c6d9716c845717cffdb8123ab6f91aeaef8af5ff2
-  languageName: node
-  linkType: hard
-
-"semantic-release-plugin-decorators@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "semantic-release-plugin-decorators@npm:3.0.1"
-  peerDependencies:
-    semantic-release: ">=11"
-  checksum: ddb94f90d123f04bc635de44904a7414cd2f9d2b013f71f7063b20de21c7b0dd9214269616cd13f252fd3568a57e922d103cc5e4bf3c4400374ae23387d3a2e0
   languageName: node
   linkType: hard
 
