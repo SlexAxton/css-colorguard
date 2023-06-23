@@ -25,7 +25,6 @@ jobs:
           yarn workspace postcss-colorguard build  
           yarn workspace colorguard-processor build
           yarn workspace colorguard-cli build
-          yarn workspace semantic-release-github-cjs build
       - name: Publish package
         run: yarn workspaces foreach --no-private --topological-dev run semantic-release
         env:
