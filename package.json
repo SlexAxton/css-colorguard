@@ -16,6 +16,7 @@
     "gitmojis": "3.13.5",
     "jshint": "2.13.6",
     "semantic-release": "21.0.5",
+    "semantic-release-github-cjs": "workspace:^",
     "semantic-release-gitmoji": "1.6.4",
     "semantic-release-monorepo": "^7.0.5",
     "typescript": "5.1.3"

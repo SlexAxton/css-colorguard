@@ -6048,6 +6048,7 @@ __metadata:
     gitmojis: 3.13.5
     jshint: 2.13.6
     semantic-release: 21.0.5
+    semantic-release-github-cjs: "workspace:^"
     semantic-release-gitmoji: 1.6.4
     semantic-release-monorepo: ^7.0.5
     typescript: 5.1.3
@@ -6094,6 +6095,18 @@ __metadata:
   checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
   languageName: node
   linkType: hard
+
+"semantic-release-github-cjs@workspace:^, semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs":
+  version: 0.0.0-use.local
+  resolution: "semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs"
+  dependencies:
+    "@semantic-release/github": 9.0.3
+    semantic-release: 21.0.5
+    tsup: 7.0.0
+  peerDependencies:
+    semantic-release: ">= 19"
+  languageName: unknown
+  linkType: soft
 
 "semantic-release-gitmoji@npm:1.6.4":
   version: 1.6.4
