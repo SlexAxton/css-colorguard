@@ -53,7 +53,7 @@
     "color-diff": "1.4.0",
     "color-rgba": "2.4.0",
     "gitmojis": "3.13.5",
-    "postcss": "8.4.24",
+    "postcss": "8.4.25",
     "semantic-release": "21.0.7",
     "semantic-release-gitmoji": "1.6.4",
     "synesthesia": "1.0.1",
