@@ -1773,7 +1773,7 @@ __metadata:
     semantic-release: 21.0.7
     semantic-release-gitmoji: 1.6.4
     tap-spec: 5.0.0
-    tape: 5.6.4
+    tape: 5.6.5
     text-table: 0.2.0
     tsup: 7.1.0
     typescript: 5.1.6
@@ -2027,14 +2027,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-equal@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "deep-equal@npm:2.2.1"
+"deep-equal@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "deep-equal@npm:2.2.2"
   dependencies:
     array-buffer-byte-length: ^1.0.0
     call-bind: ^1.0.2
     es-get-iterator: ^1.1.3
-    get-intrinsic: ^1.2.0
+    get-intrinsic: ^1.2.1
     is-arguments: ^1.1.1
     is-array-buffer: ^3.0.2
     is-date-object: ^1.0.5
@@ -2049,7 +2049,7 @@ __metadata:
     which-boxed-primitive: ^1.0.2
     which-collection: ^1.0.1
     which-typed-array: ^1.1.9
-  checksum: 561f0e001a07b2f1b80ff914d0b3d76964bbfc102f34c2128bc8039c0050e63b1a504a8911910e011d8cd1cd4b600a9686c049e327f4ef94420008efc42d25f4
+  checksum: eb61c35157b6ecb96a5359b507b083fbff8ddb4c86a78a781ee38485f77a667465e45d63ee2ebd8a00e86d94c80e499906900cd82c2debb400237e1662cd5397
   languageName: node
   linkType: hard
 
@@ -2826,7 +2826,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-intrinsic@npm:^1.0.2, get-intrinsic@npm:^1.1.1, get-intrinsic@npm:^1.1.3, get-intrinsic@npm:^1.2.0":
+"get-intrinsic@npm:^1.0.2, get-intrinsic@npm:^1.1.1, get-intrinsic@npm:^1.1.3, get-intrinsic@npm:^1.2.0, get-intrinsic@npm:^1.2.1":
   version: 1.2.1
   resolution: "get-intrinsic@npm:1.2.1"
   dependencies:
@@ -6767,13 +6767,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.6.4":
-  version: 5.6.4
-  resolution: "tape@npm:5.6.4"
+"tape@npm:5.6.5":
+  version: 5.6.5
+  resolution: "tape@npm:5.6.5"
   dependencies:
     array.prototype.every: ^1.1.4
     call-bind: ^1.0.2
-    deep-equal: ^2.2.1
+    deep-equal: ^2.2.2
     defined: ^1.0.1
     dotignore: ^0.1.2
     for-each: ^0.3.3
@@ -6794,7 +6794,7 @@ __metadata:
     through: ^2.3.8
   bin:
     tape: bin/tape
-  checksum: e3508c5b850501ba528a3b2f90342157aebfd126b43c09289b8b8b7c6bd535005248e556ef5006bc25466ef385c6630d22af275e21530d3537cb466f6551f3f5
+  checksum: 36663b4c91b548b26104a7b6c5344394416cd3daa74eff068a6fb34ad37b94163f93d36a82b804c2c9544b12b5591c72738d589098e06bcb1bc2cb7cbd09e00b
   languageName: node
   linkType: hard
 
