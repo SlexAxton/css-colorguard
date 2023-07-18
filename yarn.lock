@@ -270,6 +270,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ljharb/resumer@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@ljharb/resumer@npm:0.0.1"
+  dependencies:
+    "@ljharb/through": ^2.3.9
+  checksum: 1cff0a485cb857933d2921cb05a349f8fe894fa2bb6b31a347010ecccc4a2b369e43ebe5383a32a60ee6c9572d2c83fcab383eb01727e1507bf29c59f312dae6
+  languageName: node
+  linkType: hard
+
+"@ljharb/through@npm:^2.3.9":
+  version: 2.3.9
+  resolution: "@ljharb/through@npm:2.3.9"
+  checksum: a47ffed12ef4b08d07458db8bff5f7a13a7030fddf7dbfa947a765581a634d42ee90f7b8c249315aad122c21ad061e97a74f65aef3c03d2c09291d11312f0bfb
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1919,7 +1935,7 @@ __metadata:
     semantic-release: 21.0.7
     semantic-release-gitmoji: 1.6.4
     tap-spec: 5.0.0
-    tape: 5.6.5
+    tape: 5.6.6
     text-table: 0.2.0
     tsup: 7.1.0
     typescript: 5.1.6
@@ -6164,15 +6180,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resumer@npm:^0.0.0":
-  version: 0.0.0
-  resolution: "resumer@npm:0.0.0"
-  dependencies:
-    through: ~2.3.4
-  checksum: 21b1c257aac24840643fae9bc99ca6447a71a0039e7c6dcf64d0ead447ce511eff158d529f1b6258ad12668e66ee3e49ff14932d2b88a3bd578f483e79708104
-  languageName: node
-  linkType: hard
-
 "retry@npm:^0.12.0":
   version: 0.12.0
   resolution: "retry@npm:0.12.0"
@@ -6913,10 +6920,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.6.5":
-  version: 5.6.5
-  resolution: "tape@npm:5.6.5"
+"tape@npm:5.6.6":
+  version: 5.6.6
+  resolution: "tape@npm:5.6.6"
   dependencies:
+    "@ljharb/resumer": ^0.0.1
+    "@ljharb/through": ^2.3.9
     array.prototype.every: ^1.1.4
     call-bind: ^1.0.2
     deep-equal: ^2.2.2
@@ -6935,12 +6944,10 @@ __metadata:
     object-keys: ^1.1.1
     object.assign: ^4.1.4
     resolve: ^2.0.0-next.4
-    resumer: ^0.0.0
     string.prototype.trim: ^1.2.7
-    through: ^2.3.8
   bin:
     tape: bin/tape
-  checksum: 36663b4c91b548b26104a7b6c5344394416cd3daa74eff068a6fb34ad37b94163f93d36a82b804c2c9544b12b5591c72738d589098e06bcb1bc2cb7cbd09e00b
+  checksum: aac4722c7104f8478c8079aa1f441636b720f432074355c2edb1b0c0e2f2822004af2097669186d65ce7c70c57164d85d7da3662338e53515bdb778f5412af30
   languageName: node
   linkType: hard
 
@@ -7048,7 +7055,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"through@npm:2, through@npm:>=2.2.7 <3, through@npm:^2.3.8, through@npm:~2.3.4":
+"through@npm:2, through@npm:>=2.2.7 <3":
   version: 2.3.8
   resolution: "through@npm:2.3.8"
   checksum: a38c3e059853c494af95d50c072b83f8b676a9ba2818dcc5b108ef252230735c54e0185437618596c790bbba8fcdaef5b290405981ffa09dce67b1f1bf190cbd
