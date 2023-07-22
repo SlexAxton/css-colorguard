@@ -45,7 +45,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.0.4",
     "@semantic-release/npm": "10.0.4",
-    "@types/node": "18.16.20",
+    "@types/node": "18.17.0",
     "@types/postcss-reporter": "7.0.1",
     "@types/tape": "5.6.0",
     "@types/text-table": "0.2.2",
