@@ -39,7 +39,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.0.4",
-    "@semantic-release/npm": "10.0.4",
+    "@semantic-release/npm": "10.0.5",
     "@types/node": "18.17.6",
     "@types/yargs": "17.0.17",
     "@w4rlock/semantic-release-monorepo": "1.0.3",
