@@ -1901,7 +1901,7 @@ __metadata:
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.5
     postcss: 8.4.28
-    semantic-release: 21.0.8
+    semantic-release: 21.0.9
     semantic-release-gitmoji: 1.6.4
     tsup: 7.2.0
     typescript: 5.1.6
@@ -1932,7 +1932,7 @@ __metadata:
     postcss: 8.4.28
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
-    semantic-release: 21.0.8
+    semantic-release: 21.0.9
     semantic-release-gitmoji: 1.6.4
     tap-spec: 5.0.0
     tape: 5.6.6
@@ -3371,6 +3371,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hosted-git-info@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "hosted-git-info@npm:7.0.0"
+  dependencies:
+    lru-cache: ^10.0.1
+  checksum: b892237a3867f827f97e229e2b6ddf17d3ed674f003475c12ecbfc6269416db3a643c1ee3c5d4a989e3f3a596dd1470ee4017fe911710e47aeb7d9319737c05e
+  languageName: node
+  linkType: hard
+
 "htmlparser2@npm:3.8.x":
   version: 3.8.3
   resolution: "htmlparser2@npm:3.8.3"
@@ -4429,6 +4438,13 @@ __metadata:
     chalk: ^5.0.0
     is-unicode-supported: ^1.1.0
   checksum: 7291b6e7f1b3df6865bdaeb9b59605c832668ac2fa0965c63b1e7dd3700349aec09c1d7d40c368d5041ff58b7f89461a56e4009471921301af7b3609cbff9a29
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "lru-cache@npm:10.0.1"
+  checksum: 06f8d0e1ceabd76bb6f644a26dbb0b4c471b79c7b514c13c6856113879b3bf369eb7b497dad4ff2b7e2636db202412394865b33c332100876d838ad1372f0181
   languageName: node
   linkType: hard
 
@@ -5674,7 +5690,7 @@ __metadata:
     color-rgba: 2.4.0
     gitmojis: 3.13.5
     postcss: 8.4.28
-    semantic-release: 21.0.8
+    semantic-release: 21.0.9
     semantic-release-gitmoji: 1.6.4
     synesthesia: 1.0.1
     tsup: 7.2.0
@@ -6262,7 +6278,7 @@ __metadata:
     "@w4rlock/semantic-release-monorepo": 1.0.3
     gitmojis: 3.13.5
     jshint: 2.13.6
-    semantic-release: 21.0.8
+    semantic-release: 21.0.9
     semantic-release-gitmoji: 1.6.4
     typescript: 5.1.6
   languageName: unknown
@@ -6330,9 +6346,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.0.8":
-  version: 21.0.8
-  resolution: "semantic-release@npm:21.0.8"
+"semantic-release@npm:21.0.9":
+  version: 21.0.9
+  resolution: "semantic-release@npm:21.0.9"
   dependencies:
     "@semantic-release/commit-analyzer": ^10.0.0
     "@semantic-release/error": ^4.0.0
@@ -6349,7 +6365,7 @@ __metadata:
     get-stream: ^6.0.0
     git-log-parser: ^1.2.0
     hook-std: ^3.0.0
-    hosted-git-info: ^6.0.0
+    hosted-git-info: ^7.0.0
     lodash-es: ^4.17.21
     marked: ^5.0.0
     marked-terminal: ^5.1.1
@@ -6364,7 +6380,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 06a33b707130e3915b36ed3c24646245fde8dab39822da858e66d9a4498a81a0a4a5f8b097cb245ce9fee5a65df6dc8354c0580147970078089b97c25260c1f6
+  checksum: 7da69393519da1ca6f14b29c38135f5fa48bd241da07eb0705da10a1707021a935960234ada8d0e7d49b8f63c00e1001cfb93683e0d8dbe89379d4857bcfc7ef
   languageName: node
   linkType: hard
 
