@@ -1901,7 +1901,7 @@ __metadata:
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.5
     postcss: 8.4.28
-    semantic-release: 21.1.0
+    semantic-release: 21.1.1
     semantic-release-gitmoji: 1.6.4
     tsup: 7.2.0
     typescript: 5.1.6
@@ -1932,7 +1932,7 @@ __metadata:
     postcss: 8.4.28
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
-    semantic-release: 21.1.0
+    semantic-release: 21.1.1
     semantic-release-gitmoji: 1.6.4
     tap-spec: 5.0.0
     tape: 5.6.6
@@ -5690,7 +5690,7 @@ __metadata:
     color-rgba: 2.4.0
     gitmojis: 3.13.5
     postcss: 8.4.28
-    semantic-release: 21.1.0
+    semantic-release: 21.1.1
     semantic-release-gitmoji: 1.6.4
     synesthesia: 1.0.1
     tsup: 7.2.0
@@ -6278,7 +6278,7 @@ __metadata:
     "@w4rlock/semantic-release-monorepo": 1.0.3
     gitmojis: 3.13.5
     jshint: 2.13.6
-    semantic-release: 21.1.0
+    semantic-release: 21.1.1
     semantic-release-gitmoji: 1.6.4
     typescript: 5.1.6
   languageName: unknown
@@ -6346,9 +6346,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.1.0":
-  version: 21.1.0
-  resolution: "semantic-release@npm:21.1.0"
+"semantic-release@npm:21.1.1":
+  version: 21.1.1
+  resolution: "semantic-release@npm:21.1.1"
   dependencies:
     "@semantic-release/commit-analyzer": ^10.0.0
     "@semantic-release/error": ^4.0.0
@@ -6380,7 +6380,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: f232984072808bd6b3423f3e0dfc220484beba979688791c78a8dbfbb773230672e9cef0d3681592140d98c4e84b5060652fb86a0310f00a22ed949e968deb3f
+  checksum: 46ebaeac46d7dfe4610617a79b6ceee3b1bd5fb7025cb800ce523b91d22a1f35ff31143164dc4fe7d15a1139488652cde887946b8f33e8839e8ba9875c9f83af
   languageName: node
   linkType: hard
 
