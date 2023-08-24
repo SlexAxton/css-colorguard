@@ -15,7 +15,7 @@
     "@w4rlock/semantic-release-monorepo": "1.0.3",
     "gitmojis": "3.13.5",
     "jshint": "2.13.6",
-    "semantic-release": "21.0.9",
+    "semantic-release": "21.1.0",
     "semantic-release-gitmoji": "1.6.4",
     "typescript": "5.1.6"
   },
