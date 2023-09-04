@@ -1042,10 +1042,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/color-diff@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@types/color-diff@npm:1.2.1"
-  checksum: 355479ccd4e9eb1e5f43c263c0462921a83646f3eda637525f67e9932c6604edca8ee7c9180c7f2174b05f2f7abadc0ba78ce57d1ce52ca115251c8acd1f53ec
+"@types/color-diff@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@types/color-diff@npm:1.2.2"
+  checksum: f3df5fce58d8b85ef85a4d977f26299b053e68b4b6f24efaf16b6ff564b68a3ff4bd90c07731568c1dae8fc42cd7d89eec9a55df260a669258c22eb1fd4f7a9b
   languageName: node
   linkType: hard
 
@@ -5683,7 +5683,7 @@ __metadata:
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 9.0.4
     "@semantic-release/npm": 10.0.5
-    "@types/color-diff": 1.2.1
+    "@types/color-diff": 1.2.2
     "@types/color-rgba": 2.1.0
     "@w4rlock/semantic-release-monorepo": 1.0.3
     color-diff: 1.4.0
