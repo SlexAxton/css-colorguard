@@ -48,7 +48,7 @@
     "@types/node": "18.17.15",
     "@types/postcss-reporter": "7.0.1",
     "@types/tape": "5.6.1",
-    "@types/text-table": "0.2.2",
+    "@types/text-table": "0.2.3",
     "@w4rlock/semantic-release-monorepo": "1.0.3",
     "colorette": "2.0.20",
     "gitmojis": "3.13.5",

@@ -1103,10 +1103,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/text-table@npm:0.2.2":
-  version: 0.2.2
-  resolution: "@types/text-table@npm:0.2.2"
-  checksum: f72ee49b50f2e912876cf7366ca1b218a58826e9af8b3171204f1cb73be80e722e094db3523dd7ddd31708c006b0b3d67ce5a2da6e9620ce99f5c4558109863b
+"@types/text-table@npm:0.2.3":
+  version: 0.2.3
+  resolution: "@types/text-table@npm:0.2.3"
+  checksum: d5fa7163287787e7c5dd137c88f57d5ffa8906359b56d257626f87d2f922004e107defe9ba03675088b6b8273765b0c6e435af589b4bebadc888093e1c7a9458
   languageName: node
   linkType: hard
 
@@ -1923,7 +1923,7 @@ __metadata:
     "@types/node": 18.17.15
     "@types/postcss-reporter": 7.0.1
     "@types/tape": 5.6.1
-    "@types/text-table": 0.2.2
+    "@types/text-table": 0.2.3
     "@w4rlock/semantic-release-monorepo": 1.0.3
     colorette: 2.0.20
     gitmojis: 3.13.5
