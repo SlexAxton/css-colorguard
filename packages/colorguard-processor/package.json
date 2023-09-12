@@ -47,7 +47,7 @@
     "@semantic-release/npm": "10.0.5",
     "@types/node": "18.17.15",
     "@types/postcss-reporter": "7.0.1",
-    "@types/tape": "5.6.0",
+    "@types/tape": "5.6.1",
     "@types/text-table": "0.2.2",
     "@w4rlock/semantic-release-monorepo": "1.0.3",
     "colorette": "2.0.20",

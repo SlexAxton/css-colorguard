@@ -1093,13 +1093,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:5.6.0":
-  version: 5.6.0
-  resolution: "@types/tape@npm:5.6.0"
+"@types/tape@npm:5.6.1":
+  version: 5.6.1
+  resolution: "@types/tape@npm:5.6.1"
   dependencies:
     "@types/node": "*"
     "@types/through": "*"
-  checksum: 7a05c987e5265da347494ddd19b0e40c9a2b1454bb5595c3d7c9c79adaae2828442ba5080f2638da25ae269b0cd3409f41cfc478d5c3b5615f650cb37642e83a
+  checksum: 4045cc786024d991312978cd589a0d7c1771857e35246a9c0fa466435381dbbd0415a7e1207a7470d3a86212731e48dc42df9e6f8b84f30bae4f088b1f92e812
   languageName: node
   linkType: hard
 
@@ -1922,7 +1922,7 @@ __metadata:
     "@semantic-release/npm": 10.0.5
     "@types/node": 18.17.15
     "@types/postcss-reporter": 7.0.1
-    "@types/tape": 5.6.0
+    "@types/tape": 5.6.1
     "@types/text-table": 0.2.2
     "@w4rlock/semantic-release-monorepo": 1.0.3
     colorette: 2.0.20
