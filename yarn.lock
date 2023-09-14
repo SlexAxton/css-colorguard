@@ -893,16 +893,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:9.0.5":
-  version: 9.0.5
-  resolution: "@semantic-release/github@npm:9.0.5"
+"@semantic-release/github@npm:9.0.6":
+  version: 9.0.6
+  resolution: "@semantic-release/github@npm:9.0.6"
   dependencies:
     "@octokit/core": ^5.0.0
     "@octokit/plugin-paginate-rest": ^8.0.0
     "@octokit/plugin-retry": ^6.0.0
     "@octokit/plugin-throttling": ^7.0.0
     "@semantic-release/error": ^4.0.0
-    aggregate-error: ^4.0.1
+    aggregate-error: ^5.0.0
     debug: ^4.3.4
     dir-glob: ^3.0.1
     globby: ^13.1.4
@@ -915,7 +915,7 @@ __metadata:
     url-join: ^5.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: b4572431e094fac33c4b2235b882840bb16ea33de8202c3eece678dac4089b663508f1c2433503ad08f8eebefb7329a666f095394d1786ad2c6c4e38c3277d70
+  checksum: 5cdcf2c14c762c4381d5117a00f691143198937de8f83f7b6ec8bbd7854ec80e9830f13606929c2d2608e88ea2d983e78878bb9c152827237f703b5e78ae6cc3
   languageName: node
   linkType: hard
 
@@ -945,12 +945,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:10.0.5":
-  version: 10.0.5
-  resolution: "@semantic-release/npm@npm:10.0.5"
+"@semantic-release/npm@npm:10.0.6":
+  version: 10.0.6
+  resolution: "@semantic-release/npm@npm:10.0.6"
   dependencies:
     "@semantic-release/error": ^4.0.0
-    aggregate-error: ^4.0.1
+    aggregate-error: ^5.0.0
     execa: ^8.0.0
     fs-extra: ^11.0.0
     lodash-es: ^4.17.21
@@ -964,7 +964,7 @@ __metadata:
     tempy: ^3.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 380f9c3db37b7f8bb0e66f6c0d4d1c816479b9bca5e28aa53d1f0759fbad6646ea1f5d7e14713232330e9fd8ad4d09f2df30619d6ab754f6315fa148b0c09830
+  checksum: 7012a5ba89d92585052827d146295bf3ff913dcf1dd9c35210f14911d502f4bd50585e935a70947968ae759513e023c10305c35b6c6ff8579c2809964f3926bd
   languageName: node
   linkType: hard
 
@@ -1249,6 +1249,16 @@ __metadata:
     clean-stack: ^4.0.0
     indent-string: ^5.0.0
   checksum: bb3ffdfd13447800fff237c2cba752c59868ee669104bb995dfbbe0b8320e967d679e683dabb640feb32e4882d60258165cde0baafc4cd467cc7d275a13ad6b5
+  languageName: node
+  linkType: hard
+
+"aggregate-error@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "aggregate-error@npm:5.0.0"
+  dependencies:
+    clean-stack: ^5.2.0
+    indent-string: ^5.0.0
+  checksum: 37834eb0dac6ebd05ca8aa82e00deeb65fb7b1462c68ccb620221ba1753640fcb249e46c03401b470701a58826b65426deda83783fc2e8347c4b5037b2724d9b
   languageName: node
   linkType: hard
 
@@ -1747,6 +1757,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clean-stack@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "clean-stack@npm:5.2.0"
+  dependencies:
+    escape-string-regexp: 5.0.0
+  checksum: 9b16c9d56ef673b1666030d04afc5a382c7ec6b5fb8df2dd361090c3ac79273695d6db9867938bb3268903dcebf401e2c6034b2f56f27673f6032b5e89217b81
+  languageName: node
+  linkType: hard
+
 "cli-columns@npm:^4.0.0":
   version: 4.0.0
   resolution: "cli-columns@npm:4.0.0"
@@ -1893,8 +1912,8 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.0.5
-    "@semantic-release/npm": 10.0.5
+    "@semantic-release/github": 9.0.6
+    "@semantic-release/npm": 10.0.6
     "@types/node": 18.17.15
     "@types/yargs": 17.0.17
     "@w4rlock/semantic-release-monorepo": 1.0.3
@@ -1918,8 +1937,8 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.0.5
-    "@semantic-release/npm": 10.0.5
+    "@semantic-release/github": 9.0.6
+    "@semantic-release/npm": 10.0.6
     "@types/node": 18.17.15
     "@types/postcss-reporter": 7.0.1
     "@types/tape": 5.6.1
@@ -5681,8 +5700,8 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.0.5
-    "@semantic-release/npm": 10.0.5
+    "@semantic-release/github": 9.0.6
+    "@semantic-release/npm": 10.0.6
     "@types/color-diff": 1.2.2
     "@types/color-rgba": 2.1.0
     "@w4rlock/semantic-release-monorepo": 1.0.3
@@ -6273,8 +6292,8 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.0.5
-    "@semantic-release/npm": 10.0.5
+    "@semantic-release/github": 9.0.6
+    "@semantic-release/npm": 10.0.6
     "@w4rlock/semantic-release-monorepo": 1.0.3
     gitmojis: 3.13.5
     jshint: 2.13.6
