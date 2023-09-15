@@ -1863,22 +1863,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color-parse@npm:^1.4.2":
-  version: 1.4.2
-  resolution: "color-parse@npm:1.4.2"
+"color-parse@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "color-parse@npm:2.0.0"
   dependencies:
     color-name: ^1.0.0
-  checksum: 3ed5916f873e55637c4c3ccf663de64d125c5a445ec081e08f596c625fb8cee32b9c9fc9437073e88d8565cc7ce542d35bef3a0d16bd922839e0c436c3f6f11a
+  checksum: f08abfba0032412fbded1a0d406243dec3c84b59ef60ca99069a868e8d6dc9b757446ce4df6333ad21fde806525d868edefdb14f0bee64c435fc643f2405b160
   languageName: node
   linkType: hard
 
-"color-rgba@npm:2.4.0":
-  version: 2.4.0
-  resolution: "color-rgba@npm:2.4.0"
+"color-rgba@npm:3.0.0":
+  version: 3.0.0
+  resolution: "color-rgba@npm:3.0.0"
   dependencies:
-    color-parse: ^1.4.2
+    color-parse: ^2.0.0
     color-space: ^2.0.0
-  checksum: a72b1001af4bed60d4677f6e368e3ea44fd228f6f3098182dd8d8d612165cb847f0792252539b36aa238840f45f1c644b8d7ed867e3d735d67d4e4b107384279
+  checksum: 003b5fa70a77f46df3753e4b941154986163ccabbd9a8a80b2ca6cc4a0c9e505f3d4909c46a0b085e095d19b80297cf1c02dfefa33666b9ea1661ff52b3597bc
   languageName: node
   linkType: hard
 
@@ -5706,7 +5706,7 @@ __metadata:
     "@types/color-rgba": 2.1.0
     "@w4rlock/semantic-release-monorepo": 1.0.3
     color-diff: 1.4.0
-    color-rgba: 2.4.0
+    color-rgba: 3.0.0
     gitmojis: 3.13.5
     postcss: 8.4.29
     semantic-release: 21.1.1
