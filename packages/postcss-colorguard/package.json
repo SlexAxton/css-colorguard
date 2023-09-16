@@ -54,7 +54,7 @@
     "color-rgba": "3.0.0",
     "gitmojis": "3.13.5",
     "postcss": "8.4.29",
-    "semantic-release": "21.1.1",
+    "semantic-release": "21.1.2",
     "semantic-release-gitmoji": "1.6.4",
     "synesthesia": "1.0.1",
     "tsup": "7.2.0",
