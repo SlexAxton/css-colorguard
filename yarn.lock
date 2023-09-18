@@ -1927,7 +1927,7 @@ __metadata:
     "@w4rlock/semantic-release-monorepo": 1.0.3
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.5
-    postcss: 8.4.29
+    postcss: 8.4.30
     semantic-release: 22.0.0
     semantic-release-gitmoji: 1.6.4
     tsup: 7.2.0
@@ -1956,7 +1956,7 @@ __metadata:
     gitmojis: 3.13.5
     log-symbols: 5.1.0
     plur: 5.1.0
-    postcss: 8.4.29
+    postcss: 8.4.30
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
     semantic-release: 22.0.0
@@ -5684,7 +5684,7 @@ __metadata:
     color-diff: 1.4.0
     color-rgba: 3.0.0
     gitmojis: 3.13.5
-    postcss: 8.4.29
+    postcss: 8.4.30
     semantic-release: 22.0.0
     semantic-release-gitmoji: 1.6.4
     synesthesia: 1.0.1
@@ -5735,14 +5735,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.29":
-  version: 8.4.29
-  resolution: "postcss@npm:8.4.29"
+"postcss@npm:8.4.30":
+  version: 8.4.30
+  resolution: "postcss@npm:8.4.30"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: dd6daa25e781db9ae5b651d9b7bfde0ec6e60e86a37da69a18eb4773d5ddd51e28fc4ff054fbdc04636a31462e6bf09a1e50986f69ac52b10d46b7457cd36d12
+  checksum: 6c810c10c9bd3e03ca016e0b6b6756261e640aba1a9a7b1200b55502bc34b9165e38f590aef3493afc2f30ab55cdfcd43fd0f8408d69a77318ddbcf2a8ad164b
   languageName: node
   linkType: hard
 
