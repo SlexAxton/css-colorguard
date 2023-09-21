@@ -844,9 +844,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/commit-analyzer@npm:^11.0.0-beta.3":
-  version: 11.0.0-beta.3
-  resolution: "@semantic-release/commit-analyzer@npm:11.0.0-beta.3"
+"@semantic-release/commit-analyzer@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "@semantic-release/commit-analyzer@npm:11.0.0"
   dependencies:
     conventional-changelog-angular: ^7.0.0
     conventional-commits-filter: ^4.0.0
@@ -857,7 +857,7 @@ __metadata:
     micromatch: ^4.0.2
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: e81ac431b1a7015f2df5ba6ec3f1a9a04a163c2ad600ffd6c126cdd44ac984a48a97c297fb1d4bf65415c480d0aff54b16115961dfdd6c87155c6205ee171d14
+  checksum: 4714b51128c1b0a7168ed800d5a34b0e37bac66e9d8165930d3d05a22d80b213d4076d993ddbb8d0023f9d8fd6c6630da9c0c1be55687a5dc278d6812442259e
   languageName: node
   linkType: hard
 
@@ -984,9 +984,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^12.0.0-beta.2":
-  version: 12.0.0-beta.2
-  resolution: "@semantic-release/release-notes-generator@npm:12.0.0-beta.2"
+"@semantic-release/release-notes-generator@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@semantic-release/release-notes-generator@npm:12.0.0"
   dependencies:
     conventional-changelog-angular: ^7.0.0
     conventional-changelog-writer: ^7.0.0
@@ -1000,7 +1000,7 @@ __metadata:
     read-pkg-up: ^10.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 20c7e72b654154d801973479445a1ca3d37e2e487eb8c1115dc6175921e0d9f0d8efacd2fec9b17261d377b2f59df4fb43b2000bfdb3691eb9fbeb27283f3a53
+  checksum: 91c757c6ccadffd2caa7b03b4bcb22abc4194e51955a33cc6e9563f16d8869b6287daa4d432c302a622f78fb92db1fa82281c1cac18723bbcbab2321bbeb57ce
   languageName: node
   linkType: hard
 
@@ -1928,7 +1928,7 @@ __metadata:
     colorguard-processor: "workspace:*"
     gitmojis: 3.13.5
     postcss: 8.4.30
-    semantic-release: 22.0.0
+    semantic-release: 22.0.1
     semantic-release-gitmoji: 1.6.4
     tsup: 7.2.0
     typescript: 5.2.2
@@ -1959,7 +1959,7 @@ __metadata:
     postcss: 8.4.30
     postcss-colorguard: "workspace:*"
     postcss-reporter: 7.0.5
-    semantic-release: 22.0.0
+    semantic-release: 22.0.1
     semantic-release-gitmoji: 1.6.4
     tap-spec: 5.0.0
     tape: 5.6.6
@@ -5685,7 +5685,7 @@ __metadata:
     color-rgba: 3.0.0
     gitmojis: 3.13.5
     postcss: 8.4.30
-    semantic-release: 22.0.0
+    semantic-release: 22.0.1
     semantic-release-gitmoji: 1.6.4
     synesthesia: 1.0.1
     tsup: 7.2.0
@@ -6215,7 +6215,7 @@ __metadata:
     "@w4rlock/semantic-release-monorepo": 1.0.3
     gitmojis: 3.13.5
     jshint: 2.13.6
-    semantic-release: 22.0.0
+    semantic-release: 22.0.1
     semantic-release-gitmoji: 1.6.4
     typescript: 5.2.2
   languageName: unknown
@@ -6283,15 +6283,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:22.0.0":
-  version: 22.0.0
-  resolution: "semantic-release@npm:22.0.0"
+"semantic-release@npm:22.0.1":
+  version: 22.0.1
+  resolution: "semantic-release@npm:22.0.1"
   dependencies:
-    "@semantic-release/commit-analyzer": ^11.0.0-beta.3
+    "@semantic-release/commit-analyzer": ^11.0.0
     "@semantic-release/error": ^4.0.0
     "@semantic-release/github": ^9.0.0
     "@semantic-release/npm": ^11.0.0
-    "@semantic-release/release-notes-generator": ^12.0.0-beta.2
+    "@semantic-release/release-notes-generator": ^12.0.0
     aggregate-error: ^5.0.0
     cosmiconfig: ^8.0.0
     debug: ^4.0.0
@@ -6317,7 +6317,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: bebb261eda691715f3368d5052557a5e82300477ae247a98e13391fbaca42380b2c15a9ac1164f4c0250a1810ab011a4c3155b260d3025369680e67f88b53f95
+  checksum: 2475af9ca2aca02d7efcf0c086b507a2126a79f08baeb2887f346575db1b34b17f27e749e7e3e2085dd6a56def4c159023be40a2b0f9af3b1fefb2d3cd7f0a70
   languageName: node
   linkType: hard
 
