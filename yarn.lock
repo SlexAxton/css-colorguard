@@ -1123,12 +1123,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/postcss-reporter@npm:7.0.1":
-  version: 7.0.1
-  resolution: "@types/postcss-reporter@npm:7.0.1"
+"@types/postcss-reporter@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@types/postcss-reporter@npm:7.0.2"
   dependencies:
     postcss: ^8.2.10
-  checksum: d793ae39aad11fe34bf40d31922a15f914b11d752fc727e0a56d7a8e9818e8fa7a3a927e0731f22a391b963c5156d5f93905d2c12730e83b85ba277d5e185d03
+  checksum: 5b3fbfd15557fab45ac29385bfb9fefad123a9bc3178c3d67b687f77b0a18ba81523b05dc6ba97bf20f771bd9c3a2249b13a5e996e96ed254284211336dfc3e2
   languageName: node
   linkType: hard
 
@@ -1993,7 +1993,7 @@ __metadata:
     "@semantic-release/github": 9.0.7
     "@semantic-release/npm": 11.0.0
     "@types/node": 18.17.19
-    "@types/postcss-reporter": 7.0.1
+    "@types/postcss-reporter": 7.0.2
     "@types/tape": 5.6.1
     "@types/text-table": 0.2.3
     "@w4rlock/semantic-release-monorepo": 1.0.3
