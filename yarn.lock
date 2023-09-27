@@ -925,9 +925,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:9.2.0":
-  version: 9.2.0
-  resolution: "@semantic-release/github@npm:9.2.0"
+"@semantic-release/github@npm:9.2.1":
+  version: 9.2.1
+  resolution: "@semantic-release/github@npm:9.2.1"
   dependencies:
     "@octokit/core": ^5.0.0
     "@octokit/plugin-paginate-rest": ^9.0.0
@@ -947,7 +947,7 @@ __metadata:
     url-join: ^5.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 23a16b6fa06b09a952e3036212d1a59e974b99a5a1031a101886049b00c1934db7a2dc8424ded4752b97a45fbcba829dfdee694997d76a1d716b3ef661c5b1e9
+  checksum: 40441125e0a68b18b7c58f4003fdbb18565e8d6f1dda97b083bea198092b91c4e2cdbebf34d822e72481c2530b5657bb9b9d7dfe4d7499c011d833e1e4b5506f
   languageName: node
   linkType: hard
 
@@ -1965,7 +1965,7 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.2.0
+    "@semantic-release/github": 9.2.1
     "@semantic-release/npm": 11.0.0
     "@types/node": 18.18.0
     "@types/yargs": 17.0.17
@@ -1990,7 +1990,7 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.2.0
+    "@semantic-release/github": 9.2.1
     "@semantic-release/npm": 11.0.0
     "@types/node": 18.18.0
     "@types/postcss-reporter": 7.0.2
@@ -5753,7 +5753,7 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.2.0
+    "@semantic-release/github": 9.2.1
     "@semantic-release/npm": 11.0.0
     "@types/color-diff": 1.2.2
     "@types/color-rgba": 2.1.0
@@ -6298,7 +6298,7 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/exec": 6.0.3
     "@semantic-release/git": 10.0.1
-    "@semantic-release/github": 9.2.0
+    "@semantic-release/github": 9.2.1
     "@semantic-release/npm": 11.0.0
     "@w4rlock/semantic-release-monorepo": 1.0.3
     gitmojis: 3.13.5
