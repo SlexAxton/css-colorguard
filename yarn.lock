@@ -1971,7 +1971,7 @@ __metadata:
     "@types/yargs": 17.0.17
     "@w4rlock/semantic-release-monorepo": 1.0.3
     colorguard-processor: "workspace:*"
-    gitmojis: 3.13.5
+    gitmojis: 3.14.0
     postcss: 8.4.31
     semantic-release: 22.0.5
     semantic-release-gitmoji: 1.6.4
@@ -1998,7 +1998,7 @@ __metadata:
     "@types/text-table": 0.2.3
     "@w4rlock/semantic-release-monorepo": 1.0.3
     colorette: 2.0.20
-    gitmojis: 3.13.5
+    gitmojis: 3.14.0
     log-symbols: 5.1.0
     plur: 5.1.0
     postcss: 8.4.31
@@ -3153,7 +3153,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gitmojis@npm:3.13.5, gitmojis@npm:^3.13.4":
+"gitmojis@npm:3.14.0":
+  version: 3.14.0
+  resolution: "gitmojis@npm:3.14.0"
+  checksum: b8979133601d946bc815b7e5ba03c65f592f2fbb935b1aa80efc0b81003752034c6ef3f1f223a413092cd151d3caf98f30cd7ae80f5459b51d216b95333aa625
+  languageName: node
+  linkType: hard
+
+"gitmojis@npm:^3.13.4":
   version: 3.13.5
   resolution: "gitmojis@npm:3.13.5"
   checksum: 715c529fc2b1fe380ada32e971d359398b4bde8f969c221c4e8b0ae4fa75ae55069e2bce8a7285868dec7a5f65c12bc1c72e4f8413f294301af7a263201f04bc
@@ -5760,7 +5767,7 @@ __metadata:
     "@w4rlock/semantic-release-monorepo": 1.0.3
     color-diff: 1.4.0
     color-rgba: 3.0.0
-    gitmojis: 3.13.5
+    gitmojis: 3.14.0
     postcss: 8.4.31
     semantic-release: 22.0.5
     semantic-release-gitmoji: 1.6.4
@@ -6301,7 +6308,7 @@ __metadata:
     "@semantic-release/github": 9.2.1
     "@semantic-release/npm": 11.0.0
     "@w4rlock/semantic-release-monorepo": 1.0.3
-    gitmojis: 3.13.5
+    gitmojis: 3.14.0
     jshint: 2.13.6
     semantic-release: 22.0.5
     semantic-release-gitmoji: 1.6.4

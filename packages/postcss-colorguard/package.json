@@ -52,7 +52,7 @@
     "@w4rlock/semantic-release-monorepo": "1.0.3",
     "color-diff": "1.4.0",
     "color-rgba": "3.0.0",
-    "gitmojis": "3.13.5",
+    "gitmojis": "3.14.0",
     "postcss": "8.4.31",
     "semantic-release": "22.0.5",
     "semantic-release-gitmoji": "1.6.4",
