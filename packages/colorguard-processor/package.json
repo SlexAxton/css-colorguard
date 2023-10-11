@@ -60,7 +60,7 @@
     "semantic-release": "22.0.5",
     "semantic-release-gitmoji": "1.6.4",
     "tap-spec": "5.0.0",
-    "tape": "5.7.0",
+    "tape": "5.7.1",
     "text-table": "0.2.0",
     "tsup": "7.2.0",
     "typescript": "5.2.2"
