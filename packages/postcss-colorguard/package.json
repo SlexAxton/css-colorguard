@@ -55,7 +55,7 @@
     "gitmojis": "3.14.0",
     "postcss": "8.4.31",
     "semantic-release": "22.0.5",
-    "semantic-release-gitmoji": "1.6.4",
+    "semantic-release-gitmoji": "1.6.5",
     "synesthesia": "1.0.1",
     "tsup": "7.2.0",
     "typescript": "5.2.2"

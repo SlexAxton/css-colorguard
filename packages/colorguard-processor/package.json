@@ -58,7 +58,7 @@
     "postcss-colorguard": "workspace:*",
     "postcss-reporter": "7.0.5",
     "semantic-release": "22.0.5",
-    "semantic-release-gitmoji": "1.6.4",
+    "semantic-release-gitmoji": "1.6.5",
     "tap-spec": "5.0.0",
     "tape": "5.7.1",
     "text-table": "0.2.0",
