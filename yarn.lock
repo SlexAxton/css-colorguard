@@ -1104,10 +1104,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/color-rgba@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@types/color-rgba@npm:2.1.0"
-  checksum: aa3e399bf7043cba3858e195ea00692957874e665f01effdc46c95134cadca4e8bfc7c4022c628e217a90246d098686645a7f517ba554b50ccfae9f2a9f51d63
+"@types/color-rgba@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@types/color-rgba@npm:2.1.1"
+  checksum: cf2ca3bf95fd954eef94a88fb9cabb463f146136696fe24dc0a12c109dc20d96a56103cc6b5ab3644230eafffe75c4bbfaa0460b61205318cc88eacc7c6f9791
   languageName: node
   linkType: hard
 
@@ -5781,7 +5781,7 @@ __metadata:
     "@semantic-release/github": 9.2.1
     "@semantic-release/npm": 11.0.0
     "@types/color-diff": 1.2.3
-    "@types/color-rgba": 2.1.0
+    "@types/color-rgba": 2.1.1
     "@w4rlock/semantic-release-monorepo": 1.0.3
     color-diff: 1.4.0
     color-rgba: 3.0.0
