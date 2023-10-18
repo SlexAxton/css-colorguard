@@ -47,7 +47,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.1",
     "@semantic-release/npm": "11.0.0",
-    "@types/color-diff": "1.2.2",
+    "@types/color-diff": "1.2.3",
     "@types/color-rgba": "2.1.0",
     "@w4rlock/semantic-release-monorepo": "1.0.3",
     "color-diff": "1.4.0",
