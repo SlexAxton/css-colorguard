@@ -1697,6 +1697,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"call-bind@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "call-bind@npm:1.0.5"
+  dependencies:
+    function-bind: ^1.1.2
+    get-intrinsic: ^1.2.1
+    set-function-length: ^1.1.1
+  checksum: 449e83ecbd4ba48e7eaac5af26fea3b50f8f6072202c2dd7c5a6e7a6308f2421abe5e13a3bbd55221087f76320c5e09f25a8fdad1bab2b77c68ae74d92234ea5
+  languageName: node
+  linkType: hard
+
 "callsites@npm:^3.0.0":
   version: 3.1.0
   resolution: "callsites@npm:3.1.0"
@@ -2016,7 +2027,7 @@ __metadata:
     semantic-release: 22.0.5
     semantic-release-gitmoji: 1.6.5
     tap-spec: 5.0.0
-    tape: 5.7.1
+    tape: 5.7.2
     text-table: 0.2.0
     tsup: 7.2.0
     typescript: 5.2.2
@@ -2294,6 +2305,17 @@ __metadata:
     gopd: ^1.0.1
     has-property-descriptors: ^1.0.0
   checksum: 7ad4ee84cca8ad427a4831f5693526804b62ce9dfd4efac77214e95a4382aed930072251d4075dc8dc9fc949a353ed51f19f5285a84a788ba9216cc51472a093
+  languageName: node
+  linkType: hard
+
+"define-data-property@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "define-data-property@npm:1.1.1"
+  dependencies:
+    get-intrinsic: ^1.2.1
+    gopd: ^1.0.1
+    has-property-descriptors: ^1.0.0
+  checksum: a29855ad3f0630ea82e3c5012c812efa6ca3078d5c2aa8df06b5f597c1cde6f7254692df41945851d903e05a1668607b6d34e778f402b9ff9ffb38111f1a3f0d
   languageName: node
   linkType: hard
 
@@ -3014,6 +3036,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"function-bind@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "function-bind@npm:1.1.2"
+  checksum: 2b0ff4ce708d99715ad14a6d1f894e2a83242e4a52ccfcefaee5e40050562e5f6dafc1adbb4ce2d4ab47279a45dc736ab91ea5042d843c3c092820dfe032efb1
+  languageName: node
+  linkType: hard
+
 "function.prototype.name@npm:^1.1.6":
   version: 1.1.6
   resolution: "function.prototype.name@npm:1.1.6"
@@ -3026,7 +3055,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"functions-have-names@npm:^1.2.2, functions-have-names@npm:^1.2.3":
+"functions-have-names@npm:^1.2.3":
   version: 1.2.3
   resolution: "functions-have-names@npm:1.2.3"
   checksum: c3f1f5ba20f4e962efb71344ce0a40722163e85bee2101ce25f88214e78182d2d2476aa85ef37950c579eb6cf6ee811c17b3101bb84004bb75655f3e33f3fdb5
@@ -3418,6 +3447,15 @@ __metadata:
   dependencies:
     function-bind: ^1.1.1
   checksum: b9ad53d53be4af90ce5d1c38331e712522417d017d5ef1ebd0507e07c2fbad8686fffb8e12ddecd4c39ca9b9b47431afbb975b8abf7f3c3b82c98e9aad052792
+  languageName: node
+  linkType: hard
+
+"hasown@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "hasown@npm:2.0.0"
+  dependencies:
+    function-bind: ^1.1.2
+  checksum: 6151c75ca12554565098641c98a40f4cc86b85b0fd5b6fe92360967e4605a4f9610f7757260b4e8098dd1c2ce7f4b095f2006fe72a570e3b6d2d28de0298c176
   languageName: node
   linkType: hard
 
@@ -4873,15 +4911,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mock-property@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "mock-property@npm:1.0.0"
+"mock-property@npm:^1.0.2":
+  version: 1.0.3
+  resolution: "mock-property@npm:1.0.3"
   dependencies:
-    functions-have-names: ^1.2.2
-    has: ^1.0.3
+    define-data-property: ^1.1.1
+    functions-have-names: ^1.2.3
+    gopd: ^1.0.1
     has-property-descriptors: ^1.0.0
+    hasown: ^2.0.0
     isarray: ^2.0.5
-  checksum: d7aaa910551996b8fd71c15956275ee3beab7306a2839e10a35599863ec01af8b37f856c90824445939d3659ea83cc2ee0b06d1cb9eca7195d15f09e4c1f68cd
+  checksum: 835b106e38580c929def6803dad58fc8299d77ed876faed0098f9eb2076e30a2ef36fb5098adac87a4901c13532de86a859e63c8b6769fb7527e1dbbb6430cce
   languageName: node
   linkType: hard
 
@@ -5353,6 +5393,13 @@ __metadata:
   version: 1.12.3
   resolution: "object-inspect@npm:1.12.3"
   checksum: dabfd824d97a5f407e6d5d24810d888859f6be394d8b733a77442b277e0808860555176719c5905e765e3743a7cada6b8b0a3b85e5331c530fd418cc8ae991db
+  languageName: node
+  linkType: hard
+
+"object-inspect@npm:^1.13.1":
+  version: 1.13.1
+  resolution: "object-inspect@npm:1.13.1"
+  checksum: 7d9fa9221de3311dcb5c7c307ee5dc011cdd31dc43624b7c184b3840514e118e05ef0002be5388304c416c0eb592feb46e983db12577fc47e47d5752fbbfb61f
   languageName: node
   linkType: hard
 
@@ -6500,6 +6547,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"set-function-length@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "set-function-length@npm:1.1.1"
+  dependencies:
+    define-data-property: ^1.1.1
+    get-intrinsic: ^1.2.1
+    gopd: ^1.0.1
+    has-property-descriptors: ^1.0.0
+  checksum: c131d7569cd7e110cafdfbfbb0557249b538477624dfac4fc18c376d879672fa52563b74029ca01f8f4583a8acb35bb1e873d573a24edb80d978a7ee607c6e06
+  languageName: node
+  linkType: hard
+
 "set-function-name@npm:^2.0.0":
   version: 2.0.1
   resolution: "set-function-name@npm:2.0.1"
@@ -7064,27 +7123,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.7.1":
-  version: 5.7.1
-  resolution: "tape@npm:5.7.1"
+"tape@npm:5.7.2":
+  version: 5.7.2
+  resolution: "tape@npm:5.7.2"
   dependencies:
     "@ljharb/resumer": ^0.0.1
     "@ljharb/through": ^2.3.11
     array.prototype.every: ^1.1.5
-    call-bind: ^1.0.2
+    call-bind: ^1.0.5
     deep-equal: ^2.2.2
     defined: ^1.0.1
     dotignore: ^0.1.2
     for-each: ^0.3.3
     get-package-type: ^0.1.0
     glob: ^7.2.3
-    has: ^1.0.3
     has-dynamic-import: ^2.0.1
+    hasown: ^2.0.0
     inherits: ^2.0.4
     is-regex: ^1.1.4
     minimist: ^1.2.8
-    mock-property: ^1.0.0
-    object-inspect: ^1.12.3
+    mock-property: ^1.0.2
+    object-inspect: ^1.13.1
     object-is: ^1.1.5
     object-keys: ^1.1.1
     object.assign: ^4.1.4
@@ -7092,7 +7151,7 @@ __metadata:
     string.prototype.trim: ^1.2.8
   bin:
     tape: bin/tape
-  checksum: abba6c5d83d6cba58ab5e0233dc8d68a9414a6d750401a8124da1622cb797cb96b5d68edc3d166984c6926affec33a4aa4782da7c64665f3d531e605769ad72f
+  checksum: 0ca531d977fb7c165f03fbd32ee61941741314ddb5d36ba9033ae2f3f0bee25fa67614109a0b29ae215b8d787419067a60e1c5a32b5065c28959f96cb7cdfe64
   languageName: node
   linkType: hard
 
