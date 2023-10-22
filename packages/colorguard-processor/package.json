@@ -52,7 +52,7 @@
     "@w4rlock/semantic-release-monorepo": "1.0.3",
     "colorette": "2.0.20",
     "gitmojis": "3.14.0",
-    "log-symbols": "5.1.0",
+    "log-symbols": "6.0.0",
     "plur": "5.1.0",
     "postcss": "8.4.31",
     "postcss-colorguard": "workspace:*",
