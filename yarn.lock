@@ -1137,6 +1137,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"aggregate-error@npm:3.0.0":
+  version: 3.0.0
+  resolution: "aggregate-error@npm:3.0.0"
+  dependencies:
+    clean-stack: ^2.0.0
+    indent-string: ^3.2.0
+  checksum: 44b02e4c0192dd217a095bd6e5336e38daa2d41ccc524540ca6045914bd1db87e4df55373404d6592812f085c6e6fe87121856fbcc47c8e68501365096006e65
+  languageName: node
+  linkType: hard
+
 "aggregate-error@npm:^3.0.0":
   version: 3.1.0
   resolution: "aggregate-error@npm:3.1.0"
@@ -2650,6 +2660,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-glob@npm:^3.1.1":
+  version: 3.3.1
+  resolution: "fast-glob@npm:3.3.1"
+  dependencies:
+    "@nodelib/fs.stat": ^2.0.2
+    "@nodelib/fs.walk": ^1.2.3
+    glob-parent: ^5.1.2
+    merge2: ^1.3.0
+    micromatch: ^4.0.4
+  checksum: b6f3add6403e02cf3a798bfbb1183d0f6da2afd368f27456010c0bc1f9640aea308243d4cb2c0ab142f618276e65ecb8be1661d7c62a7b4e5ba774b9ce5432e5
+  languageName: node
+  linkType: hard
+
 "fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
@@ -3103,6 +3126,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"globby@npm:11.0.0":
+  version: 11.0.0
+  resolution: "globby@npm:11.0.0"
+  dependencies:
+    array-union: ^2.1.0
+    dir-glob: ^3.0.1
+    fast-glob: ^3.1.1
+    ignore: ^5.1.4
+    merge2: ^1.3.0
+    slash: ^3.0.0
+  checksum: 3b62a10ea26c266134dd115bdfe74c8448ab546a207ce4002e687daaf9cbd28f2cbe34fba185ea159d55d6b2fa1e4f3876c3cffb0730e3fb8a9b5272984c6cac
+  languageName: node
+  linkType: hard
+
 "globby@npm:^11.0.3":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
@@ -3419,7 +3456,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.2.0":
+"ignore@npm:^5.1.4, ignore@npm:^5.2.0":
   version: 5.2.4
   resolution: "ignore@npm:5.2.4"
   checksum: 3d4c309c6006e2621659311783eaea7ebcd41fe4ca1d78c91c473157ad6666a57a2df790fe0d07a12300d9aac2888204d7be8d59f9aaf665b1c7fcdb432517ef
@@ -3447,6 +3484,13 @@ __metadata:
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
   checksum: 7cae75c8cd9a50f57dadd77482359f659eaebac0319dd9368bcd1714f55e65badd6929ca58569da2b6494ef13fdd5598cd700b1eba23f8b79c5f19d195a3ecf7
+  languageName: node
+  linkType: hard
+
+"indent-string@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "indent-string@npm:3.2.0"
+  checksum: a0b72603bba6c985d367fda3a25aad16423d2056b22a7e83ee2dd9ce0ce3d03d1e078644b679087aa7edf1cfb457f0d96d9eeadc0b12f38582088cc00e995d2f
   languageName: node
   linkType: hard
 
@@ -5261,6 +5305,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-filter@npm:2.0.0":
+  version: 2.0.0
+  resolution: "p-filter@npm:2.0.0"
+  dependencies:
+    p-map: ^2.0.0
+  checksum: 0f5bb9f9723e6cd96229fd6ab1218fcfef6b6ec0b481921968dd875197589bf3aad394bd42b28d1f8410c25f23e5698d37b010ef6b886506a0d214374c847899
+  languageName: node
+  linkType: hard
+
 "p-filter@npm:^3.0.0":
   version: 3.0.0
   resolution: "p-filter@npm:3.0.0"
@@ -5317,6 +5370,13 @@ __metadata:
   dependencies:
     p-limit: ^4.0.0
   checksum: 2bfe5234efa5e7a4e74b30a5479a193fdd9236f8f6b4d2f3f69e3d286d9a7d7ab0c118a2a50142efcf4e41625def635bd9332d6cbf9cc65d85eb0718c579ab38
+  languageName: node
+  linkType: hard
+
+"p-map@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "p-map@npm:2.1.0"
+  checksum: 9e3ad3c9f6d75a5b5661bcad78c91f3a63849189737cd75e4f1225bf9ac205194e5c44aac2ef6f09562b1facdb9bd1425584d7ac375bfaa17b3f1a142dab936d
   languageName: node
   linkType: hard
 
@@ -6232,14 +6292,18 @@ __metadata:
     "@octokit/plugin-throttling": 6.0.0
     "@semantic-release/error": 3.0.0
     "@semantic-release/github": 9.0.0
+    aggregate-error: 3.0.0
     debug: 4.3.4
     dir-glob: 3.0.1
+    globby: 11.0.0
     http-proxy-agent: 7.0.0
     https-proxy-agent: 7.0.0
     issue-parser: 6.0.0
     mime: 3.0.0
+    p-filter: 2.0.0
     semantic-release: 22.0.5
     tsup: 7.2.0
+    url-join: 4.0.0
   peerDependencies:
     semantic-release: ">= 19"
   languageName: unknown
@@ -7404,6 +7468,13 @@ __metadata:
   version: 2.0.0
   resolution: "universalify@npm:2.0.0"
   checksum: 2406a4edf4a8830aa6813278bab1f953a8e40f2f63a37873ffa9a3bc8f9745d06cc8e88f3572cb899b7e509013f7f6fcc3e37e8a6d914167a5381d8440518c44
+  languageName: node
+  linkType: hard
+
+"url-join@npm:4.0.0":
+  version: 4.0.0
+  resolution: "url-join@npm:4.0.0"
+  checksum: d2ac05f8ac276edbcd2b234745415abe27ef6b0c18c4d7a8e7f88fbafa1e9470912392b09391fb47f097f470d4c8b93bf2219b5638286852b2bf65d693e207ee
   languageName: node
   linkType: hard
 

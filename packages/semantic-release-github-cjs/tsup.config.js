@@ -7,6 +7,7 @@ export default defineConfig({
   minify: false,
   treeshake: false,
   target: 'node18',
+  splitting: false,
   format: ['cjs'],
   // eslint-disable-next-line jsdoc/require-jsdoc
   outExtension({ format }) {

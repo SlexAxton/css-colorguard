@@ -32,11 +32,15 @@
         "@octokit/plugin-retry": "5.0.3",
         "@octokit/plugin-throttling": "6.0.0",
         "@semantic-release/error": "3.0.0",
+        "aggregate-error": "3.0.0",
         "debug": "4.3.4",
         "dir-glob": "3.0.1",
+        "globby": "11.0.0",
         "http-proxy-agent": "7.0.0",
         "https-proxy-agent": "7.0.0",
         "issue-parser": "6.0.0",
-        "mime": "3.0.0"
+        "mime": "3.0.0",
+        "p-filter": "2.0.0",
+        "url-join": "4.0.0"
     }
 }
