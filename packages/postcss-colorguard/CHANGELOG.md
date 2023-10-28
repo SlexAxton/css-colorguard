@@ -1,3 +1,24 @@
+# [postcss-colorguard-v1.0.13](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.12...postcss-colorguard-v1.0.13) (2023-10-28)
+
+### Others
+
+- ⬆️ [`5e45f2a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/5e45f2a) build(deps): Update dependency postcss to v8.4.24
+- ⬆️ [`0e1bc58`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/0e1bc58) build(deps): Update dependency typescript to v5.1.3
+- ⬆️ [`33991a5`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/33991a5) build(deps): Update dependency color-diff to v1.4.0
+- ⬆️ [`15aa5ac`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/15aa5ac) build(deps): Update dependency typescript to v5.1.5
+- ⬆️ [`7dea2ed`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/7dea2ed) build(deps): Update dependency typescript to v5.1.6
+- ⬆️ [`d1767e3`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/d1767e3) build(deps): Update dependency postcss to v8.4.25
+- ⬆️ [`5ab4cf4`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/5ab4cf4) build(deps): Update dependency postcss to v8.4.26
+- ⬆️ [`f9edefe`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/f9edefe) build(deps): Update dependency postcss to v8.4.28
+- ⬆️ [`c69a2c5`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/c69a2c5) build(deps): Update dependency typescript to v5.2.2
+- ⬆️ [`a8033c0`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/a8033c0) build(deps): Update dependency postcss to v8.4.29
+- ⬆️ [`c3f6aad`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/c3f6aad) build(deps): Update dependency @types/color-diff to v1.2.2
+- ⬆️ [`faf6971`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/faf6971) build(deps): Update dependency color-rgba to v3
+- ⬆️ [`967d5aa`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/967d5aa) build(deps): Update dependency postcss to v8.4.30
+- ⬆️ [`14d9db8`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/14d9db8) build(deps): Update dependency postcss to v8.4.31
+- ⬆️ [`f18e4aa`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/f18e4aa) build(deps): Update dependency @types/color-diff to v1.2.3
+- ⬆️ [`8bbee77`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/8bbee77) build(deps): Update dependency @types/color-rgba to v2.1.1
+
 # [postcss-colorguard-v1.0.12](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.11...postcss-colorguard-v1.0.12) (2023-04-27)
 
 ### Others
