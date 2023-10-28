@@ -10,7 +10,7 @@
     "baseBranches": [
         "master"
     ],
-    "ignoreDeps": ["@semantic-release/github", "@octokit/request-error"],
+    "ignoreDeps": ["@semantic-release/github"],
     "includeForks": true,
     "prHourlyLimit": 0,
     "automerge": true,
