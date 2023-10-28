@@ -1206,17 +1206,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aggregate-error@npm:3.0.0":
-  version: 3.0.0
-  resolution: "aggregate-error@npm:3.0.0"
-  dependencies:
-    clean-stack: ^2.0.0
-    indent-string: ^3.2.0
-  checksum: 44b02e4c0192dd217a095bd6e5336e38daa2d41ccc524540ca6045914bd1db87e4df55373404d6592812f085c6e6fe87121856fbcc47c8e68501365096006e65
-  languageName: node
-  linkType: hard
-
-"aggregate-error@npm:^3.0.0":
+"aggregate-error@npm:3.1.0, aggregate-error@npm:^3.0.0":
   version: 3.1.0
   resolution: "aggregate-error@npm:3.1.0"
   dependencies:
@@ -3564,13 +3554,6 @@ __metadata:
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
   checksum: 7cae75c8cd9a50f57dadd77482359f659eaebac0319dd9368bcd1714f55e65badd6929ca58569da2b6494ef13fdd5598cd700b1eba23f8b79c5f19d195a3ecf7
-  languageName: node
-  linkType: hard
-
-"indent-string@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "indent-string@npm:3.2.0"
-  checksum: a0b72603bba6c985d367fda3a25aad16423d2056b22a7e83ee2dd9ce0ce3d03d1e078644b679087aa7edf1cfb457f0d96d9eeadc0b12f38582088cc00e995d2f
   languageName: node
   linkType: hard
 
@@ -6381,7 +6364,7 @@ __metadata:
     "@octokit/plugin-throttling": 6.1.0
     "@semantic-release/error": 3.0.0
     "@semantic-release/github": 8.1.0
-    aggregate-error: 3.0.0
+    aggregate-error: 3.1.0
     debug: 4.3.4
     dir-glob: 3.0.1
     fs-extra: 11.0.0
