@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.0](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.49...colorguard-processor-v2.0.0) (2023-10-28)
+
+### 💥 Breaking Changes
+
+- [`e19576a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e19576a) feat: drop node 14 and node 16
+
 # [colorguard-processor-v1.0.49](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.48...colorguard-processor-v1.0.49) (2023-10-28)
 
 ### Others
