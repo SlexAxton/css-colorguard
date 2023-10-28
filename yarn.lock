@@ -5330,16 +5330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-filter@npm:2.0.0":
-  version: 2.0.0
-  resolution: "p-filter@npm:2.0.0"
-  dependencies:
-    p-map: ^2.0.0
-  checksum: 0f5bb9f9723e6cd96229fd6ab1218fcfef6b6ec0b481921968dd875197589bf3aad394bd42b28d1f8410c25f23e5698d37b010ef6b886506a0d214374c847899
-  languageName: node
-  linkType: hard
-
-"p-filter@npm:^2.0.0":
+"p-filter@npm:2.1.0, p-filter@npm:^2.0.0":
   version: 2.1.0
   resolution: "p-filter@npm:2.1.0"
   dependencies:
@@ -6336,7 +6327,7 @@ __metadata:
     issue-parser: 6.0.0
     lodash: 4.17.21
     mime: 3.0.0
-    p-filter: 2.0.0
+    p-filter: 2.1.0
     semantic-release: 22.0.5
     tsup: 7.2.0
     url-join: 4.0.1

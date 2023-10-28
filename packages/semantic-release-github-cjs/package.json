@@ -42,7 +42,7 @@
         "issue-parser": "6.0.0",
         "lodash": "4.17.21",
         "mime": "3.0.0",
-        "p-filter": "2.0.0",
+        "p-filter": "2.1.0",
         "url-join": "4.0.1"
     }
 }
