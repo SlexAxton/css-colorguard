@@ -27,7 +27,7 @@ jobs:
           yarn workspace colorguard-processor build
           yarn workspace colorguard-cli build
       - name: Publish package
-        run: yarn workspaces foreach --no-private --topological-dev run semantic-release
+        run: yarn workspaces foreach -W --no-private --topological-dev run semantic-release
         env:
           NPM_TOKEN: ${{ secrets.YARN_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

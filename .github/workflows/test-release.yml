@@ -33,7 +33,7 @@ jobs:
           yarn workspace colorguard-cli build
       - name: Semantic Release dry run
         id: dry-release
-        run: unset GITHUB_ACTIONS && yarn workspaces foreach --no-private --topological-dev run semantic-release --dry-run --no-ci --branches ${HEAD_REF}
+        run: unset GITHUB_ACTIONS && yarn workspaces foreach -W --no-private --topological-dev run semantic-release --dry-run --no-ci --branches ${HEAD_REF}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HEAD_REF: ${{ github.head_ref }}
