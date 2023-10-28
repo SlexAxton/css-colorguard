@@ -40,8 +40,6 @@
         "http-proxy-agent": "7.0.0",
         "https-proxy-agent": "7.0.0",
         "issue-parser": "6.0.0",
-        "mime": "3.0.0",
-        "p-filter": "3.0.0",
-        "url-join": "5.0.0"
+        "mime": "3.0.0"
     }
 }
