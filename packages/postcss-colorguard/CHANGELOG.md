@@ -1,3 +1,9 @@
+# [postcss-colorguard-v2.0.0](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.13...postcss-colorguard-v2.0.0) (2023-10-28)
+
+### 💥 Breaking Changes
+
+- [`e19576a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e19576a) feat: drop node 14 and node 16
+
 # [postcss-colorguard-v1.0.13](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v1.0.12...postcss-colorguard-v1.0.13) (2023-10-28)
 
 ### Others
