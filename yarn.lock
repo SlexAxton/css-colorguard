@@ -1149,16 +1149,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aggregate-error@npm:4.0.1, aggregate-error@npm:^4.0.0, aggregate-error@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "aggregate-error@npm:4.0.1"
-  dependencies:
-    clean-stack: ^4.0.0
-    indent-string: ^5.0.0
-  checksum: bb3ffdfd13447800fff237c2cba752c59868ee669104bb995dfbbe0b8320e967d679e683dabb640feb32e4882d60258165cde0baafc4cd467cc7d275a13ad6b5
-  languageName: node
-  linkType: hard
-
 "aggregate-error@npm:^3.0.0":
   version: 3.1.0
   resolution: "aggregate-error@npm:3.1.0"
@@ -1166,6 +1156,16 @@ __metadata:
     clean-stack: ^2.0.0
     indent-string: ^4.0.0
   checksum: 1101a33f21baa27a2fa8e04b698271e64616b886795fd43c31068c07533c7b3facfcaf4e9e0cab3624bd88f729a592f1c901a1a229c9e490eafce411a8644b79
+  languageName: node
+  linkType: hard
+
+"aggregate-error@npm:^4.0.0, aggregate-error@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "aggregate-error@npm:4.0.1"
+  dependencies:
+    clean-stack: ^4.0.0
+    indent-string: ^5.0.0
+  checksum: bb3ffdfd13447800fff237c2cba752c59868ee669104bb995dfbbe0b8320e967d679e683dabb640feb32e4882d60258165cde0baafc4cd467cc7d275a13ad6b5
   languageName: node
   linkType: hard
 
@@ -3115,19 +3115,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:13.1.4, globby@npm:^13.1.4":
-  version: 13.1.4
-  resolution: "globby@npm:13.1.4"
-  dependencies:
-    dir-glob: ^3.0.1
-    fast-glob: ^3.2.11
-    ignore: ^5.2.0
-    merge2: ^1.4.1
-    slash: ^4.0.0
-  checksum: e8bc13879972082d590cd1b0e27080d90d2e12fff7eeb2cee9329c29115ace14cc5b9f899e3d6beb136ba826307a727016658919a6f383e1511d698acee81741
-  languageName: node
-  linkType: hard
-
 "globby@npm:^11.0.3":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
@@ -3139,6 +3126,19 @@ __metadata:
     merge2: ^1.4.1
     slash: ^3.0.0
   checksum: b4be8885e0cfa018fc783792942d53926c35c50b3aefd3fdcfb9d22c627639dc26bd2327a40a0b74b074100ce95bb7187bfeae2f236856aa3de183af7a02aea6
+  languageName: node
+  linkType: hard
+
+"globby@npm:^13.1.4":
+  version: 13.1.4
+  resolution: "globby@npm:13.1.4"
+  dependencies:
+    dir-glob: ^3.0.1
+    fast-glob: ^3.2.11
+    ignore: ^5.2.0
+    merge2: ^1.4.1
+    slash: ^4.0.0
+  checksum: e8bc13879972082d590cd1b0e27080d90d2e12fff7eeb2cee9329c29115ace14cc5b9f899e3d6beb136ba826307a727016658919a6f383e1511d698acee81741
   languageName: node
   linkType: hard
 
@@ -6245,10 +6245,8 @@ __metadata:
     "@octokit/request-error": 3.0.3
     "@semantic-release/error": 3.0.0
     "@semantic-release/github": 9.0.0
-    aggregate-error: 4.0.1
     debug: 4.3.4
     dir-glob: 3.0.1
-    globby: 13.1.4
     http-proxy-agent: 7.0.0
     https-proxy-agent: 7.0.0
     issue-parser: 6.0.0
