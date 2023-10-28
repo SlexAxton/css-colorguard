@@ -5,6 +5,7 @@ import { defineConfig } from 'tsup';
 export default defineConfig({
   entry: ['./src/index.js'],
   minify: false,
+  treeshake: false,
   format: ['cjs'],
   // eslint-disable-next-line jsdoc/require-jsdoc
   outExtension({ format }) {
