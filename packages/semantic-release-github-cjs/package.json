@@ -22,8 +22,11 @@
         "semantic-release": ">= 19"
     },
     "devDependencies": {
-        "@semantic-release/github": "9.0.1",
+        "@semantic-release/github": "9.0.0",
         "semantic-release": "22.0.5",
         "tsup": "7.2.0"
+    },
+    "dependencies": {
+        "@octokit/request-error": "3.0.3"
     }
 }

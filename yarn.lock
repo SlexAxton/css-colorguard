@@ -620,6 +620,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@octokit/plugin-retry@npm:^4.1.3":
+  version: 4.1.6
+  resolution: "@octokit/plugin-retry@npm:4.1.6"
+  dependencies:
+    "@octokit/types": ^9.0.0
+    bottleneck: ^2.15.3
+  peerDependencies:
+    "@octokit/core": ">=3"
+  checksum: 9bebaf7fc9c34683d7e97c0398ab9f5a164ce8770e92e8b8a65ed8e85ee3b0fddc5c72dfb18da112e2f643434d217ec7092f57496808c4ae6c2a824f42ae1ccf
+  languageName: node
+  linkType: hard
+
 "@octokit/plugin-retry@npm:^5.0.0":
   version: 5.0.3
   resolution: "@octokit/plugin-retry@npm:5.0.3"
@@ -645,7 +657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/request-error@npm:^3.0.0":
+"@octokit/request-error@npm:3.0.3, @octokit/request-error@npm:^3.0.0":
   version: 3.0.3
   resolution: "@octokit/request-error@npm:3.0.3"
   dependencies:
@@ -810,13 +822,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@semantic-release/github@npm:9.0.1"
+"@semantic-release/github@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@semantic-release/github@npm:9.0.0"
   dependencies:
     "@octokit/core": ^4.2.1
     "@octokit/plugin-paginate-rest": ^6.1.2
-    "@octokit/plugin-retry": ^5.0.0
+    "@octokit/plugin-retry": ^4.1.3
     "@octokit/plugin-throttling": ^6.0.0
     "@semantic-release/error": ^3.0.0
     aggregate-error: ^4.0.1
@@ -832,7 +844,7 @@ __metadata:
     url-join: ^5.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 53bc356bb3aa5307968e0ce01e2b261d67939effee417bdcc4ab97aa4e8c6a4f0377c81b6976f54b9e876f29c0126398ed447413d9395a2b4e3c2b7d9ee22aa8
+  checksum: 4444d273d299c8edf49e4581bd2eeb06f122da2446dfcbae80321902246df3b3f5c2e760e031b689e415d970805ec69c01844d3b7f7bcc0af9f32c9a9e6507f3
   languageName: node
   linkType: hard
 
@@ -6214,7 +6226,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs"
   dependencies:
-    "@semantic-release/github": 9.0.1
+    "@octokit/request-error": 3.0.3
+    "@semantic-release/github": 9.0.0
     semantic-release: 22.0.5
     tsup: 7.2.0
   peerDependencies:

@@ -6,6 +6,8 @@ export default defineConfig({
   entry: ['./src/index.js'],
   minify: false,
   treeshake: false,
+  target: 'node14',
+  external: ['@octokit/request-error'],
   format: ['cjs'],
   // eslint-disable-next-line jsdoc/require-jsdoc
   outExtension({ format }) {
