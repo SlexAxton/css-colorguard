@@ -4451,14 +4451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.4":
-  version: 4.17.4
-  resolution: "lodash@npm:4.17.4"
-  checksum: 5fbe7d7c79cd11830d3a827e9eaae688778bc9c7f719207c5fb1fed9b1e60766e50904832990f0fd087b81fe207e944c80b12df5330d00b2f4d5b9ebc7bb1f18
-  languageName: node
-  linkType: hard
-
-"lodash@npm:^4.17.10, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:~4.17.21":
+"lodash@npm:4.17.21, lodash@npm:^4.17.10, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:~4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -6396,7 +6389,7 @@ __metadata:
     http-proxy-agent: 7.0.0
     https-proxy-agent: 7.0.2
     issue-parser: 6.0.0
-    lodash: 4.17.4
+    lodash: 4.17.21
     mime: 3.0.0
     p-filter: 2.0.0
     semantic-release: 22.0.5
