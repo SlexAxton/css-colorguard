@@ -6345,7 +6345,7 @@ __metadata:
     p-filter: 2.0.0
     semantic-release: 22.0.5
     tsup: 7.2.0
-    url-join: 4.0.0
+    url-join: 4.0.1
   peerDependencies:
     semantic-release: ">= 19"
   languageName: unknown
@@ -7513,14 +7513,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-join@npm:4.0.0":
-  version: 4.0.0
-  resolution: "url-join@npm:4.0.0"
-  checksum: d2ac05f8ac276edbcd2b234745415abe27ef6b0c18c4d7a8e7f88fbafa1e9470912392b09391fb47f097f470d4c8b93bf2219b5638286852b2bf65d693e207ee
-  languageName: node
-  linkType: hard
-
-"url-join@npm:^4.0.0":
+"url-join@npm:4.0.1, url-join@npm:^4.0.0":
   version: 4.0.1
   resolution: "url-join@npm:4.0.1"
   checksum: f74e868bf25dbc8be6a8d7237d4c36bb5b6c62c72e594d5ab1347fe91d6af7ccd9eb5d621e30152e4da45c2e9a26bec21390e911ab54a62d4d82e76028374ee5
