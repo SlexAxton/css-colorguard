@@ -22,6 +22,7 @@ jobs:
           NPM_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: Build
         run: |
+          yarn workspace semantic-release-github-cjs build
           yarn workspace postcss-colorguard build  
           yarn workspace colorguard-processor build
           yarn workspace colorguard-cli build

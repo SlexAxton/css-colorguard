@@ -1,0 +1,29 @@
+{
+    "name": "semantic-release-github-cjs",
+    "packageManager": "yarn@3.6.4",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "main": "./dist/index.cjs",
+    "private": true,
+    "os": [
+        "win32",
+        "linux"
+    ],
+    "cpu": [
+        "x64"
+    ],
+    "files": [
+        "./dist/**"
+    ],
+    "scripts": {
+        "build": "tsup"
+    },
+    "peerDependencies": {
+        "semantic-release": ">= 19"
+    },
+    "devDependencies": {
+        "@semantic-release/github": "9.2.0",
+        "semantic-release": "22.0.5",
+        "tsup": "7.2.0"
+    }
+}
