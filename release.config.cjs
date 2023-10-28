@@ -13,7 +13,7 @@ module.exports = {
   branches: ['master'],
   plugins: [
     [
-      'semantic-release-gitmoji',
+      require.resolve('semantic-release-gitmoji'),
       {
         releaseRules: {
           major: gitmojis.filter(({ semver }) => semver === 'major').map(({ code }) => code),
@@ -51,23 +51,23 @@ module.exports = {
         },
       },
     ],
-    '@semantic-release/changelog',
+    require.resolve('@semantic-release/changelog'),
     [
-      '@semantic-release/exec',
+      require.resolve('@semantic-release/exec'),
       {
         prepareCmd:
           "yarn version ${nextRelease.version} && echo '::set-output name=version::${nextRelease.version}'",
         publishCmd: 'yarn npm publish --access public',
       },
     ],
+    require.resolve("semantic-release-github-cjs"),
     [
-      '@semantic-release/git',
+      require.resolve('@semantic-release/git'),
       {
         message:
           '🚀 RELEASE: chore(release) - ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
-    "semantic-release-github-cjs",
   ],
 };
 
