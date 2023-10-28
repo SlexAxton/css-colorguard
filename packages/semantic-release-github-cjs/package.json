@@ -27,10 +27,10 @@
         "tsup": "7.2.0"
     },
     "dependencies": {
-        "@octokit/core": "4.2.4",
-        "@octokit/plugin-paginate-rest": "6.1.2",
-        "@octokit/plugin-retry": "5.0.5",
-        "@octokit/plugin-throttling": "6.1.0",
+        "@octokit/core": "5.0.1",
+        "@octokit/plugin-paginate-rest": "9.1.2",
+        "@octokit/plugin-retry": "6.0.1",
+        "@octokit/plugin-throttling": "8.1.2",
         "@semantic-release/error": "3.0.0",
         "aggregate-error": "3.1.0",
         "debug": "4.3.4",
