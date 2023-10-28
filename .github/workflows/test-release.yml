@@ -19,10 +19,22 @@ jobs:
         with:
           node-version: '20.x'
           cache: 'yarn'
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache
+      - name: Set yarn config
+        run: yarn config set npmAuthToken $NPM_AUTH_TOKEN
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+      - name: Build
+        run: |
+          yarn workspace semantic-release-github-cjs build
+          yarn workspace postcss-colorguard build  
+          yarn workspace colorguard-processor build
+          yarn workspace colorguard-cli build
       - name: Semantic Release dry run
         id: dry-release
         run: |
-          OUTPUT="$(bash -c "unset GITHUB_ACTIONS && npx semantic-release --dry-run --no-ci --branches '${HEAD_REF}'")"
+          OUTPUT="$(bash -c "unset GITHUB_ACTIONS && yarn workspaces foreach --no-private --topological-dev run semantic-release --dry-run --no-ci --branches '${HEAD_REF}'")"
           NEW_RELEASE_VERSION=$(echo "$OUTPUT" | grep -oP 'The next release version is \K(\d+\.\d+\.\d+)')
           echo "new-release-version=$NEW_RELEASE_VERSION" >> "$GITHUB_OUTPUT"
         env:
