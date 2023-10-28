@@ -36,7 +36,7 @@
         "debug": "4.3.4",
         "dir-glob": "3.0.1",
         "fs-extra": "11.1.1",
-        "globby": "11.0.0",
+        "globby": "11.1.0",
         "http-proxy-agent": "7.0.0",
         "https-proxy-agent": "7.0.2",
         "issue-parser": "6.0.0",
