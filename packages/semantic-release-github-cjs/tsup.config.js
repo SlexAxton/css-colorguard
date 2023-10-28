@@ -6,7 +6,7 @@ export default defineConfig({
   entry: ['./src/index.js'],
   minify: false,
   treeshake: false,
-  target: 'node14',
+  target: 'node18',
   format: ['cjs'],
   // eslint-disable-next-line jsdoc/require-jsdoc
   outExtension({ format }) {
