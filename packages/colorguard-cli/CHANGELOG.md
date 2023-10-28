@@ -1,3 +1,9 @@
+# [colorguard-cli-v2.0.0](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v1.0.44...colorguard-cli-v2.0.0) (2023-10-28)
+
+### 💥 Breaking Changes
+
+- [`e19576a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e19576a) feat: drop node 14 and node 16
+
 # [colorguard-cli-v1.0.44](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v1.0.43...colorguard-cli-v1.0.44) (2023-10-28)
 
 ### Others
