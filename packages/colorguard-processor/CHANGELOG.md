@@ -1,3 +1,63 @@
+# [colorguard-processor-v1.0.49](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.48...colorguard-processor-v1.0.49) (2023-10-28)
+
+### Others
+
+- ⬆️ [`5e45f2a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/5e45f2a) build(deps): Update dependency postcss to v8.4.24
+- ⬆️ [`0e1bc58`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/0e1bc58) build(deps): Update dependency typescript to v5.1.3
+- ⬆️ [`604154a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/604154a) build(deps): Update dependency @types/node to v18.16.17
+- ⬆️ [`e390d78`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e390d78) build(deps): Update dependency @types/node to v18.16.18
+- ⬆️ [`15aa5ac`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/15aa5ac) build(deps): Update dependency typescript to v5.1.5
+- ⬆️ [`7dea2ed`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/7dea2ed) build(deps): Update dependency typescript to v5.1.6
+- ⬆️ [`efd2f29`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/efd2f29) build(deps): Update dependency @types/node to v18.16.19
+- ⬆️ [`81f0838`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/81f0838) build(deps): Update dependency tape to v5.6.4
+- ⬆️ [`d1767e3`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/d1767e3) build(deps): Update dependency postcss to v8.4.25
+- ⬆️ [`a20707a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/a20707a) build(deps): Update dependency tape to v5.6.5
+- ⬆️ [`5ab4cf4`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/5ab4cf4) build(deps): Update dependency postcss to v8.4.26
+- ⬆️ [`7b2baa8`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/7b2baa8) build(deps): Update dependency tape to v5.6.6
+- ⬆️ [`cbef266`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/cbef266) build(deps): Update dependency @types/node to v18.16.20
+- ⬆️ [`2a2d02a`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/2a2d02a) build(deps): Update dependency @types/node to v18.17.0
+- ⬆️ [`3bd2cf9`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/3bd2cf9) build(deps): Update dependency @types/node to v18.17.1
+- ⬆️ [`f618a02`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/f618a02) build(deps): Update dependency @types/node to v18.17.2
+- ⬆️ [`06e6427`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/06e6427) build(deps): Update dependency @types/node to v18.17.3
+- ⬆️ [`ae53913`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/ae53913) build(deps): Update dependency @types/node to v18.17.4
+- ⬆️ [`42d6f7e`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/42d6f7e) build(deps): Update dependency @types/node to v18.17.5
+- ⬆️ [`f9edefe`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/f9edefe) build(deps): Update dependency postcss to v8.4.28
+- ⬆️ [`64ea019`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/64ea019) build(deps): Update dependency @types/node to v18.17.6
+- ⬆️ [`1eca84d`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/1eca84d) build(deps): Update dependency @types/node to v18.17.7
+- ⬆️ [`3af5c56`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/3af5c56) build(deps): Update dependency @types/node to v18.17.8
+- ⬆️ [`8b02bea`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/8b02bea) build(deps): Update dependency @types/node to v18.17.9
+- ⬆️ [`5bf3190`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/5bf3190) build(deps): Update dependency @types/node to v18.17.11
+- ⬆️ [`c69a2c5`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/c69a2c5) build(deps): Update dependency typescript to v5.2.2
+- ⬆️ [`5012fea`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/5012fea) build(deps): Update dependency @types/node to v18.17.12
+- ⬆️ [`a8033c0`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/a8033c0) build(deps): Update dependency postcss to v8.4.29
+- ⬆️ [`ae3cfa9`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/ae3cfa9) build(deps): Update dependency @types/node to v18.17.13
+- ⬆️ [`bf930df`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/bf930df) build(deps): Update dependency @types/node to v18.17.14
+- ⬆️ [`d03b843`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/d03b843) build(deps): Update dependency @types/node to v18.17.15
+- ⬆️ [`b41a57e`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/b41a57e) build(deps): Update dependency @types/tape to v5.6.1
+- ⬆️ [`79d0d43`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/79d0d43) build(deps): Update dependency @types/text-table to v0.2.3
+- ⬆️ [`63d233c`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/63d233c) build(deps): Update dependency @types/node to v18.17.16
+- ⬆️ [`89f4297`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/89f4297) build(deps): Update dependency @types/node to v18.17.17
+- ⬆️ [`967d5aa`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/967d5aa) build(deps): Update dependency postcss to v8.4.30
+- ⬆️ [`8de9c4f`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/8de9c4f) build(deps): Update dependency @types/node to v18.17.18
+- ⬆️ [`b81e362`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/b81e362) build(deps): Update dependency tape to v5.7.0
+- ⬆️ [`c5a102e`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/c5a102e) build(deps): Update dependency @types/node to v18.17.19
+- ⬆️ [`9e08d16`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/9e08d16) build(deps): Update dependency @types/postcss-reporter to v7.0.2
+- ⬆️ [`e0937d6`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e0937d6) build(deps): Update dependency @types/node to v18.18.0
+- ⬆️ [`14d9db8`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/14d9db8) build(deps): Update dependency postcss to v8.4.31
+- ⬆️ [`04efef3`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/04efef3) build(deps): Update dependency @types/node to v18.18.1
+- ⬆️ [`c684d20`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/c684d20) build(deps): Update dependency @types/node to v18.18.3
+- ⬆️ [`1ba87a2`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/1ba87a2) build(deps): Update dependency @types/node to v18.18.4
+- ⬆️ [`5a9a841`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/5a9a841) build(deps): Update dependency tape to v5.7.1
+- ⬆️ [`043349f`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/043349f) build(deps): Update dependency @types/node to v18.18.5
+- ⬆️ [`174d3e5`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/174d3e5) build(deps): Update dependency @types/node to v18.18.6
+- ⬆️ [`ed70198`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/ed70198) build(deps): Update dependency @types/text-table to v0.2.4
+- ⬆️ [`9f2a0e4`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/9f2a0e4) build(deps): Update dependency @types/postcss-reporter to v7.0.4
+- ⬆️ [`0418d38`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/0418d38) build(deps): Update dependency @types/tape to v5.6.3
+- ⬆️ [`8c23947`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/8c23947) build(deps): Update dependency tape to v5.7.2
+- ⬆️ [`8903377`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/8903377) build(deps): Update dependency log-symbols to v6
+- ⬆️ [`e195821`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e195821) build(deps): Update dependency @types/node to v20
+- ⬆️ [`e18af8b`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e18af8b) build(deps): Update dependency @types/node to v20.8.9
+
 # [colorguard-processor-v1.0.48](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v1.0.47...colorguard-processor-v1.0.48) (2023-05-27)
 
 ### Others
