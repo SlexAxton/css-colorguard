@@ -12,11 +12,11 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.1",
     "@semantic-release/npm": "11.0.0",
-    "@w4rlock/semantic-release-monorepo": "1.0.3",
     "gitmojis": "3.14.0",
     "jshint": "2.13.6",
     "semantic-release": "22.0.5",
     "semantic-release-gitmoji": "1.6.5",
+    "semantic-release-monorepo": "7.0.5",
     "typescript": "5.2.2"
   },
   "engines": {
